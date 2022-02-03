@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/first-version-trh/static/css/main.cfd3221e.css",
-    "main.js": "/first-version-trh/static/js/main.828b5cec.js",
+    "main.css": "/first-version-trh/static/css/main.33320965.css",
+    "main.js": "/first-version-trh/static/js/main.44e03521.js",
+    "static/media/insta.webp": "/first-version-trh/static/media/insta.5b7253906fa420b66945.webp",
+    "static/media/twitter.webp": "/first-version-trh/static/media/twitter.81d1507168ef2874a6fa.webp",
+    "static/media/medium.webp": "/first-version-trh/static/media/medium.217e0c6020d4cb18af5e.webp",
+    "static/media/linkedin.webp": "/first-version-trh/static/media/linkedin.9984467d163489e5d8a3.webp",
+    "static/media/fb.webp": "/first-version-trh/static/media/fb.821a60fa81e9891009a4.webp",
     "index.html": "/first-version-trh/index.html",
-    "main.cfd3221e.css.map": "/first-version-trh/static/css/main.cfd3221e.css.map",
-    "main.828b5cec.js.map": "/first-version-trh/static/js/main.828b5cec.js.map"
+    "main.33320965.css.map": "/first-version-trh/static/css/main.33320965.css.map",
+    "main.44e03521.js.map": "/first-version-trh/static/js/main.44e03521.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfd3221e.css",
-    "static/js/main.828b5cec.js"
+    "static/css/main.33320965.css",
+    "static/js/main.44e03521.js"
   ]
 }
