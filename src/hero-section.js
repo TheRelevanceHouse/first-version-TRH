@@ -8,7 +8,7 @@ export default function Hero (props) {
     return (
     <div className='hero-section'>
     <Container >
-        <Row>
+        <Row style={{ marginTop:'35px'}}>
             <Col  xs={6} md={6}>
                 <br/>
                 <br/>
