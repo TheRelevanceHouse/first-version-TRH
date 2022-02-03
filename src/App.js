@@ -6,15 +6,13 @@ import medium from './images/medium.webp'
 import twitter from './images/twitter.webp'
 import fb from './images/fb.webp'
 import instagram from './images/insta.webp'
-
+import {Container} from 'react-bootstrap'
+import Hero from './hero-section'
 
 function App() {
   return (
-    // <nav className='nav-bar' >
-	
-    // <img className='nav-bar-logo' src={logo} alt="Marketing, Branding and Communications Agency"/>
-
-    // </nav>
+    <div>
+    <Container style={{height:'120px'}}>
     <nav class="nav-bar" id="">
 	   <a href="/" >
 	      <img className='nav-bar-logo' alt="Marketing, Branding and Communications Agency"  
@@ -61,12 +59,12 @@ function App() {
             Be Relevant
         </a>
         </div>
-
-        
-
-
-
    </nav>
+   </Container>
+    <Hero />
+  
+
+</div>
   );
 }
 

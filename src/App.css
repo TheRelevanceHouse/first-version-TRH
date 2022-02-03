@@ -1,3 +1,24 @@
+
+
+h4 {
+    font-size: 3.3em;
+    margin-top: 30px;
+    font-weight: 700!important;
+    letter-spacing: 0.005em;
+    font-family: 'Norwester', sans-serif !important;
+    line-height: 1.2;
+}
+
+hr {
+    margin-left: 0;
+    width: 76%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #00A993;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .nav-bar {
 position: absolute;
 width: 100%;
@@ -68,4 +89,28 @@ transform: translateY(-50%);
     height: 20px;
     border-radius: 2px;
     margin: 5px;
+}
+
+@media only screen and (max-width: 1022px)
+{
+    #navigation-social {
+        display: none !important;
+    }
+
+    #navigation-items {
+        display: none !important;
+    }
+}
+
+.hero-section {
+    background-color: #222222;
+
+}
+
+#scroll {
+font-size: 12px;
+line-height: 12px;
+display: flex;
+justify-content: space-around;
+color: #00A993;
 }
