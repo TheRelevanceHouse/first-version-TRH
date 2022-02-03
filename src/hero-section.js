@@ -26,7 +26,7 @@ export default function Hero (props) {
                IF IT DOESN´T. IT´S NOT A GOOD IDEA, YET.
                </p>
             </Col>
-            <Col xs={6} md={6}>
+            <Col xs={6} md={6} style={{ textAlign :'right' }}>
                 <img src={heroimage} alt='Relevant' style={{width: '500px', height: '500px'}}/>
             </Col>
         </Row>
