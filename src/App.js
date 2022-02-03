@@ -11,7 +11,7 @@ function App() {
 
     // </nav>
     <nav class="nav-bar" id="">
-	   <a class="nav-bar-logo" href="#">
+	   <a class="nav-bar-logo" href="/">
 	      <img alt="Marketing, Branding and Communications Agency"  
            src={logo} style={{height:'105px' , width:'auto' , float: 'left !important'}}  />
       </a>
