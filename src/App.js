@@ -7,7 +7,6 @@ import twitter from './images/twitter.webp'
 import fb from './images/fb.webp'
 import instagram from './images/insta.webp'
 import {Container} from 'react-bootstrap'
-import Hero from './hero-section'
 import './fonts/norwester.ttf';
 
 function App() {

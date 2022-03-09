@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import {Container, Row, Col} from 'react-bootstrap'
-import heroimage from './images/Relevant.svg'
-import scroll from "./images/scrolldown.svg"
 
 export default function Welcome (props) {
     return (
