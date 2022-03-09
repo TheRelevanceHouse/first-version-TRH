@@ -168,3 +168,23 @@ transform: translateY(-50%);
     color: #C4C4C4;
     font-size: 90px;
 }
+
+.approach-section {
+    background-color: #222222;
+}
+
+.approach-section p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+}
+
+.approach-section-2 {
+    background-color: #fff;
+}
+
+.approach-section-2 p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    color: #26627E;
+    margin: 0px 150px 0px;
+}
