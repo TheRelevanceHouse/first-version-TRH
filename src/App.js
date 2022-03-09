@@ -62,7 +62,7 @@ function App() {
         </div>
    </nav>
    </Container>
-    <Hero />
+  
   
 
 </div>
