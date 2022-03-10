@@ -79,7 +79,15 @@ export default function Approach2 (props) {
                </p>
             </Col>
         </Row>
-    
+        <Row style={{textAlign:'center', backgroundColor:'#222222', marginBottom:'40px'}}>
+            <Col  xs={12} md={12} style={{padding:'50px'}}>
+               
+               
+                <a href='/' className='btn-white'>
+                Do you want to know how? Go on...
+        </a>
+            </Col>
+        </Row>
     </div>
     ); 
 }
