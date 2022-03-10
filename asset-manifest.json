@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/first-version-trh/static/css/main.d0481af8.css",
-    "main.js": "/first-version-trh/static/js/main.2389b546.js",
+    "main.css": "/first-version-trh/static/css/main.1850cb37.css",
+    "main.js": "/first-version-trh/static/js/main.23895926.js",
+    "static/media/how-section.png": "/first-version-trh/static/media/how-section.bbdab90f00c422c04f42.png",
     "static/media/insta.webp": "/first-version-trh/static/media/insta.5b7253906fa420b66945.webp",
     "static/media/twitter.webp": "/first-version-trh/static/media/twitter.81d1507168ef2874a6fa.webp",
     "static/media/medium.webp": "/first-version-trh/static/media/medium.217e0c6020d4cb18af5e.webp",
@@ -11,11 +12,11 @@
     "static/media/Relevant.svg": "/first-version-trh/static/media/Relevant.7cb3a3cdadc5d5a49668e29c0ac9d3d8.svg",
     "static/media/scrolldown.svg": "/first-version-trh/static/media/scrolldown.f9e0d1ca97c66becba38d29fec6e3472.svg",
     "index.html": "/first-version-trh/index.html",
-    "main.d0481af8.css.map": "/first-version-trh/static/css/main.d0481af8.css.map",
-    "main.2389b546.js.map": "/first-version-trh/static/js/main.2389b546.js.map"
+    "main.1850cb37.css.map": "/first-version-trh/static/css/main.1850cb37.css.map",
+    "main.23895926.js.map": "/first-version-trh/static/js/main.23895926.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0481af8.css",
-    "static/js/main.2389b546.js"
+    "static/css/main.1850cb37.css",
+    "static/js/main.23895926.js"
   ]
 }
