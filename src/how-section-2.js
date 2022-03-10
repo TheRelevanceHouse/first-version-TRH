@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Row, Col} from 'react-bootstrap'
+import {Row, Col, Container} from 'react-bootstrap'
 import how1 from './images/how1.png'
 import how2 from './images/how2.png'
 import how3 from './images/how3.png'
@@ -8,6 +8,7 @@ import how3 from './images/how3.png'
 export default function How2 (props) {
     return (
     <div className='how-section-2'>
+        <Container style={{width:'100%'}}>
              <Row style={{textAlign:'center'}}>
             <Col  xs={6} md={6} style={{ background: 'linear-gradient(90deg, #003F49 -4.91%, #26627E 100%)', borderRadius: '0px 0px 20px 0px', paddingBottom: '30px'}}>
                
@@ -92,6 +93,7 @@ export default function How2 (props) {
         </a>
             </Col>
         </Row>
+        </Container>
     </div>
     ); 
 }

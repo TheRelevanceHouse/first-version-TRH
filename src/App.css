@@ -236,7 +236,8 @@ transform: translateY(-50%);
     background-color: #fff;
 }
 
-.how-section h5 {
+.how-section h5, 
+.IsItAThing-section h5 {
     background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -244,10 +245,11 @@ transform: translateY(-50%);
     text-fill-color: transparent;
 }
 
-.how-section p {
+.how-section p, 
+.IsItAThing-section p {
     font-family: 'Quicksand', sans-serif;
     font-size: 1em;
-    color: #26627E;
+    color: rgb(47, 46, 46);
     font-weight: 400;
 }
 
@@ -303,4 +305,35 @@ transform: translateY(-50%);
 .line:after {
     right: 0; 
     left: auto;
+}
+
+.IsItAThing-section {
+    background-color: #fff;
+}
+
+#isit-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    font-weight:600 ;
+    color: #26627E;
+    margin: 0px 100px 0px;
+    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#isitathing-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3em;
+    font-weight:600 ;
+    color: #26627E;
+    margin: 0px 100px 0px;
+    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin: 20px;
 }

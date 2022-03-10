@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Row, Col} from 'react-bootstrap'
+import {Row, Col, Container} from 'react-bootstrap'
 import approachimage1 from './images/approach1.png'
 import approachimage2 from './images/approac2.png'
 import approachimage3 from './images/approach3.png'
@@ -8,7 +8,7 @@ import approachimage3 from './images/approach3.png'
 export default function Approach2 (props) {
     return (
     <div className='approach-section-2'>
-    
+    <Container style={{width:'100%'}}>
         <Row style={{textAlign:'center'}}>
             <Col  xs={6} md={6} style={{ background: '#00B198', borderRadius: '0px 0px 20px 0px', paddingBottom: '30px'}}>
                
@@ -88,6 +88,7 @@ export default function Approach2 (props) {
         </a>
             </Col>
         </Row>
+        </Container>
     </div>
     ); 
 }
