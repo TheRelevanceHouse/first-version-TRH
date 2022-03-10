@@ -24,6 +24,19 @@ h5 {
     font-family: 'Norwester', sans-serif !important;    
 }
 
+h6 {
+    font-family: 'Norwester', sans-serif !important;   
+    font-style: normal;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600!important;
+    letter-spacing: 0.005em;
+    line-height: 1.2;
+    color: #fff;
+    text-align: left;
+    margin-top: 6px;
+}
+
 p {
     font-family: 'Quicksand', sans-serif !important;
     font-size: 1em;
@@ -109,7 +122,24 @@ transform: translateY(-50%);
     line-height: 1.5;
     border-radius: 0.8rem;
     margin-left: 10px;
+}
 
+.btn-green-shade {
+    
+    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent; */
+    color: #fff;
+    border: 1px solid #26627E;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    padding: 1rem 1rem;
+    line-height: 1.5;
+    border-radius: 0.8rem;
+    margin-left: 10px;
 }
 
 #navigation-social {
@@ -206,9 +236,71 @@ transform: translateY(-50%);
     background-color: #fff;
 }
 
+.how-section h5 {
+    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
 .how-section p {
     font-family: 'Quicksand', sans-serif;
     font-size: 1em;
     color: #26627E;
     font-weight: 400;
+}
+
+.how-section-2 {
+    background-color: #fff;
+}
+
+.how-section-2 p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    color: #26627E;
+    margin: 0px 150px 0px;
+    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.what-section {
+    background: #003F49;
+}
+
+.what-section p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-align: left;
+    font-weight: 400;
+}
+
+.what-section .row {
+    margin-bottom: 30px;
+}
+
+.line {
+    border-bottom: 2px solid #00A993; 
+    padding-bottom: 15px; 
+    position: relative;
+}
+
+.line:before {
+    position: absolute; 
+    bottom: -6px; 
+    left: 0; 
+    height: 10px; 
+    width: 10px; 
+    background: #00A993; 
+    content: ""; 
+    border-radius: 5px;
+}
+
+.line:after {
+    right: 0; 
+    left: auto;
 }
