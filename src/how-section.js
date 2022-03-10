@@ -11,7 +11,7 @@ export default function How (props) {
             <Col  xs={6} md={6}>
                
                 <br/>
-               <h5 style={{color:'#23ADA0'}}>
+               <h5>
                HOW WE MAKE IT HAPPEN
                </h5>
                

@@ -7,6 +7,8 @@ import './fonts/norwester.ttf';
 import Approach from './approach-section';
 import Approach2 from './approach-section-2';
 import How from './how-section';
+import How2 from './how-section-2';
+import What from './what-section';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +18,8 @@ ReactDOM.render(
     <Approach />
     <Approach2 />
     <How />
+    <How2 />
+    <What />
     
   </React.StrictMode>,
   document.getElementById('root')
