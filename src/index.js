@@ -9,6 +9,7 @@ import Approach2 from './approach-section-2';
 import How from './how-section';
 import How2 from './how-section-2';
 import What from './what-section';
+import IsItAThing from './is-it-a-thing';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
     <How />
     <How2 />
     <What />
+    <IsItAThing />
     
   </React.StrictMode>,
   document.getElementById('root')
