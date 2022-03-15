@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/first-version-trh/static/css/main.dc1481a9.css",
+    "main.css": "/first-version-trh/static/css/main.7bb458df.css",
     "main.js": "/first-version-trh/static/js/main.c78e1e10.js",
     "static/media/Intersect.png": "/first-version-trh/static/media/Intersect.d70b0df6499d06d396a2.png",
     "static/media/how-section.png": "/first-version-trh/static/media/how-section.bbdab90f00c422c04f42.png",
@@ -19,11 +19,11 @@
     "static/media/Karlotta.webp": "/first-version-trh/static/media/Karlotta.8ddfe69f88cd678e8bbf.webp",
     "static/media/scrolldown.svg": "/first-version-trh/static/media/scrolldown.f9e0d1ca97c66becba38d29fec6e3472.svg",
     "index.html": "/first-version-trh/index.html",
-    "main.dc1481a9.css.map": "/first-version-trh/static/css/main.dc1481a9.css.map",
+    "main.7bb458df.css.map": "/first-version-trh/static/css/main.7bb458df.css.map",
     "main.c78e1e10.js.map": "/first-version-trh/static/js/main.c78e1e10.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc1481a9.css",
+    "static/css/main.7bb458df.css",
     "static/js/main.c78e1e10.js"
   ]
 }
