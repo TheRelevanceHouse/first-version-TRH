@@ -237,12 +237,12 @@ transform: translateY(-50%);
 }
 
 .how-section h5, 
-.IsItAThing-section h5 {
+.IsItAThing-section h5,
+.job-section h5 {
     background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 .how-section p, 
@@ -266,7 +266,6 @@ transform: translateY(-50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 .what-section {
@@ -321,7 +320,6 @@ transform: translateY(-50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 #isitathing-text {
@@ -334,7 +332,6 @@ transform: translateY(-50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
     margin: 20px;
 }
 
@@ -352,7 +349,6 @@ transform: translateY(-50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
     margin: 20px;
     text-transform: uppercase;
 }
@@ -362,4 +358,32 @@ transform: translateY(-50%);
     height: 150px;
     border-radius: 50%;
     border: 3px solid #00A993;
+}
+
+.job-section {
+    background-color: #fafafa;
+}
+
+#job-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    font-weight:600 ;
+    color: #26627E;
+    margin: 0px 100px 0px;
+    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.job-text a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #26627E;
+    margin: 0px 0px 0px;
+    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 25px;
 }
