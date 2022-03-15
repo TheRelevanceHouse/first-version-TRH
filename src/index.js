@@ -11,6 +11,7 @@ import How2 from './how-section-2';
 import What from './what-section';
 import IsItAThing from './is-it-a-thing';
 import TeamSection from './team-section';
+import JobSection from './job-section';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ ReactDOM.render(
     <What />
     <IsItAThing />
     <TeamSection />
+    <JobSection />
     
   </React.StrictMode>,
   document.getElementById('root')
