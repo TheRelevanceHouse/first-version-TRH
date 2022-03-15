@@ -12,13 +12,13 @@ export default function IsItAThing (props) {
                
                 <br/>
                <h5>
-               HOW WE MAKE IT HAPPEN
+               IS IT A THING
                </h5>
                
                 <hr style={{ marginLeft:'0' }} />
                 <br />
                <p style={{color:'#2F2E2E', lineHeight:'34px'}}>
-               THE RELEVANCE HOUSE is structured in three different units that work hand in hand for our clients. Using a proven set of proprietary methodologies, tools and frameworks, we create and execute high-quality brand, go-to-market, funding, storytelling and growth hacking strategies that have a measurable positive impact on your business.
+               Relevance is the only thing that sells. Relevance is a condition for the success of products, services, projects, funding, initiatives, messages, campaigns. You name it. What is relevant varies, depending on whom you are trying to reach with your message. But what never changes is, how relevance works.
                </p>
             </Col>
 
