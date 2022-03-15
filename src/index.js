@@ -10,6 +10,7 @@ import How from './how-section';
 import How2 from './how-section-2';
 import What from './what-section';
 import IsItAThing from './is-it-a-thing';
+import TeamSection from './team-section';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.render(
     <How2 />
     <What />
     <IsItAThing />
+    <TeamSection />
     
   </React.StrictMode>,
   document.getElementById('root')

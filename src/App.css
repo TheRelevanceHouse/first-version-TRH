@@ -337,3 +337,29 @@ transform: translateY(-50%);
     text-fill-color: transparent;
     margin: 20px;
 }
+
+.team-section {
+    background-color: #222222;
+}
+
+#team-section-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3em;
+    font-weight:600 ;
+    color: #26627E;
+    margin: 0px 100px 0px;
+    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+#team-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00A993;
+}
