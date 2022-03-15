@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/first-version-trh/static/css/main.b0439e4e.css",
-    "main.js": "/first-version-trh/static/js/main.30c2a259.js",
+    "main.css": "/first-version-trh/static/css/main.dc1481a9.css",
+    "main.js": "/first-version-trh/static/js/main.c78e1e10.js",
+    "static/media/Intersect.png": "/first-version-trh/static/media/Intersect.d70b0df6499d06d396a2.png",
     "static/media/how-section.png": "/first-version-trh/static/media/how-section.bbdab90f00c422c04f42.png",
     "static/media/insta.webp": "/first-version-trh/static/media/insta.5b7253906fa420b66945.webp",
     "static/media/twitter.webp": "/first-version-trh/static/media/twitter.81d1507168ef2874a6fa.webp",
@@ -18,11 +19,11 @@
     "static/media/Karlotta.webp": "/first-version-trh/static/media/Karlotta.8ddfe69f88cd678e8bbf.webp",
     "static/media/scrolldown.svg": "/first-version-trh/static/media/scrolldown.f9e0d1ca97c66becba38d29fec6e3472.svg",
     "index.html": "/first-version-trh/index.html",
-    "main.b0439e4e.css.map": "/first-version-trh/static/css/main.b0439e4e.css.map",
-    "main.30c2a259.js.map": "/first-version-trh/static/js/main.30c2a259.js.map"
+    "main.dc1481a9.css.map": "/first-version-trh/static/css/main.dc1481a9.css.map",
+    "main.c78e1e10.js.map": "/first-version-trh/static/js/main.c78e1e10.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0439e4e.css",
-    "static/js/main.30c2a259.js"
+    "static/css/main.dc1481a9.css",
+    "static/js/main.c78e1e10.js"
   ]
 }
