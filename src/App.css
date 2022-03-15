@@ -387,3 +387,36 @@ transform: translateY(-50%);
     -webkit-text-fill-color: transparent;
     line-height: 25px;
 }
+
+.contact-section {
+    background: #003F49;
+}
+
+.contact-section p {
+    font-weight: 400;
+}
+
+#contact-section-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3em;
+    font-weight:600 ;
+    color: rgb(0, 169, 147);
+    margin: 0px 100px 0px;
+    background: linear-gradient(90deg, #00a993 -4.91%, #00B198 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 20px;
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+
+#circle-image {
+    position: absolute;
+    bottom: -20px;
+    left: 100%;
+}
+
+.footer-section {
+    background-color: #222222;
+}
