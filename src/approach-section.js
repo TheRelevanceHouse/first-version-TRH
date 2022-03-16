@@ -10,7 +10,7 @@ export default function Approach (props) {
             <Col  xs={12} md={12}>
                
                 <br/>
-               <h5 style={{color:'#23ADA0'}}>
+               <h5 style={{color:'#00A993'}}>
                OUR HOLISTIC APPROACH
                </h5>
                

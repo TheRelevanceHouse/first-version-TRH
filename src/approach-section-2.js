@@ -10,7 +10,7 @@ export default function Approach2 (props) {
     <div className='approach-section-2'>
     <Container style={{width:'100%'}}>
         <Row style={{textAlign:'center'}}>
-            <Col  xs={6} md={6} style={{ background: '#00B198', borderRadius: '0px 0px 20px 0px', paddingBottom: '30px'}}>
+            <Col id="approach-col"  xs={6} md={6} style={{ background: '#00A993', borderRadius: '0px 0px 20px 0px'}}>
                
                 <br/>
                <h5 style={{color:'#fff'}}>
@@ -22,7 +22,7 @@ export default function Approach2 (props) {
                 <img src={approachimage1} alt='Relevant'/>
                 <br />
             </Col>
-            <Col  xs={6} md={6}>
+            <Col id="approach-col"  xs={6} md={6}>
                
                 <br />
                 <br />
@@ -33,7 +33,7 @@ export default function Approach2 (props) {
             </Col>
         </Row>
         <Row style={{textAlign:'center'}}>
-        <Col  xs={6} md={6}>
+        <Col id="approach-col"  xs={6} md={6}>
                
                <br />
                <br />
@@ -42,7 +42,7 @@ export default function Approach2 (props) {
               You build a community. You are in constant dialogue with potential investors. You speak to the press. You create and share content. You build momentum.
               </p>
            </Col>
-            <Col  xs={6} md={6} style={{ background: '#00B198', borderRadius: '20px 0px 0px 20px', paddingBottom: '30px'}}>
+            <Col id="approach-col"  xs={6} md={6} style={{ background: '#00A993', borderRadius: '20px 0px 0px 20px'}}>
                
                 <br/>
                <h5 style={{color:'#fff'}}>
@@ -57,7 +57,7 @@ export default function Approach2 (props) {
             
         </Row>
         <Row style={{textAlign:'center'}}>
-            <Col  xs={6} md={6} style={{ background: '#00B198', borderRadius: '0px 20px 0px 0px', paddingBottom: '30px'}}>
+            <Col id="approach-col"  xs={6} md={6} style={{ background: '#00A993', borderRadius: '0px 20px 0px 0px'}}>
                
                 <br/>
                <h5 style={{color:'#fff'}}>
@@ -69,7 +69,7 @@ export default function Approach2 (props) {
                 <img src={approachimage3} alt='Relevant'/>
                 <br />
             </Col>
-            <Col  xs={6} md={6}>
+            <Col id="approach-col"  xs={6} md={6}>
                
                 <br />
                 <br />
