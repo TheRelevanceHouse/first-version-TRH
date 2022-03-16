@@ -198,13 +198,17 @@ transform: translateY(-50%);
 
 #column {
     background-color: #00A993;
+    transition: transform .9s;
 }
+
+/* .wrap:hover & {
+    transform: scale(2);
+  } */
 
 #column:hover {
     background: linear-gradient(180deg, #26627E -4.91%, #00B198 100%);
     border-radius: 10px;
     transform: scale(1.05);
-    transition-duration: 500ms;
 }
 
 #column img {
@@ -213,7 +217,6 @@ transform: translateY(-50%);
 }
 
 #column:hover img {
-    
     display: inline !important;
     visibility: visible;
 }
@@ -224,8 +227,7 @@ transform: translateY(-50%);
 }
 
 
-#column:hover span
-{
+#column:hover span {
     transform: scale(1.3);
     transition-duration: 500ms;
 }
@@ -236,6 +238,7 @@ transform: translateY(-50%);
     left: 40%;
     font-family: 'Norwester', sans-serif !important;   
     color: #f2f2f2;
+    transition: transform .8s;
 }
 
 #column span {
@@ -247,6 +250,7 @@ transform: translateY(-50%);
     background-clip: text;
     text-fill-color: transparent;
     display: inline-block;
+    transition: transform .8s;
 }
 
 .approach-section {
