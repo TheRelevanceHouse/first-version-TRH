@@ -10,7 +10,7 @@ export default function How2 (props) {
     <div className='how-section-2'>
         <Container style={{width:'100%'}}>
              <Row style={{textAlign:'center'}}>
-            <Col  xs={6} md={6} style={{ background: 'linear-gradient(90deg, #003F49 -4.91%, #26627E 100%)', borderRadius: '0px 0px 20px 0px', paddingBottom: '30px'}}>
+            <Col id="approach-col"  xs={6} md={6} style={{ background: '#00A993', borderRadius: '0px 0px 20px 0px'}}>
                
                 <br/>
                <h5 style={{color:'#fff'}}>
@@ -22,7 +22,7 @@ export default function How2 (props) {
                 <img src={how1} alt='Relevant'/>
                 <br />
             </Col>
-            <Col  xs={6} md={6}>
+            <Col id="approach-col"  xs={6} md={6}>
                
                 <br />
                 <br />
@@ -33,7 +33,7 @@ export default function How2 (props) {
             </Col>
         </Row>
         <Row style={{textAlign:'center'}}>
-        <Col  xs={6} md={6}>
+        <Col id="approach-col"  xs={6} md={6}>
                
                <br />
                <br />
@@ -42,7 +42,7 @@ export default function How2 (props) {
               Brand Design, CI & CD, Build Website(s), Social Media, Campaigns, Landing Pages, Content Marketing & Production, Story Visualization.
               </p>
            </Col>
-           <Col  xs={6} md={6} style={{ background: 'linear-gradient(90deg, #003F49 -4.91%, #26627E 100%)', borderRadius: '20px 0px 0px 20px', paddingBottom: '30px'}}>
+           <Col id="approach-col"  xs={6} md={6} style={{ background: '#00A993', borderRadius: '20px 0px 0px 20px'}}>
                
                 <br/>
                <h5 style={{color:'#fff'}}>
@@ -57,7 +57,7 @@ export default function How2 (props) {
             
         </Row>
         <Row style={{textAlign:'center'}}>
-        <Col  xs={6} md={6} style={{ background: 'linear-gradient(90deg, #003F49 -4.91%, #26627E 100%)', borderRadius: '0px 20px 0px 0px', paddingBottom: '30px'}}>
+        <Col id="approach-col"  xs={6} md={6} style={{ background: '#00A993', borderRadius: '0px 20px 0px 0px'}}>
                
                 <br/>
                <h5 style={{color:'#fff'}}>
@@ -69,7 +69,7 @@ export default function How2 (props) {
                 <img src={how3} alt='Relevant'/>
                 <br />
             </Col>
-            <Col  xs={6} md={6}>
+            <Col id="approach-col"  xs={6} md={6}>
                
                 <br />
                 <br />

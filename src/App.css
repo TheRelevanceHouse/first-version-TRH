@@ -236,7 +236,6 @@ transform: translateY(-50%);
     background-color: #fff;
 }
 
-.how-section h5, 
 .IsItAThing-section h5,
 .job-section h5 {
     background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
@@ -419,4 +418,27 @@ transform: translateY(-50%);
 
 .footer-section {
     background-color: #222222;
+}
+
+#approach-col{
+ padding-bottom: 5% !important;
+ padding-top: 5% !important;
+}
+
+.approach-section-2 h5 {
+        font-size: 2.5em;
+        margin-top: 15px;
+        font-weight: 400!important;
+        letter-spacing: 0.005em;
+        line-height: 1.2;
+        font-family: 'Norwester', sans-serif !important;    
+}
+
+.how-section-2 h5 {
+        font-size: 2.5em;
+        margin-top: 15px;
+        font-weight: 400!important;
+        letter-spacing: 0.005em;
+        line-height: 1.2;
+        font-family: 'Norwester', sans-serif !important;    
 }
