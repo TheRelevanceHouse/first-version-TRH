@@ -1,29 +1,34 @@
 {
   "files": {
-    "main.css": "/first-version-trh/static/css/main.c7098541.css",
-    "main.js": "/first-version-trh/static/js/main.16a4f7ce.js",
+    "main.css": "/first-version-trh/static/css/main.b626ad70.css",
+    "main.js": "/first-version-trh/static/js/main.d84670c4.js",
+    "static/media/backgroundapproach.png": "/first-version-trh/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
     "static/media/Intersect.png": "/first-version-trh/static/media/Intersect.d70b0df6499d06d396a2.png",
     "static/media/how-section.png": "/first-version-trh/static/media/how-section.bbdab90f00c422c04f42.png",
-    "static/media/insta.webp": "/first-version-trh/static/media/insta.5b7253906fa420b66945.webp",
-    "static/media/twitter.webp": "/first-version-trh/static/media/twitter.81d1507168ef2874a6fa.webp",
-    "static/media/medium.webp": "/first-version-trh/static/media/medium.217e0c6020d4cb18af5e.webp",
-    "static/media/linkedin.webp": "/first-version-trh/static/media/linkedin.9984467d163489e5d8a3.webp",
+    "static/media/circles.png": "/first-version-trh/static/media/circles.9e14cef8998989b08432.png",
     "static/media/norwester.ttf": "/first-version-trh/static/media/norwester.240a0f0284775ab669e0.ttf",
-    "static/media/fb.webp": "/first-version-trh/static/media/fb.821a60fa81e9891009a4.webp",
-    "static/media/Relevant.svg": "/first-version-trh/static/media/Relevant.7cb3a3cdadc5d5a49668e29c0ac9d3d8.svg",
     "static/media/clementina123.jpeg": "/first-version-trh/static/media/clementina123.7085a5e101c71eb2d65a.jpeg",
     "static/media/Jonny.webp": "/first-version-trh/static/media/Jonny.b26aa885c01e97ef1a10.webp",
     "static/media/Davina.webp": "/first-version-trh/static/media/Davina.0e511d1f4cc383dff089.webp",
+    "static/media/Relevant.svg": "/first-version-trh/static/media/Relevant.2d6d2db9cd7786ea165beb176c9200f7.svg",
+    "static/media/Instagram_white.svg": "/first-version-trh/static/media/Instagram_white.5ea80efc39064e2eb6be8605548c0226.svg",
+    "static/media/GOBIGIcon.svg": "/first-version-trh/static/media/GOBIGIcon.a553c34623edb414b8e04ab34b12cab0.svg",
+    "static/media/GOLIVEIcon.svg": "/first-version-trh/static/media/GOLIVEIcon.434c9fe9371b0dd3cbea8d1d9c1b47b3.svg",
+    "static/media/GETREADYIcon.svg": "/first-version-trh/static/media/GETREADYIcon.a6dd737cf097bd7c73d4bb62e24573f1.svg",
     "static/media/carolina.webp": "/first-version-trh/static/media/carolina.7245d24cebdab73f17e8.webp",
     "static/media/Robynn.webp": "/first-version-trh/static/media/Robynn.415b9ccd9243d481eaf2.webp",
     "static/media/Karlotta.webp": "/first-version-trh/static/media/Karlotta.8ddfe69f88cd678e8bbf.webp",
+    "static/media/Twitter_white.svg": "/first-version-trh/static/media/Twitter_white.e7dabee5c4deb4169000f899bbf0ea7a.svg",
     "static/media/scrolldown.svg": "/first-version-trh/static/media/scrolldown.f9e0d1ca97c66becba38d29fec6e3472.svg",
+    "static/media/LinkedIN_white.svg": "/first-version-trh/static/media/LinkedIN_white.cf1356a81006c7f32d1b2d0a39c25990.svg",
+    "static/media/Medium_white.svg": "/first-version-trh/static/media/Medium_white.7e57206cf172b92a8233d6acf764b294.svg",
     "index.html": "/first-version-trh/index.html",
-    "main.c7098541.css.map": "/first-version-trh/static/css/main.c7098541.css.map",
-    "main.16a4f7ce.js.map": "/first-version-trh/static/js/main.16a4f7ce.js.map"
+    "static/media/Facebook_white.svg": "/first-version-trh/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
+    "main.b626ad70.css.map": "/first-version-trh/static/css/main.b626ad70.css.map",
+    "main.d84670c4.js.map": "/first-version-trh/static/js/main.d84670c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7098541.css",
-    "static/js/main.16a4f7ce.js"
+    "static/css/main.b626ad70.css",
+    "static/js/main.d84670c4.js"
   ]
 }
