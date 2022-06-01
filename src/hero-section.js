@@ -10,21 +10,28 @@ export default function Hero (props) {
     <Container >
         <Row style={{ marginTop:'35px'}}>
             <Col  xs={6} md={6}>
-                <br/>
-                <br/>
-                <br/>
-               <h4 style={{color:'#23ADA0'}}>
+            <br/>
+            <br/>
+            <br/>
+               <h4 id='heading-1'>
                ONLY RELEVANCE 
                </h4>
-               <h4 style={{color:'#FAFAFA'}}>
+               <h4 id='heading-2' style={{color:'FAFAFA !important'}}>
                    HAS IMPACT
                </h4>
-                <hr />
+                <hr style={{background: '#00a993'}}/>
                 <br />
-               <p style={{color:'white', lineHeight:'34px'}}>
-               EVERY GOOD IDEA FITS ON A POST-IT. <br />
-               IF IT DOESN´T. IT´S NOT A GOOD IDEA, YET.
+               <p id='hero-line' style={{color:'white', lineHeight:'34px', borderLeft:'3px solid #00A993'}}>
+               &nbsp;&nbsp;&nbsp;EVERY GOOD IDEA FITS ON A POST-IT. <br />
+               &nbsp;&nbsp;&nbsp;IF IT DOESN´T. IT´S NOT A GOOD IDEA, YET.
                </p>
+            <br/>
+            <br/>
+            
+               
+               <a href='/' className='btn-green'>
+               Do you want to know ?
+                </a>
             </Col>
             <Col xs={6} md={6} style={{ textAlign :'right' }}>
                 <img src={heroimage} alt='Relevant' style={{width: '500px', height: '500px'}}/>

@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import logo from './images/logomain.png'
-import ln from './images/linkedin.webp'
-import medium from './images/medium.webp'
-import twitter from './images/twitter.webp'
-import fb from './images/fb.webp'
-import instagram from './images/insta.webp'
+import ln from './images/LinkedIN_white.svg'
+import medium from './images/Medium_white.svg'
+import twitter from './images/Twitter_white.svg'
+import fb from './images/Facebook_white.svg'
+import instagram from './images/Instagram_white.svg'
 import {Container} from 'react-bootstrap'
 import './fonts/norwester.ttf';
 
@@ -55,9 +55,9 @@ function App() {
         <a href='/'> 
             Stories 
         </a>
-        <a href='/' className='btn-nav'>
+        {/* <a href='/' className='btn-nav'>
             Be Relevant
-        </a>
+        </a> */}
         </div>
    </nav>
    </Container>

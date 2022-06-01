@@ -2,13 +2,14 @@ import React from 'react';
 import './App.css';
 import {Container, Row, Col} from 'react-bootstrap'
 import DownloadIcon from './images/download.png'
+import circles from './images/circles.png'
 
 export default function Welcome (props) {
     return (
     <div className='welcome-section'>
     <Container >
-        <Row style={{ marginTop:'35px', width:'50%'}}>
-            <Col  xs={12} md={12}>
+        <Row style={{ marginTop:'35px', display:'flex', alignItems: 'flex-end'}}>
+            <Col  xs={12} md={6}>
                 <br/>
                 <br/>
                 <br/>
@@ -17,17 +18,23 @@ export default function Welcome (props) {
                             THE RELEVANCE HOUSE
                   
                </h4>
-                <hr />
+                <hr id='line-shades'/>
                 <br />
                <p >
                THE RELEVANCE HOUSE is a full-service Marketing, Branding and Communications agency for firms in the blockchain and emerging technology sector. We focus on helping technology start-ups and projects build and communicate a relevant brand and story. 
-                <br/>
+                <br/> <br/>
                 Why? Because only relevance has impact.
                </p>
             </Col>
+            <Col  xs={12} md={6}>
+            <br/>
+                <br/>
+                <br/>
+               <img style={{width:'400px', height:'auto', float:'right' }} src={circles} ></img>
+            </Col>
            
         </Row>
-        <Row id='welcome-section' style={{ textAlign:'center', marginBottom:'40px', marginTop:'10px' }}>
+        <Row id='welcome-section' style={{ textAlign:'left', marginBottom:'40px', marginTop:'15px' }}>
         <h5 style={{color:'#00A993'}}>
         Are you in a hurry? Give us...
         </h5>

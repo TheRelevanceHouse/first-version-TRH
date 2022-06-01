@@ -4,13 +4,14 @@ import {Row, Col, Container} from 'react-bootstrap'
 import approachimage1 from './images/approach1.png'
 import approachimage2 from './images/approac2.png'
 import approachimage3 from './images/approach3.png'
+import backgroundapproach from './images/backgroundapproach.png' 
 
 export default function Approach2 (props) {
     return (
-    <div className='approach-section-2'>
+    <div className='approach-section-2' background={{backgroundapproach}} >
     <Container style={{width:'100%'}}>
         <Row style={{textAlign:'center'}}>
-            <Col id="approach-col"  xs={6} md={6} style={{ background: '#00A993', borderRadius: '0px 0px 20px 0px'}}>
+            <Col id="approach-col"  xs={12} md={4} >
                
                 <br/>
                <h5 style={{color:'#fff'}}>
@@ -21,30 +22,12 @@ export default function Approach2 (props) {
                 <br />
                 <img src={approachimage1} alt='Relevant'/>
                 <br />
-            </Col>
-            <Col id="approach-col"  xs={6} md={6}>
-               
-                <br />
-                <br />
-                <br />
-               <p style={{color:'#26627E', lineHeight:'34px'}}>
+                <p style={{color:'#26627E', lineHeight:'34px'}}>
                You want to tell the world about your project. You might think you are ready, but our experience shows you are probably not.
                </p>
             </Col>
-        </Row>
-        <Row style={{textAlign:'center'}}>
-        <Col id="approach-col"  xs={6} md={6}>
-               
-               <br />
-               <br />
-               <br />
-              <p style={{color:'#26627E', lineHeight:'34px'}}>
-              You build a community. You are in constant dialogue with potential investors. You speak to the press. You create and share content. You build momentum.
-              </p>
-           </Col>
-            <Col id="approach-col"  xs={6} md={6} style={{ background: '#00A993', borderRadius: '20px 0px 0px 20px'}}>
-               
-                <br/>
+            <Col id="approach-col"  xs={12} md={4}>
+        <br/>
                <h5 style={{color:'#fff'}}>
                GO LIVE
                </h5>
@@ -53,32 +36,32 @@ export default function Approach2 (props) {
                 <br />
                 <img src={approachimage2} alt='Relevant'/>
                 <br />
-            </Col>
+               <br />
+               <br />
+               <br />
+              <p style={{color:'#26627E', lineHeight:'34px'}}>
+              You build a community. You are in constant dialogue with potential investors. You speak to the press. You create and share content. You build momentum.
+              </p>
+           </Col>
+           <Col id="approach-col"  xs={12} md={4} >
+               
+               <br/>
+              <h5 style={{color:'#fff'}}>
+              GO BIG
+              </h5>
+              
+             
+               <br />
+               <img src={approachimage3} alt='Relevant'/>
+               <br />
+               <p style={{color:'#26627E', lineHeight:'34px'}}>
+              You have your funding. You want your company to grow sustainably and continue to add value. But remember, securing funding is not the end of your journey… it is just the beginning.
+              </p>
+           </Col>
+            
             
         </Row>
-        <Row style={{textAlign:'center'}}>
-            <Col id="approach-col"  xs={6} md={6} style={{ background: '#00A993', borderRadius: '0px 20px 0px 0px'}}>
-               
-                <br/>
-               <h5 style={{color:'#fff'}}>
-               GO BIG
-               </h5>
-               
-              
-                <br />
-                <img src={approachimage3} alt='Relevant'/>
-                <br />
-            </Col>
-            <Col id="approach-col"  xs={6} md={6}>
-               
-                <br />
-                <br />
-                <br />
-               <p style={{color:'#26627E', lineHeight:'34px'}}>
-               You have your funding. You want your company to grow sustainably and continue to add value. But remember, securing funding is not the end of your journey… it is just the beginning.
-               </p>
-            </Col>
-        </Row>
+       
         <Row style={{textAlign:'center', backgroundColor:'#222222', marginBottom:'40px'}}>
             <Col  xs={12} md={12} style={{padding:'50px'}}>
                
