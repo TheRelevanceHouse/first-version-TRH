@@ -30,7 +30,7 @@ export default function Welcome (props) {
             <br/>
                 <br/>
                 <br/>
-               <img style={{width:'400px', height:'auto', float:'right' }} src={circles} ></img>
+               <img style={{width:'400px', height:'auto', float:'right' }} src={circles} alt='Image' ></img>
             </Col>
            
         </Row>
