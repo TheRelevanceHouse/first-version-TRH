@@ -315,10 +315,6 @@ background-clip: text;
     margin: 0px 150px 0px;
 }
 
-.how-section {
-    background-color: #fff;
-}
-
 .IsItAThing-section h5,
 .job-section h5 {
     background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
@@ -327,13 +323,6 @@ background-clip: text;
     background-clip: text;
 }
 
-.how-section p, 
-.IsItAThing-section p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1em;
-    color: rgb(47, 46, 46);
-    font-weight: 400;
-}
 
 .how-section-2 {
     background-color: #fff;
@@ -389,19 +378,16 @@ background-clip: text;
 }
 
 .IsItAThing-section {
-    background-color: #fff;
+    background-color: #cccccc;
 }
 
 #isit-text {
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.2em;
-    font-weight:600 ;
-    color: #26627E;
-    margin: 0px 100px 0px;
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    color: #00A993;
 }
 
 #isitathing-text {
@@ -418,7 +404,7 @@ background-clip: text;
 }
 
 .team-section {
-    background-color: #222222;
+    background: radial-gradient(61.32% 61.65% at 77.67% 46%, #152C37 0%, #121212 100%);
 }
 
 #team-section-text {
@@ -443,7 +429,7 @@ background-clip: text;
 }
 
 .job-section {
-    background-color: #fafafa;
+    background-color: #CCCCCC;
 }
 
 #job-text {
@@ -468,10 +454,44 @@ background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 25px;
+    border-top: 2px solid #00a993;
+    border-bottom: 2px solid #00a993;
+}
+
+#jobscol {
+    margin-top: 40px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 230.5%;
+    text-transform: capitalize;
+    
+}
+
+#jobscol a {
+    color:#00A993;
+}
+
+#jobscol img {
+    float: right;
+    margin-top: 10px;
+}
+
+#jobscol tr {
+    border-top: 1px solid #00a993;
+    width: 100%;
+}
+
+#jobscol table {
+    border-bottom: 1px solid #00a993;
 }
 
 .contact-section {
-    background: #003F49;
+    background: #13161B;
 }
 
 .contact-section p {
@@ -493,14 +513,21 @@ background-clip: text;
     margin-left: 0px;
 }
 
-#circle-image {
-    position: absolute;
-    bottom: -20px;
-    
+.footer-section {
+    background-color: #13161B;
 }
 
-.footer-section {
-    background-color: #222222;
+#footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-social img {
+    width: 48px;
+    height: 48px;
+    border-radius: 2px;
+    margin: 10px;
 }
 
 #approach-col{

@@ -1,21 +1,25 @@
 import React from 'react';
 import './App.css';
 import {Row, Col, Container} from 'react-bootstrap'
-import locationimage from './images/locationicon.png'
-import contactimage from './images/contacticon.png'
 import contactcircle1 from './images/Intersect.png'
+import ln from './images/LinkedIN_white.svg'
+import medium from './images/Medium_white.svg'
+import twitter from './images/Twitter_white.svg'
+import fb from './images/Facebook_white.svg'
+import instagram from './images/Instagram_white.svg'
+import locationimage from './images/AddressIcon.svg'
+import contactimage from './images/ContactIcon.svg'
 
 export default function ContactSection (props) {
     return (
     <div className='contact-section'>
          <Container >
-        <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative'}}>
+        <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative', display:'flex'}}>
             <Col  xs={6} md={6}>
-               
                 <br/>
-               <h5 style={{color:'rgb(0, 169, 147)'}}>
+               <h4 style={{color:'rgb(0, 169, 147)'}}>
                LET US GET IN TOUCH!
-               </h5>
+               </h4>
                
                 <hr style={{ marginLeft:'0' }} />
                 <br />
@@ -23,13 +27,25 @@ export default function ContactSection (props) {
                In order for firms in the blockchain and emerging technology sector to be successful, they need to build a relevant brand and story. We are here to help! So what are you waiting for?
                </p>
             </Col>
+            <Col id="footer-social"  xs={6} md={6}>
 
-            <Col  xs={6} md={6} style={{textAlign:'right', position:'absolute', bottom:'0',right:'0'}}>
-        
-            
-             <img id="circle-image" src={contactcircle1} alt='Relevant'/>
-          
-           
+            <div id='footer-social'>
+                <a href='/'> 
+                <img className='social-nav' src={ln} alt='linkedin' />
+                </a>
+                <a href='/'> 
+                <img className='social-nav' src={medium} alt='medium'/>
+                </a>
+                <a href='/'> 
+                <img className='social-nav' src={twitter} alt='twitter' />
+                </a>
+                <a href='/'> 
+                <img className='social-nav' src={fb} alt='facebook' />
+                </a>
+                <a href='/'> 
+                <img className='social-nav' src={instagram} alt='instagram' />
+                </a>      
+            </div>
             </Col>
         </Row>
         <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative'}}>

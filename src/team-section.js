@@ -24,9 +24,9 @@ export default function TeamSection (props) {
             <Col  xs={12} md={12}>
                
                 <br/>
-               <h5 style={{color:'#00A993'}}>
+               <h4 style={{color:'#00A993'}}>
                MEET OUR TEEM
-               </h5>
+               </h4>
                
                 <hr style={{ marginLeft:'0', width:'15%' }} />
                 <br />

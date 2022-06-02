@@ -1,18 +1,19 @@
 import React from 'react';
 import './App.css';
 import {Row, Col, Container} from 'react-bootstrap'
+import arrow from "./images/arrow.svg"
 
 export default function JobSection (props) {
     return (
     <div className='job-section'>
          <Container >
-        <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative'}}>
-            <Col  xs={6} md={6}>
+        <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative', display:'flex'}}>
+            <Col  xs={6} md={6} style={{borderRight:'2px solid #00a993'}}>
                
                 <br/>
-               <h5>
+               <h4>
                WE ARE HIRING!
-               </h5>
+               </h4>
                
                 <hr style={{ marginLeft:'0' }} />
                 <br />
@@ -24,24 +25,48 @@ export default function JobSection (props) {
             </p>
             </Col>
 
-            <Col  xs={6} md={6} style={{textAlign:'center', position:'absolute', bottom:'0',right:'0'}}>
+            <Col id="jobscol"  xs={6} md={6} style={{display:'flex', aligncontent:'center', alignitems:'center', justifycontent:'center'}}>
+
         
-             <p className='job-text' style={{fontSize:'18px'}}>
+        <table style={{layout:'fixed', width:'100%', margin:'0px 0px 0px 20px'}}>
+            <tr>
+                <td>
+                <a href='/' target="_blank">DEVELOPER &amp; DATA ANALYST</a> 
+                <img src={arrow}  alt='arrow'/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <a   href='/' target="_blank">CREATIVE COPYWRITER (60%)</a>
+                <img src={arrow}  alt='arrow'/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <a   href='/' target="_blank">CONTENT WRITER (60%)</a>
+                <img src={arrow}  alt='arrow'/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <a   href='/' target="_blank">SOCIAL MEDIA MANAGER (50-80%)</a>
+                <img src={arrow}  alt='arrow'/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <a   href='/' target="_blank">INTERNSHIP PR &amp; COMMUNICATION (50-80%)</a>
+                <img src={arrow}  alt='arrow'/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <a   href='/' target="_blank">INTERNSHIP DIGITAL MARKETING (50-80%)</a>
+                <img src={arrow}  alt='arrow'/>
+                </td>
+            </tr>
+        </table>
 
-<a   href='/' target="_blank">DEVELOPER &amp; DATA ANALYST</a><br />
-
-<a   href='/' target="_blank">CREATIVE COPYWRITER (60%)</a><br />
-
-<a   href='/' target="_blank">CONTENT WRITER (60%)</a><br />
-
-<a   href='/' target="_blank">SOCIAL MEDIA MANAGER (50-80%)</a><br />
-
-<a   href='/' target="_blank">INTERNSHIP PR &amp; COMMUNICATION (50-80%)</a><br />
-
-<a   href='/' target="_blank">INTERNSHIP COMMUNICATION &amp; DIGITAL MARKETING (50-80%)</a>
-
-</p>
-           
             </Col>
         </Row>
     </Container>

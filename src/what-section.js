@@ -1,18 +1,19 @@
 import React from 'react';
 import './App.css';
 import {Container, Row, Col} from 'react-bootstrap'
+import backgroundwhatsection from './images/Group51.svg' 
 
 export default function What (props) {
     return (
-    <div className='what-section'>
+    <div className='what-section'  style={{backgroundImage: `url(${backgroundwhatsection})`, backgroundSize: '50%', backgroundRepeat:'no-repeat', backgroundPosition:'center'}}>
         <Container >
-        <Row style={{ marginTop:'35px', marginBottom:'20px'}}>
+        <Row style={{ marginTop:'35px', marginBottom:'20px'}}> 
             <Col  xs={6} md={6}>
                
                 <br/>
-               <h5 style={{color:'#00A993'}}>
+               <h4>
                WHAT MAKES US UNIQUE
-               </h5>
+               </h4>
                
                 <hr style={{ marginLeft:'0' }} />
                 <br />
