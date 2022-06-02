@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import {Row, Col, Container} from 'react-bootstrap'
-import contactcircle1 from './images/Intersect.png'
 import ln from './images/LinkedIN_white.svg'
 import medium from './images/Medium_white.svg'
 import twitter from './images/Twitter_white.svg'
