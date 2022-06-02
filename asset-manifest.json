@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/first-version-trh/static/css/main.f6affbbd.css",
-    "main.js": "/first-version-trh/static/js/main.3468183f.js",
+    "main.css": "/first-version-trh/static/css/main.77c08db0.css",
+    "main.js": "/first-version-trh/static/js/main.8f81b8c4.js",
     "static/media/backgroundapproach.png": "/first-version-trh/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
     "static/media/Group29.svg": "/first-version-trh/static/media/Group29.17f94e083ea1e4ecd105d49791de4aa4.svg",
     "static/media/circles.png": "/first-version-trh/static/media/circles.9e14cef8998989b08432.png",
@@ -27,11 +27,11 @@
     "index.html": "/first-version-trh/index.html",
     "static/media/Facebook_white.svg": "/first-version-trh/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/first-version-trh/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
-    "main.f6affbbd.css.map": "/first-version-trh/static/css/main.f6affbbd.css.map",
-    "main.3468183f.js.map": "/first-version-trh/static/js/main.3468183f.js.map"
+    "main.77c08db0.css.map": "/first-version-trh/static/css/main.77c08db0.css.map",
+    "main.8f81b8c4.js.map": "/first-version-trh/static/js/main.8f81b8c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6affbbd.css",
-    "static/js/main.3468183f.js"
+    "static/css/main.77c08db0.css",
+    "static/js/main.8f81b8c4.js"
   ]
 }
