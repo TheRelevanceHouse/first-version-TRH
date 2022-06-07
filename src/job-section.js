@@ -7,20 +7,20 @@ export default function JobSection (props) {
     return (
     <div className='job-section'>
          <Container >
-        <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative', display:'flex'}}>
+        <Row style={{ marginTop:'35px', marginBottom:'60px', position:'relative', display:'flex'}}>
             <Col  xs={6} md={6} style={{borderRight:'2px solid #00a993'}}>
                
                 <br/>
-               <h4>
+               <h4 id='hiringheading'>
                WE ARE HIRING!
                </h4>
                
                 <hr style={{ marginLeft:'0' }} />
                 <br />
-               <p style={{color:'#2F2E2E', lineHeight:'34px'}}>
+               <p >
                From internships to roles for senior professionals, we offer many opportunities for you to grow with us and shape the future.
                </p>
-               <p style={{color:'#2F2E2E', lineHeight:'34px'}}>
+               <p >
                Want to join us? Please see the vacant job offers below and send your CV and cover letter to <a href="mailto: welcome@therelevancehouse.com" style={{color: '#00A993'}}>welcome@therelevancehouse.com</a>. We look forward to meeting you!
             </p>
             </Col>

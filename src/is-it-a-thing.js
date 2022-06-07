@@ -7,17 +7,17 @@ export default function IsItAThing (props) {
     return (
     <div className='IsItAThing-section'>
          <Container >
-        <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative'}}>
-            <Col  xs={6} md={6} style={{borderRight:'2px solid #00a993'}}>
+        <Row style={{ marginTop:'35px', marginBottom:'60px', position:'relative'}}>
+            <Col  xs={6} md={6} style={{width:'45%'}}>
                
                 <br/>
-               <h4>
+               <h4 id='isitheading'>
                IS IT A THING
                </h4>
                
                 <hr style={{ marginLeft:'0' }} />
                 <br />
-               <p style={{color:'#2F2E2E', lineHeight:'34px'}}>
+               <p>
                Relevance is the only thing that sells. Relevance is a condition for the success of products, services, projects, funding, initiatives, messages, campaigns. You name it. What is relevant varies, depending on whom you are trying to reach with your message. But what never changes is, how relevance works.
                </p>
 
@@ -38,7 +38,7 @@ export default function IsItAThing (props) {
             </Col>
 
 
-            <Col  xs={6} md={6} style={{textAlign:'right', position:'absolute', bottom:'0',right:'0'}}>
+            <Col  xs={6} md={6} style={{textAlign:'right', position:'absolute', bottom:'0',right:'0',borderLeft:'2px solid #00a993'}}>
            
             <img src={Relevancecircle} alt='Relevant' style={{width: '500px', height: '500px'}}/>
              

@@ -13,7 +13,7 @@ export default function Welcome (props) {
                 <br/>
                 <br/>
                 <br/>
-               <h4 style={{color:'#23ADA0'}}>
+               <h4 id='welcomeheading'>
                         WELCOME TO <br/>
                             THE RELEVANCE HOUSE
                   
@@ -34,12 +34,12 @@ export default function Welcome (props) {
             </Col>
            
         </Row>
-        <Row id='welcome-section' style={{ textAlign:'left', marginBottom:'40px', marginTop:'15px' }}>
+        <Row id='welcome-section' style={{ textAlign:'left', marginBottom:'20px', marginTop:'15px', marginLeft:'0px' }}>
         <h5 style={{color:'#00A993'}}>
         Are you in a hurry? Give us...
         </h5>
         </Row>
-        <Row className='welcome-row' style={{ textAlign:'center', marginBottom:'40px', marginTop:'10px' }}>
+        <Row className='welcome-row' style={{ textAlign:'center', marginBottom:'40px', marginTop:'10px', marginLeft:'0px' }}>
             <br />
             <br />
             <Col id='column' xs={4} md={3} style={{ textAlign :'center'}}>

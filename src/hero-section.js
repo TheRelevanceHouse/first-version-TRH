@@ -13,10 +13,10 @@ export default function Hero (props) {
             <br/>
             <br/>
             <br/>
-               <h4 id='heading-1'>
+               <h4 id="heading-1" style={{color:'#00a993', fontOpticalSizing:'4em'}}>
                ONLY RELEVANCE 
                </h4>
-               <h4 id='heading-2' style={{color:'FAFAFA !important'}}>
+               <h4 id='heading-2' style={{color:'c6c6c6 !important'}}>
                    HAS IMPACT
                </h4>
                 <hr style={{background: '#00a993'}}/>

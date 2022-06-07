@@ -13,11 +13,54 @@ h4 {
     letter-spacing: 0.005em;
     line-height: 1.2;
     font-family: 'Norwester', sans-serif !important; 
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+}
+
+#welcomeheading {
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 75%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+#approachheading {
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 50%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+#howheading {
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 80%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+#whatheading {
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 80%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+#isitheading {
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 50%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+#teamheading {
+    background: linear-gradient(90deg, #26627E -4.91%, #00a993 30%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+#hiringheading {
+    background: linear-gradient(90deg, #26627E -4.91%, #00a993 50%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+#contactheading {
+    background: linear-gradient(90deg, #26627E -4.91%, #00a993 90%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
 }
 
 h5 {
@@ -33,26 +76,20 @@ h6 {
     font-family: 'Norwester', sans-serif !important;   
     font-style: normal;
     font-size: 20px;
-    line-height: 40px;
     font-weight: 600!important;
     letter-spacing: 0.005em;
     line-height: 1.2;
-    color: #fff;
+    color: #c6c6c6;
     text-align: left;
     margin-top: 6px;
 }
 
 p {
     font-family: 'Quicksand', sans-serif !important;
-    color: #747474; 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 36px;
 }
 
 hr {
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    background: linear-gradient(90deg, #26627E -4.91%, #00a993 70%);
     height: 3px;
     width: 40%;
     margin-left: 0;
@@ -60,7 +97,7 @@ hr {
 }
 
 #line-shades {
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    background: linear-gradient(90deg, #26627E -4.91%, #00a993 70%);
     
 }
 
@@ -138,7 +175,7 @@ transform: translateY(-50%);
 
 .btn-green-shade {
     
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 100%);
     /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -193,11 +230,6 @@ transform: translateY(-50%);
 }
 
 #heading-1 {
-    background: linear-gradient(90deg, #23ADA0 36779.9%, #229391 42501%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
 font-size: 4em !important;
 }
 
@@ -221,7 +253,7 @@ background-clip: text;
 }
 
 .welcome-section {
-    background-color: #CCCCCC;
+    background-color: #c6c6c6;
 }
 
 .welcome-row #column {
@@ -233,11 +265,11 @@ background-clip: text;
 }
 
 .welcome-section p {
-    color: #747474; 
+    color: #706f6f; 
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 36px;
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 2em;
 }
 #column {
     background-color: #00A993;
@@ -249,7 +281,7 @@ background-clip: text;
   } */
 
 #column:hover {
-    background: linear-gradient(180deg, #26627E -4.91%, #00B198 100%);
+    background: linear-gradient(180deg, #26627E -4.91%, #00A993 100%);
     border-radius: 10px;
     transform: scale(1.05);
 }
@@ -278,7 +310,7 @@ background-clip: text;
 #column p {
     top: 40%;
     position: absolute;
-    left: 33%;
+    left: 37%;
     font-family: 'Norwester', sans-serif !important;   
     color: #f2f2f2;
     transition: transform .8s;
@@ -301,39 +333,29 @@ background-clip: text;
 }
 
 .approach-section p {
-    background: linear-gradient(90deg, #E5E5E5 -4.91%, #FFFFFF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 2em;
 }
 
-.approach-section-2 p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1em;
-    color: #26627E;
-    margin: 0px 150px 0px;
+.how-section p {
+    color: #333333;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 2em;
+}
+
+.job-section p {
+    color: #333333;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 2em;
 }
 
 .IsItAThing-section h5,
 .job-section h5 {
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-
-.how-section-2 {
-    background-color: #fff;
-}
-
-.how-section-2 p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1em;
-    color: #26627E;
-    margin: 0px 150px 0px;
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -344,11 +366,25 @@ background-clip: text;
 }
 
 .what-section p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1em;
-    color: #fff;
-    text-align: left;
+    color: #c6c6c6;
     font-weight: 400;
+    font-size: 1.25em;
+    line-height: 2em;
+    text-align: left;
+}
+
+.IsItAThing-section p {
+    color: #333333;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 2em;
+}
+
+.team-section p {
+    color: #c6c6c6;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 2em;
 }
 
 .what-section .row {
@@ -382,7 +418,6 @@ background-clip: text;
 }
 
 #isit-text {
-    font-family: 'Quicksand', sans-serif;
     font-size: 2em;
     font-style: normal;
     font-weight: 600;
@@ -396,7 +431,7 @@ background-clip: text;
     font-weight:600 ;
     color: #26627E;
     margin: 0px 100px 0px;
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -408,12 +443,10 @@ background-clip: text;
 }
 
 #team-section-text {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.3em;
+    
     font-weight:600 ;
     color: #26627E;
-    margin: 0px 100px 0px;
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -429,7 +462,7 @@ background-clip: text;
 }
 
 .job-section {
-    background-color: #CCCCCC;
+    background-color: #c6c6c6;
 }
 
 #job-text {
@@ -438,7 +471,7 @@ background-clip: text;
     font-weight:600 ;
     color: #26627E;
     margin: 0px 100px 0px;
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -450,7 +483,7 @@ background-clip: text;
     font-weight: 600;
     color: #26627E;
     margin: 0px 0px 0px;
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 25px;
@@ -504,7 +537,7 @@ background-clip: text;
     font-weight:600 ;
     color: rgb(0, 169, 147);
     margin: 0px 100px 0px;
-    background: linear-gradient(90deg, #00a993 -4.91%, #00B198 100%);
+    background: linear-gradient(90deg, #00a993 -4.91%, #00A993 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -515,7 +548,7 @@ background-clip: text;
 
 .footer-section {
     background-color: #13161B;
-    border-top: 0.5px solid #cccccc;
+    border-top: 0.5px solid #c6c6c6;
 }
 
 #footer-social {
@@ -556,7 +589,7 @@ background-clip: text;
 }
 
 .btn-green {
-    background: #00B198;
+    background: #00A993;
     border-radius: 10px;
     line-height: 29px;
     font-weight: 700;
@@ -571,7 +604,7 @@ background-clip: text;
 
 .btn-green:hover {
     text-decoration: none;
-    background: linear-gradient(90deg, #26627E -4.91%, #00B198 100%);
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 100%);
     transform: scale(1.05);
     color: #FFFFFF;
     border-radius: 10px;
@@ -586,12 +619,11 @@ line-height: 29px;
 display: flex;
 align-items: center;
 text-transform: uppercase;
-color: #00B198;
+color: #00a993;
 }
 
 #arrowimage {
     width: 65%;
-   
     margin-top: 34px;
 }
 
@@ -603,5 +635,5 @@ color: #00B198;
     font-weight: 700;
     font-size: 28px;
     text-transform: uppercase;
-    color: #00B198;
+    color: #00a993;
 }

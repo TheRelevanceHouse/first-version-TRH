@@ -10,19 +10,19 @@ import arrow from './images/greenline.png'
 
 export default function Approach (props) {
     return (
-    <div className='approach-section' style={{background: `url(${backgroundapproach})`,}}>
+    <div className='approach-section' style={{background: `url(${backgroundapproach})`, backgroundPosition:'top'}}>
     <Container >
         <Row style={{ marginTop:'35px',textAlign:'left', marginBottom:'20px'}}>
             <Col  xs={12} md={12}>
                
                 <br/>
-               <h4 >
+               <h4 id='approachheading'>
                OUR HOLISTIC APPROACH
                </h4>
                
                 <hr style={{ marginLeft:'0', width:'20%' }} />
                 <br />
-               <p style={{color:'#ffffff', fontWeight:'400'}}>
+               <p style={{color:'#c6c6c6'}}>
                Every emerging technology project is different, <br /> but the recipe for success remains the same.
                </p>
             </Col>
@@ -37,7 +37,7 @@ export default function Approach (props) {
                GET READY
                </h5>
                 <br />
-                <p style={{color:'#26627E', lineHeight:'34px'}}>
+                <p style={{color:'#c6c6c6'}}>
                You want to tell the world about your project. You might think you are ready, but our experience shows you are probably not.
                </p>
             </Col>
@@ -49,7 +49,7 @@ export default function Approach (props) {
                GO LIVE
                </h5>
                 <br />
-              <p style={{color:'#26627E', lineHeight:'34px'}}>
+              <p style={{color:'#c6c6c6'}}>
               You build a community. You are in constant dialogue with potential investors. You speak to the press. You create and share content. You build momentum.
               </p>
            </Col>
@@ -62,7 +62,7 @@ export default function Approach (props) {
                GO BIG
                </h5>
                 <br />
-               <p style={{color:'#26627E', lineHeight:'34px'}}>
+               <p style={{color:'#c6c6c6'}}>
               You have your funding. You want your company to grow sustainably and continue to add value. But remember, securing funding is not the end of your journey… it is just the beginning.
               </p>
            </Col>

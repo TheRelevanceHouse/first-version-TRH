@@ -8,19 +8,19 @@ import approachimage3 from './images/GOBIGIcon.svg'
 
 export default function How (props) {
     return (
-    <div className='how-section' style={{background:'#cccccc'}}>
+    <div className='how-section' style={{background:'#c6c6c6'}}>
     <Container >
         <Row style={{ marginTop:'35px',textAlign:'left', marginBottom:'20px'}}>
             <Col  xs={12} md={6}>
                
                 <br/>
-               <h4 >
+               <h4 id='howheading'>
                HOW WE MAKE IT HAPPEN
                </h4>
                
                 <hr style={{ marginLeft:'0', width:'40%' }} />
                 <br />
-               <p style={{color:'#2F2E2E', fontWeight:'400'}}>
+               <p>
                THE RELEVANCE HOUSE is structured in three different units that work hand in hand for our clients. 
                Using a proven set of proprietary methodologies, tools and frameworks, we create and execute high-quality brand, go-to-market, funding, storytelling and growth hacking strategies that have a measurable positive impact on your business.
                </p>

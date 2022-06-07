@@ -14,15 +14,15 @@ export default function ContactSection (props) {
     <div className='contact-section'>
          <Container >
         <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative', display:'flex'}}>
-            <Col  xs={6} md={6}>
+            <Col  xs={6} md={6} style={{width:'40%'}}>
                 <br/>
-               <h4 style={{color:'rgb(0, 169, 147)'}}>
+               <h4 id='contactheading'>
                LET US GET IN TOUCH!
                </h4>
                
                 <hr style={{ marginLeft:'0' }} />
                 <br />
-               <p style={{color:'#fff', lineHeight:'34px'}}>
+               <p style={{color:'#c6c6c6', lineHeight:'2em'}}>
                In order for firms in the blockchain and emerging technology sector to be successful, they need to build a relevant brand and story. We are here to help! So what are you waiting for?
                </p>
             </Col>

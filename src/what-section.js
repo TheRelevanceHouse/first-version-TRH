@@ -11,13 +11,13 @@ export default function What (props) {
             <Col  xs={6} md={6}>
                
                 <br/>
-               <h4>
+               <h4 id='whatheading'>
                WHAT MAKES US UNIQUE
                </h4>
                
                 <hr style={{ marginLeft:'0' }} />
                 <br />
-               <p style={{ lineHeight:'34px'}}>
+               <p>
                For humans to buy into something, it needs to be relevant to them. They need to see it, they need to want it and they need to trust it. Then, and only then, we will we be able to change the world. And we, like you, want to change it for the better.
                </p>
             </Col>
@@ -78,7 +78,7 @@ export default function What (props) {
                
                 
                 <br/>
-                <a href='/' className='btn-green-shade'>
+                <a href='/' className='btn-green'>
                 Do you want to know how? Go on...
         </a>
             </Col>
