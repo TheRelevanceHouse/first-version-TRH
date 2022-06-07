@@ -14,7 +14,7 @@ export default function ContactSection (props) {
     <div className='contact-section'>
          <Container >
         <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative', display:'flex'}}>
-            <Col  xs={6} md={6} style={{width:'40%'}}>
+            <Col  xs={6} md={6}>
                 <br/>
                <h4 id='contactheading'>
                LET US GET IN TOUCH!

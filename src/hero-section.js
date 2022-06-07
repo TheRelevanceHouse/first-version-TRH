@@ -16,10 +16,10 @@ export default function Hero (props) {
                <h4 id="heading-1" style={{color:'#00a993', fontOpticalSizing:'4em'}}>
                ONLY RELEVANCE 
                </h4>
-               <h4 id='heading-2' style={{color:'c6c6c6 !important'}}>
+               <h4 id='heading-2' style={{color:'c6c6c6 !important', marginTop:'15px'}}>
                    HAS IMPACT
                </h4>
-                <hr style={{background: '#00a993'}}/>
+                {/* <hr style={{background: '#00a993'}}/> */}
                 <br />
                <p id='hero-line' style={{color:'white', lineHeight:'34px', borderLeft:'3px solid #00A993'}}>
                &nbsp;&nbsp;&nbsp;EVERY GOOD IDEA FITS ON A POST-IT. <br />

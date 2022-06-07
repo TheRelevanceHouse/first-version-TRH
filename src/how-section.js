@@ -4,6 +4,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 import approachimage1 from './images/GETREADYIcon.svg'
 import approachimage2 from './images/GOLIVEIcon.svg'
 import approachimage3 from './images/GOBIGIcon.svg'
+import circles from './images/circles.png'
 
 
 export default function How (props) {
@@ -24,6 +25,12 @@ export default function How (props) {
                THE RELEVANCE HOUSE is structured in three different units that work hand in hand for our clients. 
                Using a proven set of proprietary methodologies, tools and frameworks, we create and execute high-quality brand, go-to-market, funding, storytelling and growth hacking strategies that have a measurable positive impact on your business.
                </p>
+            </Col>
+            <Col  xs={12} md={6}>
+            <br/>
+                <br/>
+                <br/>
+               <img style={{width:'300px', height:'auto', float:'right' }} src={circles} alt='TRH' ></img>
             </Col>
         </Row>
         <Row style={{textAlign:'left'}}>

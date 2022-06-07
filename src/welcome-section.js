@@ -2,14 +2,13 @@ import React from 'react';
 import './App.css';
 import {Container, Row, Col} from 'react-bootstrap'
 import DownloadIcon from './images/download.png'
-import circles from './images/circles.png'
 
 export default function Welcome (props) {
     return (
     <div className='welcome-section'>
     <Container >
         <Row style={{ marginTop:'35px', display:'flex', alignItems: 'flex-end'}}>
-            <Col  xs={12} md={6}>
+            <Col  xs={12} md={12}>
                 <br/>
                 <br/>
                 <br/>
@@ -22,16 +21,11 @@ export default function Welcome (props) {
                 <br />
                <p >
                THE RELEVANCE HOUSE is a full-service Marketing, Branding and Communications agency for firms in the blockchain and emerging technology sector. We focus on helping technology start-ups and projects build and communicate a relevant brand and story. 
-                <br/> <br/>
+                <br/> 
                 Why? Because only relevance has impact.
                </p>
             </Col>
-            <Col  xs={12} md={6}>
-            <br/>
-                <br/>
-                <br/>
-               <img style={{width:'400px', height:'auto', float:'right' }} src={circles} alt='TRH' ></img>
-            </Col>
+            
            
         </Row>
         <Row id='welcome-section' style={{ textAlign:'left', marginBottom:'20px', marginTop:'15px', marginLeft:'0px' }}>
@@ -52,7 +46,7 @@ export default function Welcome (props) {
                <br />
                <img className="show" src={DownloadIcon} style={{width:'25px', height:'25px'}} alt='Relevant'/>
             </Col>
-            <Col  xs={0} md={1} style={{ textAlign :'center', width:'12.5%' }}>
+            <Col  xs={0} md={1} style={{ textAlign :'center', width:'17%' }}>
                 </Col>
             <Col id='column' xs={4} md={3} style={{ textAlign :'center'}}>
             <span>
@@ -64,7 +58,7 @@ export default function Welcome (props) {
                <br />
                <img className="show" src={DownloadIcon} style={{width:'25px', height:'25px'}} alt='Relevant'/>
             </Col>
-            <Col  xs={0} md={1} style={{ textAlign :'center', width:'12.5%' }}>
+            <Col  xs={0} md={1} style={{ textAlign :'center', width:'17%' }}>
                 </Col>
             <Col id='column' xs={4} md={3} style={{ textAlign :'center' }}>
             <span>
