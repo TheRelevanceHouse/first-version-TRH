@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/first-version-trh/static/css/main.c0a969c2.css",
+    "main.css": "/first-version-trh/static/css/main.0e3fc487.css",
     "main.js": "/first-version-trh/static/js/main.d182ba18.js",
     "static/media/backgroundapproach.png": "/first-version-trh/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
     "static/media/Group29.svg": "/first-version-trh/static/media/Group29.17f94e083ea1e4ecd105d49791de4aa4.svg",
@@ -27,11 +27,11 @@
     "index.html": "/first-version-trh/index.html",
     "static/media/Facebook_white.svg": "/first-version-trh/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/first-version-trh/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
-    "main.c0a969c2.css.map": "/first-version-trh/static/css/main.c0a969c2.css.map",
+    "main.0e3fc487.css.map": "/first-version-trh/static/css/main.0e3fc487.css.map",
     "main.d182ba18.js.map": "/first-version-trh/static/js/main.d182ba18.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0a969c2.css",
+    "static/css/main.0e3fc487.css",
     "static/js/main.d182ba18.js"
   ]
 }
