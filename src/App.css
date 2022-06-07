@@ -16,7 +16,7 @@ h4 {
 }
 
 #welcomeheading {
-    background: linear-gradient(90deg, #26627E -4.91%, #00A993 75%);
+    background: linear-gradient(90deg, #26627E -13%, #00A993 50%);
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
 }
