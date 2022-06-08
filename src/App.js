@@ -6,11 +6,6 @@ import medium from './images/Medium_white.svg'
 import twitter from './images/Twitter_white.svg'
 import fb from './images/Facebook_white.svg'
 import instagram from './images/Instagram_white.svg'
-import ln1 from './images/LinkedIN_white.svg'
-import medium1 from './images/Subtract.png'
-import twitter1 from './images/Twitter_white.svg'
-import fb1 from './images/Facebook_hover.svg'
-import instagram1 from './images/Instagram_white.svg'
 import {Container} from 'react-bootstrap'
 import './fonts/norwester.ttf';
 
