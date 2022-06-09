@@ -29,7 +29,7 @@ export default function Hero (props) {
             <br/>
             
                
-               <a href='/' className='btn-green'>
+               <a href='/how' className='btn-green'>
                Do you want to know ?
                 </a>
             </Col>
