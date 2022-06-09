@@ -40,12 +40,15 @@ export default function Hero (props) {
         <Row style={{ textAlign:'center', marginBottom:'40px', marginTop:'10px' }}>
             <br />
             <br />
-            <p id="scroll">
+            <p className='scroll' id="scroll-img">
             SCROLL DOWN
             </p>
-            <img src={scroll}  alt='scroll'/>
+            <img id='scroll-img' src={scroll}  alt='scroll'/>
         </Row>
+        
     </Container>
+    
     </div>
+    
     ); 
 }

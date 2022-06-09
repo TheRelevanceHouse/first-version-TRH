@@ -217,7 +217,7 @@ transform: translateY(-50%);
     }
 }
 
-#scroll {
+.scroll {
     font-size: 12px;
     line-height: 12px;
     display: flex;
@@ -639,3 +639,10 @@ color: #00a993;
     text-transform: uppercase;
     color: #00a993;
 }
+
+
+#scroll-img::-webkit-scrollbar {
+   
+        display: none;
+      
+} 

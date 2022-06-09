@@ -12,6 +12,8 @@ import TeamSection from './team-section';
 import JobSection from './job-section';
 import ContactSection from './contact-section';
 import Footer from './footer';
+// import HowPage from './How';
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,8 +28,8 @@ ReactDOM.render(
     <JobSection />
     <ContactSection />
     <Footer />
-    
   </React.StrictMode>,
+
   document.getElementById('root')
 );
 

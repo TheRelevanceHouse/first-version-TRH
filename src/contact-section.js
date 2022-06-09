@@ -8,6 +8,11 @@ import fb from './images/Facebook_white.svg'
 import instagram from './images/Instagram_white.svg'
 import locationimage from './images/AddressIcon.svg'
 import contactimage from './images/ContactIcon.svg'
+import linkedinhover from './images/LinkedinIconHover.svg'
+import facebookhover from './images/FacebookIconHover.svg'
+import twitterhover from './images/TwitterIconHover.svg'
+import instagramhover from './images/InstagramIconHover.svg'
+import mediumhover from './images/MediumIconHover.svg'
 
 export default function ContactSection (props) {
     return (
@@ -30,19 +35,24 @@ export default function ContactSection (props) {
 
             <div id='footer-social'>
                 <a href='/'> 
-                <img className='social-nav' src={ln} alt='linkedin' />
+                {/* <img className='social-nav' src={ln} alt='linkedin' /> */}
+                <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
                 </a>
                 <a href='/'> 
-                <img className='social-nav' src={medium} alt='medium'/>
+                {/* <img className='social-nav' src={medium} alt='medium'/> */}
+                <img className='social-nav' src={medium} alt='medium' onMouseOver={e => e.currentTarget.src = mediumhover}  onMouseOut={e => e.currentTarget.src = medium} />
                 </a>
                 <a href='/'> 
-                <img className='social-nav' src={twitter} alt='twitter' />
+                {/* <img className='social-nav' src={twitter} alt='twitter' /> */}
+                <img className='social-nav' src={twitter} alt='twitter' onMouseOver={e => e.currentTarget.src = twitterhover}  onMouseOut={e => e.currentTarget.src = twitter} />
                 </a>
                 <a href='/'> 
-                <img className='social-nav' src={fb} alt='facebook' />
+                {/* <img className='social-nav' src={fb} alt='facebook' /> */}
+                <img className='social-nav' src={fb} alt='facebook' onMouseOver={e => e.currentTarget.src = facebookhover}  onMouseOut={e => e.currentTarget.src = fb} />
                 </a>
                 <a href='/'> 
-                <img className='social-nav' src={instagram} alt='instagram' />
+                {/* <img className='social-nav' src={instagram} alt='instagram' /> */}
+                <img className='social-nav' src={instagram} alt='instagram' onMouseOver={e => e.currentTarget.src = instagramhover}  onMouseOut={e => e.currentTarget.src = instagram} />
                 </a>      
             </div>
             </Col>
