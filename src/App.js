@@ -12,11 +12,13 @@ function App() {
   return (
     <div>
         <Navbar/>
+       
         <Routes>
-        <Route exact path="/" element={<HomePage/>} />
+        <Route path="/" element={<HomePage/>} />
         <Route path="/how" element={<HowPage/>} />
         <Route path="/what" element={<WhatPage/>} />
         </Routes>
+        
         <Footer/>
 </div>
   );
