@@ -39,6 +39,12 @@ h4 {
     -webkit-text-fill-color: transparent !important;
 }
 
+#howpageheading {
+    background: linear-gradient(90deg, #26627E -4.91%, #00A993 80%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
 #isitheading {
     background: linear-gradient(90deg, #26627E -4.91%, #00A993 50%);
     -webkit-background-clip: text !important;
@@ -90,11 +96,23 @@ p {
 
 hr {
     background: linear-gradient(90deg, #26627E -4.91%, #00a993 70%);
-    height: 3px;
+    height: 2px;
     width: 40%;
     margin-left: 0;
     border-top: none;
+    
 }
+
+.hr1 {
+    background: linear-gradient(90deg, #26627E -4.91%, #00a993 70%);
+    height: 2px;
+    width: 95%;
+    border-top: none;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 35px;
+}
+
 
 #line-shades {
     background: linear-gradient(90deg, #26627E -4.91%, #00a993 70%);
@@ -237,6 +255,15 @@ transform: translateY(-50%);
     background-color: #13161B;
 }
 
+.hero-section-how {
+    background-color: #13161B;
+}
+
+.hero-section-how col {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
 #heading-1 {
 font-size: 4em !important;
 }
@@ -345,6 +372,13 @@ background-clip: text;
 
     font-weight: 400;
     font-size: 1.25em;
+    line-height: 2em;
+}
+
+#howpage {
+    color: #fff;;
+    font-weight: 400;
+    font-size: 1em;
     line-height: 2em;
 }
 
@@ -579,6 +613,11 @@ background-clip: text;
  padding-top: 5% !important;
  padding: 3% !important;
 }
+
+#howpagecol{
+
+    padding: 3% 5% 3% 15px !important;
+   }
 
 .approach-section-2 h5 {
         font-size: 2.5em;

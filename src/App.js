@@ -7,6 +7,7 @@ import Footer from './footer';
 import HomePage from './home';
 import HowPage from "./How"
 import WhatPage from "./What"
+import ContactSection from './contact-section';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Route path="/how" element={<HowPage/>} />
         <Route path="/what" element={<WhatPage/>} />
         </Routes>
-        
+        <ContactSection/>
         <Footer/>
 </div>
   );

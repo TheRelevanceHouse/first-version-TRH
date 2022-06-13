@@ -8,7 +8,6 @@ import What from './what-section';
 import IsItAThing from './is-it-a-thing';
 import TeamSection from './team-section';
 import JobSection from './job-section';
-import ContactSection from './contact-section';
 
 function HomePage() {
     return (
@@ -21,7 +20,6 @@ function HomePage() {
         <IsItAThing />
         <TeamSection />
         <JobSection />
-        <ContactSection />
     </div>
     );
 }
