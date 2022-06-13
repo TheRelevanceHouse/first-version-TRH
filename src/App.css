@@ -147,6 +147,14 @@ transform: translateY(-50%);
     padding-left: 0.8rem;
 }
 
+#navigation-items a:hover {
+    text-decoration: underline;
+    background: linear-gradient(90deg, #26627E -70.91%, #00A993 70%);
+    transform: scale(1.05);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
 .btn-nav {
     color: #fafafa;
     background-color: #00A993;
@@ -646,3 +654,7 @@ color: #00a993;
         display: none;
       
 } 
+
+.nav-bar a:hover {
+    color: #00A993;
+}
