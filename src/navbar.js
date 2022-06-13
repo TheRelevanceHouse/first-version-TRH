@@ -20,7 +20,7 @@ function Navbar () {
     return (
    <Container style={{height:'120px'}}>
    <nav class="nav-bar" id="">
-      <a href="/" >
+      <a href="./" >
          <img className='nav-bar-logo' alt="Marketing, Branding and Communications Agency"  
           src={logo}  />
      </a>
