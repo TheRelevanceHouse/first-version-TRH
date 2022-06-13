@@ -3,6 +3,7 @@ import './App.css';
 import {Container, Row, Col} from 'react-bootstrap'
 import heroimage from './images/Relevant.svg'
 import scroll from "./images/scrolldown.svg"
+import { Link } from 'react-router-dom';
 
 export default function Hero (props) {
     return (
@@ -28,10 +29,12 @@ export default function Hero (props) {
             <br/>
             <br/>
             
-               
-               <a href='/how' className='btn-green'>
+               <Link to="/how" className='btn-green'>
                Do you want to know ?
-                </a>
+               </Link>
+               {/* <a href='./how' className='btn-green'>
+               Do you want to know ?
+                </a> */}
             </Col>
             <Col xs={6} md={6} style={{ textAlign :'right' }}>
                 <img src={heroimage} alt='Relevant' style={{width: '500px', height: '500px'}}/>
