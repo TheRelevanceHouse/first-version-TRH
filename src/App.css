@@ -113,6 +113,15 @@ hr {
     margin-right: 35px;
 }
 
+.hr2 {
+    background: linear-gradient(90deg, #26627E -4.91%, #00a993 70%);
+    height: 2px;
+    width: 100%;
+    border-top: none;
+    margin-top: 50px;
+    margin-left: 15px;
+    MARGIN-BOTTOM: 50px;
+}
 
 #line-shades {
     background: linear-gradient(90deg, #26627E -4.91%, #00a993 70%);

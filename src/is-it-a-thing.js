@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Row, Col, Container} from 'react-bootstrap'
 import Relevancecircle from './images/Group29.svg'
+import { Link } from 'react-router-dom'
 
 export default function IsItAThing (props) {
     return (
@@ -31,9 +32,11 @@ export default function IsItAThing (props) {
                 <br />
                 <br />
 
-                <a href='/' className='btn-green'>
-               Do you want to know ?
-                </a>
+              
+
+                <Link to="/what" className='btn-green'>
+                Do you want to know ?
+               </Link>
 
             </Col>
 
