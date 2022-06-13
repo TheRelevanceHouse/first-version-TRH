@@ -13,9 +13,9 @@ function App() {
     <div>
         <Navbar/>
         <Routes>
-        <Route exact path="/" element={<HomePage/>} />
-        <Route exact path="/how" element={<HowPage/>} />
-        <Route exact path="/what" element={<WhatPage/>} />
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/how" element={<HowPage/>} />
+        <Route path="/what" element={<WhatPage/>} />
         </Routes>
         <Footer/>
 </div>
