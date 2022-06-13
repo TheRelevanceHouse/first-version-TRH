@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/first-version-trh/static/css/main.23b546dc.css",
-    "main.js": "/first-version-trh/static/js/main.db23de58.js",
+    "main.css": "/first-version-trh/static/css/main.bd1e5539.css",
+    "main.js": "/first-version-trh/static/js/main.e574f8a7.js",
     "static/media/backgroundapproach.png": "/first-version-trh/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
     "static/media/Group29.svg": "/first-version-trh/static/media/Group29.17f94e083ea1e4ecd105d49791de4aa4.svg",
     "static/media/circles.png": "/first-version-trh/static/media/circles.9e14cef8998989b08432.png",
@@ -11,13 +11,17 @@
     "static/media/Davina.webp": "/first-version-trh/static/media/Davina.0e511d1f4cc383dff089.webp",
     "static/media/Relevant.svg": "/first-version-trh/static/media/Relevant.2d6d2db9cd7786ea165beb176c9200f7.svg",
     "static/media/Instagram_white.svg": "/first-version-trh/static/media/Instagram_white.5ea80efc39064e2eb6be8605548c0226.svg",
+    "static/media/GOBIGIconWhite.svg": "/first-version-trh/static/media/GOBIGIconWhite.c95f7dc03968ebf8cd1878b6eef0158d.svg",
     "static/media/GOBIGIcon.svg": "/first-version-trh/static/media/GOBIGIcon.a553c34623edb414b8e04ab34b12cab0.svg",
     "static/media/GOLIVEIcon.svg": "/first-version-trh/static/media/GOLIVEIcon.434c9fe9371b0dd3cbea8d1d9c1b47b3.svg",
+    "static/media/GOLIVEIconWhite.svg": "/first-version-trh/static/media/GOLIVEIconWhite.505f9b560fb57103a57863ed0cfc2f1b.svg",
+    "static/media/GETREADYIconWhite.svg": "/first-version-trh/static/media/GETREADYIconWhite.0f361277bb87ab0b94a39bfcf60c8420.svg",
     "static/media/GETREADYIcon.svg": "/first-version-trh/static/media/GETREADYIcon.a6dd737cf097bd7c73d4bb62e24573f1.svg",
     "static/media/carolina.webp": "/first-version-trh/static/media/carolina.7245d24cebdab73f17e8.webp",
     "static/media/Robynn.webp": "/first-version-trh/static/media/Robynn.415b9ccd9243d481eaf2.webp",
     "static/media/ContactIcon.svg": "/first-version-trh/static/media/ContactIcon.2a3ff988d4f33278bdfc7bba0bc3b4e3.svg",
     "static/media/Karlotta.webp": "/first-version-trh/static/media/Karlotta.8ddfe69f88cd678e8bbf.webp",
+    "static/media/circles.svg": "/first-version-trh/static/media/circles.5f5f2133374da761af9fd00235489754.svg",
     "static/media/TwitterIconHover.svg": "/first-version-trh/static/media/TwitterIconHover.2c2da693fd86104ddefd66d45445ddb7.svg",
     "static/media/Group51.svg": "/first-version-trh/static/media/Group51.457452c5bdb20f872bc794d84a9ba20d.svg",
     "static/media/Twitter_white.svg": "/first-version-trh/static/media/Twitter_white.e7dabee5c4deb4169000f899bbf0ea7a.svg",
@@ -32,11 +36,11 @@
     "static/media/FacebookIconHover.svg": "/first-version-trh/static/media/FacebookIconHover.3f25636f886fe2bcced98ab0a23f1d3f.svg",
     "static/media/Facebook_white.svg": "/first-version-trh/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/first-version-trh/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
-    "main.23b546dc.css.map": "/first-version-trh/static/css/main.23b546dc.css.map",
-    "main.db23de58.js.map": "/first-version-trh/static/js/main.db23de58.js.map"
+    "main.bd1e5539.css.map": "/first-version-trh/static/css/main.bd1e5539.css.map",
+    "main.e574f8a7.js.map": "/first-version-trh/static/js/main.e574f8a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.23b546dc.css",
-    "static/js/main.db23de58.js"
+    "static/css/main.bd1e5539.css",
+    "static/js/main.e574f8a7.js"
   ]
 }
