@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/first-version-trh/static/css/main.3bce3fda.css",
-    "main.js": "/first-version-trh/static/js/main.6781619c.js",
+    "main.css": "/first-version-trh/static/css/main.95e0ba4a.css",
+    "main.js": "/first-version-trh/static/js/main.4f2f7e51.js",
     "static/media/backgroundapproach.png": "/first-version-trh/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
     "static/media/Group29.svg": "/first-version-trh/static/media/Group29.17f94e083ea1e4ecd105d49791de4aa4.svg",
     "static/media/circles.png": "/first-version-trh/static/media/circles.9e14cef8998989b08432.png",
@@ -39,11 +39,11 @@
     "static/media/FacebookIconHover.svg": "/first-version-trh/static/media/FacebookIconHover.3f25636f886fe2bcced98ab0a23f1d3f.svg",
     "static/media/Facebook_white.svg": "/first-version-trh/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/first-version-trh/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
-    "main.3bce3fda.css.map": "/first-version-trh/static/css/main.3bce3fda.css.map",
-    "main.6781619c.js.map": "/first-version-trh/static/js/main.6781619c.js.map"
+    "main.95e0ba4a.css.map": "/first-version-trh/static/css/main.95e0ba4a.css.map",
+    "main.4f2f7e51.js.map": "/first-version-trh/static/js/main.4f2f7e51.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bce3fda.css",
-    "static/js/main.6781619c.js"
+    "static/css/main.95e0ba4a.css",
+    "static/js/main.4f2f7e51.js"
   ]
 }
