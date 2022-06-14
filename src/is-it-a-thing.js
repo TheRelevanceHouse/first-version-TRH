@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {Row, Col, Container} from 'react-bootstrap'
 import Relevancecircle from './images/Group29.svg'
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 export default function IsItAThing (props) {
     return (
@@ -34,9 +34,9 @@ export default function IsItAThing (props) {
 
               
 
-                <Link to="/what" className='btn-green'>
+                <HashLink to="/what/#" className='btn-green'>
                 Do you want to know ?
-               </Link>
+               </HashLink>
 
             </Col>
 

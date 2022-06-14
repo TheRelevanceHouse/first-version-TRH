@@ -5,6 +5,7 @@ import approachimage1 from './images/GETREADYIcon.svg'
 import approachimage2 from './images/GOLIVEIcon.svg'
 import approachimage3 from './images/GOBIGIcon.svg'
 import circles from './images/circles.png'
+import { HashLink } from 'react-router-hash-link'
 
 
 export default function How (props) {
@@ -74,6 +75,12 @@ export default function How (props) {
            </Col>
             
             
+        </Row>
+        <Row style={{textAlign:'center', marginBottom:'50px'}}>
+        <HashLink to="/how/#" className='btn-green'>
+                Do you want to know ?
+               </HashLink>
+
         </Row>
     </Container>
     </div>

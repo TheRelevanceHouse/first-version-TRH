@@ -73,16 +73,8 @@ export default function What (props) {
             </p>
             </Col>
         </Row>
-        <Row style={{textAlign:'center', marginBottom:'40px'}}>
-            <Col  xs={12} md={12} style={{padding:'50px'}}>
-               
-                
-                <br/>
-                <a href='/' className='btn-green'>
-                Do you want to know how? Go on...
-        </a>
-            </Col>
-        </Row>
+
+        
     </Container>
     </div>
     ); 

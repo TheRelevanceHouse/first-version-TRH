@@ -6,7 +6,7 @@ import approachimage2 from './images/GOLIVEIcon.svg'
 import approachimage3 from './images/GOBIGIcon.svg'
 import backgroundapproach from './images/backgroundapproach.png' 
 import arrow from './images/greenline.png'
-
+import { HashLink } from 'react-router-hash-link'
 
 export default function Approach (props) {
     return (
@@ -82,9 +82,14 @@ export default function Approach (props) {
             </Col>
             <Col  xs={6} md={6} > 
             <img style={{padding:'35px', paddingLeft:'0'}} id="arrowimage" src={arrow} alt='Relevant'/>
-            <span id="goon">
-               GO ON
-               </span>
+
+            <HashLink smooth to="./#how-section" id='goon' >
+           
+          
+           GO ON
+          
+            </HashLink>
+           
             </Col>
         </Row>
     </Container>
