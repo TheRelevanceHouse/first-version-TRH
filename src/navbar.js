@@ -81,31 +81,29 @@ const Navbar = () => {
        
        <div id='navigation-items'>
 
-       <NavHashLink
-             smooth to="/#what-section"
-                activeClassName="selected"
-                activeStyle={{ color: 'red' }}
-                >
-                    What
+       <NavHashLink smooth to="/#welcome-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
+            What
         </NavHashLink>
-       {/* <a href='/#what-section'> 
-           What
-       </a> */}
-       <a href='/'> 
-           How 
-       </a>
-       <a href='/How.js'> 
-           Why 
-       </a>
-       <a href='/'> 
-           Who
-       </a>
-       <a href='/'> 
-           Where 
-       </a>
-       <a href='/'> 
-           Stories 
-       </a>
+
+        <NavHashLink smooth to="/#how-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
+            How
+        </NavHashLink>
+
+        <NavHashLink smooth to="/#IsItAThing-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
+            Why
+        </NavHashLink>
+        
+        <NavHashLink smooth to="/#team-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
+            Who
+        </NavHashLink>
+
+        <NavHashLink smooth to="/#contact-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
+            Where
+        </NavHashLink>
+     
+        <a href='https://stories.therelevancehouse.com/'> 
+            Stories 
+        </a>
       
        </div>
   </nav>

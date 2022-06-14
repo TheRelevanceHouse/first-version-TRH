@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 export default function IsItAThing (props) {
     return (
-    <div className='IsItAThing-section'>
+    <div className='IsItAThing-section' id="IsItAThing-section">
          <Container >
         <Row style={{ marginTop:'35px', marginBottom:'60px', position:'relative'}}>
             <Col  xs={6} md={6} style={{width:'45%'}}>

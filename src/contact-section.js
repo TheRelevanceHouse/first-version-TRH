@@ -16,7 +16,7 @@ import mediumhover from './images/MediumIconHover.svg'
 
 export default function ContactSection (props) {
     return (
-    <div className='contact-section'>
+    <div className='contact-section' id='contact-section'>
          <Container >
         <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative', display:'flex'}}>
             <Col  xs={6} md={6}>

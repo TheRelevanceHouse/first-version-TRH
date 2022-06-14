@@ -5,7 +5,7 @@ import DownloadIcon from './images/download.png'
 
 export default function Welcome (props) {
     return (
-    <div className='welcome-section'>
+    <div className='welcome-section' id='welcome-section'>
     <Container >
         <Row style={{ marginTop:'35px', display:'flex', alignItems: 'flex-end'}}>
             <Col  xs={12} md={12}>

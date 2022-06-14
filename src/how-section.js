@@ -9,7 +9,7 @@ import circles from './images/circles.png'
 
 export default function How (props) {
     return (
-    <div className='how-section' style={{background:'#c6c6c6'}}>
+    <div className='how-section' id='how-section' style={{background:'#c6c6c6'}}>
     <Container >
         <Row style={{ marginTop:'35px',textAlign:'left', marginBottom:'20px'}}>
             <Col  xs={12} md={6}>

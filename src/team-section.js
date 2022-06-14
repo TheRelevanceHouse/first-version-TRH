@@ -18,7 +18,7 @@ import clementinaImage from './images/clementina123.jpeg'
 
 export default function TeamSection (props) {
     return (
-    <div className='team-section'>
+    <div className='team-section' id='team-section'>
          <Container >
         <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative'}}>
             <Col  xs={12} md={12}>
