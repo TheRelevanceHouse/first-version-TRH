@@ -263,6 +263,15 @@ transform: translateY(-50%);
     color: #00A993;
     }
 
+    .scroll:hover {
+        background: linear-gradient(180deg, #26627E -4.91%, #00A993 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-decoration: none !important ;
+        
+    }
+
 .hero-section {
     background-color: #13161B;
 }
@@ -698,13 +707,6 @@ color: #00a993;
     text-transform: uppercase;
     color: #00a993;
 }
-
-
-#scroll-img::-webkit-scrollbar {
-   
-        display: none;
-      
-} 
 
 .nav-bar a:hover {
     color: #00A993;

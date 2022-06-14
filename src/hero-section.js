@@ -3,7 +3,8 @@ import './App.css';
 import {Container, Row, Col} from 'react-bootstrap'
 import heroimage from './images/Relevant.svg'
 import scroll from "./images/scrolldown.svg"
-import { Link } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link'
+import { HashLink } from 'react-router-hash-link';
 
 export default function Hero (props) {
     return (
@@ -29,9 +30,9 @@ export default function Hero (props) {
             <br/>
             <br/>
             
-               <Link to="/how" className='btn-green'>
-               Do you want to know ?
-               </Link>
+               <NavHashLink smooth to="/#welcome-section" className='btn-green'>
+               Are you ready to be relevant ?
+               </NavHashLink>
                {/* <a href='./how' className='btn-green'>
                Do you want to know ?
                 </a> */}
@@ -43,10 +44,13 @@ export default function Hero (props) {
         <Row style={{ textAlign:'center', marginBottom:'40px', marginTop:'10px' }}>
             <br />
             <br />
+            <HashLink smooth to="/#welcome-section">
             <p className='scroll' id="scroll-img">
             SCROLL DOWN
             </p>
             <img id='scroll-img' src={scroll}  alt='scroll'/>
+            </HashLink>
+           
         </Row>
         
     </Container>

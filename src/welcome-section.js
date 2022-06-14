@@ -37,30 +37,43 @@ export default function Welcome (props) {
             <br />
             <br />
             <Col id='column' xs={4} md={3} style={{ textAlign :'center'}}>
+              
+             
+               
+               <a href={require("./files/ONE-MINUTE.pdf")} download="One Minute - THE RELEVANCE HOUSE">
+               
                <span>
                    1
                </span>
-               <p>
+                <p>
                    ONE MINUTE
                </p>
                <br />
+             
                <img className="show" src={DownloadIcon} style={{width:'25px', height:'25px'}} alt='Relevant'/>
+
+                </a>
+              
             </Col>
             <Col  xs={0} md={1} style={{ textAlign :'center', width:'17%' }}>
                 </Col>
             <Col id='column' xs={4} md={3} style={{ textAlign :'center'}}>
+            <a href={require("./files/FIVE-MINUTE.pdf")} download="Five Minute - THE RELEVANCE HOUSE">
             <span>
                    5
                </span>
+
                <p>
                    FIVE MINUTE
                </p>
                <br />
                <img className="show" src={DownloadIcon} style={{width:'25px', height:'25px'}} alt='Relevant'/>
+               </a>
             </Col>
             <Col  xs={0} md={1} style={{ textAlign :'center', width:'17%' }}>
                 </Col>
             <Col id='column' xs={4} md={3} style={{ textAlign :'center' }}>
+            <a href={require("./files/TEN-MINUTE.pdf")} download="Ten Minute - THE RELEVANCE HOUSE">
             <span>
                    10
                </span>
@@ -69,6 +82,7 @@ export default function Welcome (props) {
                </p>
                <br />
                <img className="show" src={DownloadIcon} style={{width:'25px', height:'25px'}} alt='Relevant'/>
+               </a>
             </Col>
         </Row>
     </Container>
