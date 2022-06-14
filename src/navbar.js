@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import logo from './images/logomain.png'
 import ln from './images/LinkedIN_white.svg'
@@ -13,13 +13,44 @@ import facebookhover from './images/FacebookIconHover.svg'
 import twitterhover from './images/TwitterIconHover.svg'
 import instagramhover from './images/InstagramIconHover.svg'
 import mediumhover from './images/MediumIconHover.svg'
+// import { HashLink as Link } from 'react-router-hash-link'
+import { NavHashLink } from 'react-router-hash-link'
 
 
-function Navbar () {
+const Navbar = () => {
+    
+    const [show, setShow] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
+        useEffect(() => {
+            const controlNavbar = () => {
+                if (typeof window !== 'undefined') { 
+                  if ((window.scrollY > lastScrollY) && (window.scrollY > 200)) 
+                  { 
+                    
+                    setShow(false); 
+                  } else { 
+                    setShow(true);  
+                  }
+                  setLastScrollY(window.scrollY); 
+                }
+              };
+      if (typeof window !== 'undefined') {
+        window.addEventListener('scroll', controlNavbar);
+  
+       
+        return () => {
+          window.removeEventListener('scroll', controlNavbar);
+        };
+      }
+    }, [lastScrollY]);
 
     return (
-   <Container style={{height:'120px'}}>
-   <nav class="nav-bar" id="">
+
+    <Container style={{height:'120px'}}>
+   
+  
+
+   <nav  className={ `${show && 'nav'}`} >
       <a href="./" >
          <img className='nav-bar-logo' alt="Marketing, Branding and Communications Agency"  
           src={logo}  />
@@ -49,9 +80,17 @@ function Navbar () {
        </div>
        
        <div id='navigation-items'>
-       <a href='/'> 
+
+       <NavHashLink
+             smooth to="/#what-section"
+                activeClassName="selected"
+                activeStyle={{ color: 'red' }}
+                >
+                    What
+        </NavHashLink>
+       {/* <a href='/#what-section'> 
            What
-       </a>
+       </a> */}
        <a href='/'> 
            How 
        </a>
