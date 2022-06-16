@@ -19,53 +19,62 @@ h4 {
     background: linear-gradient(90deg, #26627E -13%, #00A993 50%);
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
+    background-clip: text;
 }
 
 #approachheading {
     background: linear-gradient(90deg, #26627E -4.91%, #00A993 50%);
     -webkit-background-clip: text !important;
+    background-clip: text;
     -webkit-text-fill-color: transparent !important;
 }
 
 #howheading {
     background: linear-gradient(90deg, #26627E -4.91%, #00A993 80%);
     -webkit-background-clip: text !important;
+    background-clip: text;
     -webkit-text-fill-color: transparent !important;
 }
 
 #whatheading {
     background: linear-gradient(90deg, #26627E -4.91%, #00A993 80%);
     -webkit-background-clip: text !important;
+    background-clip: text;
     -webkit-text-fill-color: transparent !important;
 }
 
 #howpageheading {
     background: linear-gradient(90deg, #26627E -4.91%, #00A993 80%);
     -webkit-background-clip: text !important;
+    background-clip: text;
     -webkit-text-fill-color: transparent !important;
 }
 
 #isitheading {
     background: linear-gradient(90deg, #26627E -4.91%, #00A993 50%);
     -webkit-background-clip: text !important;
+    background-clip: text;
     -webkit-text-fill-color: transparent !important;
 }
 
 #teamheading {
     background: linear-gradient(90deg, #26627E -4.91%, #00a993 30%) !important;
     -webkit-background-clip: text !important;
+    background-clip: text;
     -webkit-text-fill-color: transparent !important;
 }
 
 #hiringheading {
     background: linear-gradient(90deg, #26627E -4.91%, #00a993 50%) !important;
     -webkit-background-clip: text !important;
+    background-clip: text;
     -webkit-text-fill-color: transparent !important;
 }
 
 #contactheading {
     background: linear-gradient(90deg, #26627E -4.91%, #00a993 90%) !important;
     -webkit-background-clip: text !important;
+    background-clip: text;
     -webkit-text-fill-color: transparent !important;
 }
 
@@ -182,6 +191,7 @@ transform: translateY(-50%);
     background: linear-gradient(90deg, #26627E -70.91%, #00A993 70%);
     transform: scale(1.05);
     -webkit-background-clip: text !important;
+    background-clip: text;
     -webkit-text-fill-color: transparent !important;
 }
 
@@ -381,7 +391,6 @@ background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
     display: inline-block;
     transition: transform .8s;
 }
@@ -550,6 +559,7 @@ background-clip: text;
     margin: 0px 0px 0px;
     background: linear-gradient(90deg, #26627E -4.91%, #00A993 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 25px;
     border-top: 2px solid #00a993;
