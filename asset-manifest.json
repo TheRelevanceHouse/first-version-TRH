@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/first-version-trh/static/css/main.6ae6f95f.css",
-    "main.js": "/first-version-trh/static/js/main.7f3b8238.js",
+    "main.js": "/first-version-trh/static/js/main.9c1d7114.js",
     "static/media/TEN-MINUTE.pdf": "/first-version-trh/static/media/TEN-MINUTE.a32c1169617aa19644f9.pdf",
     "static/media/FIVE-MINUTE.pdf": "/first-version-trh/static/media/FIVE-MINUTE.897b5475ca7d856a2c1b.pdf",
     "static/media/backgroundapproach.png": "/first-version-trh/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
@@ -15,7 +15,6 @@
     "static/media/clementina123.jpeg": "/first-version-trh/static/media/clementina123.7085a5e101c71eb2d65a.jpeg",
     "static/media/Jonny.webp": "/first-version-trh/static/media/Jonny.b26aa885c01e97ef1a10.webp",
     "static/media/Davina.webp": "/first-version-trh/static/media/Davina.0e511d1f4cc383dff089.webp",
-    "static/media/Relevant.svg": "/first-version-trh/static/media/Relevant.2d6d2db9cd7786ea165beb176c9200f7.svg",
     "static/media/Instagram_white.svg": "/first-version-trh/static/media/Instagram_white.5ea80efc39064e2eb6be8605548c0226.svg",
     "static/media/GOBIGIconWhite.svg": "/first-version-trh/static/media/GOBIGIconWhite.c95f7dc03968ebf8cd1878b6eef0158d.svg",
     "static/media/GOBIGIcon.svg": "/first-version-trh/static/media/GOBIGIcon.a553c34623edb414b8e04ab34b12cab0.svg",
@@ -23,6 +22,7 @@
     "static/media/GOLIVEIconWhite.svg": "/first-version-trh/static/media/GOLIVEIconWhite.505f9b560fb57103a57863ed0cfc2f1b.svg",
     "static/media/GETREADYIconWhite.svg": "/first-version-trh/static/media/GETREADYIconWhite.0f361277bb87ab0b94a39bfcf60c8420.svg",
     "static/media/GETREADYIcon.svg": "/first-version-trh/static/media/GETREADYIcon.a6dd737cf097bd7c73d4bb62e24573f1.svg",
+    "static/media/HeroBubbles.svg": "/first-version-trh/static/media/HeroBubbles.97aadc499436735841cb5128c0012c07.svg",
     "static/media/carolina.webp": "/first-version-trh/static/media/carolina.7245d24cebdab73f17e8.webp",
     "static/media/Robynn.webp": "/first-version-trh/static/media/Robynn.415b9ccd9243d481eaf2.webp",
     "static/media/ContactIcon.svg": "/first-version-trh/static/media/ContactIcon.2a3ff988d4f33278bdfc7bba0bc3b4e3.svg",
@@ -43,10 +43,10 @@
     "static/media/Facebook_white.svg": "/first-version-trh/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/first-version-trh/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
     "main.6ae6f95f.css.map": "/first-version-trh/static/css/main.6ae6f95f.css.map",
-    "main.7f3b8238.js.map": "/first-version-trh/static/js/main.7f3b8238.js.map"
+    "main.9c1d7114.js.map": "/first-version-trh/static/js/main.9c1d7114.js.map"
   },
   "entrypoints": [
     "static/css/main.6ae6f95f.css",
-    "static/js/main.7f3b8238.js"
+    "static/js/main.9c1d7114.js"
   ]
 }
