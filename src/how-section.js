@@ -4,8 +4,9 @@ import {Container, Row, Col} from 'react-bootstrap'
 import approachimage1 from './images/GETREADYIcon.svg'
 import approachimage2 from './images/GOLIVEIcon.svg'
 import approachimage3 from './images/GOBIGIcon.svg'
-import circles from './images/circles.png'
+// import circles from './images/circles.png'
 import { HashLink } from 'react-router-hash-link'
+import MovingCircles from './circles'
 
 
 export default function How (props) {
@@ -31,7 +32,8 @@ export default function How (props) {
             <br/>
                 <br/>
                 <br/>
-               <img style={{width:'300px', height:'auto', float:'right' }} src={circles} alt='TRH' ></img>
+               {/* <img style={{width:'300px', height:'auto', float:'right' }} src={circles} alt='TRH' ></img> */}
+               <MovingCircles style={{width:'300px', height:'auto', float:'right' }}/>
             </Col>
         </Row>
         <Row style={{textAlign:'left'}}>

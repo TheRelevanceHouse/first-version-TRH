@@ -2,7 +2,6 @@ import React from "react"
 import './App.css'
 import {Container, Row, Col} from 'react-bootstrap'
 import heroimage from './images/circles.svg'
-// import { Link } from 'react-router-dom';
 import approachimage1 from './images/GETREADYIconWhite.svg'
 import approachimage2 from './images/GOLIVEIconWhite.svg'
 import approachimage3 from './images/GOBIGIconWhite.svg'
