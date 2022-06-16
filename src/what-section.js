@@ -26,7 +26,7 @@ export default function What (props) {
             </Col>
         </Row>
         <Row>
-        <Col  xs={6} md={6} style={{textAlign:'center'}}>
+        <Col  xs={6} md={6} style={{textAlign:'center'}} id="mobile-hide">
             <div className='line'>
                 
                 </div>
@@ -42,7 +42,7 @@ export default function What (props) {
             </Col>
         </Row>
         <Row>
-        <Col  xs={6} md={6} style={{textAlign:'center'}}>
+        <Col  xs={6} md={6} style={{textAlign:'center'}} id="mobile-hide">
             <div className='line'>
                 
                 </div>
@@ -58,7 +58,7 @@ export default function What (props) {
             </Col>
         </Row>
         <Row>
-        <Col  xs={6} md={6} style={{textAlign:'center'}}>
+        <Col  xs={6} md={6} style={{textAlign:'center'}} id="mobile-hide">
             <div className='line'>
                 
                 </div>

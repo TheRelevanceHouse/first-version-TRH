@@ -36,7 +36,7 @@ export default function Hero (props) {
                </NavHashLink>
              
             </Col>
-            <Col xs={6} md={6} style={{ textAlign :'right', marginTop:'-50px' }}>
+            <Col id="mobile-hide" xs={6} md={6} style={{ textAlign :'right', marginTop:'-50px' }}>
                 {/* <img src={heroimage} alt='Relevant' style={{width: '500px', height: '500px'}}/> */}
                 {/* <object type="image/svg+xml" data={Animated}>svg-animation</object> */}
                 <HeroBubbles/>

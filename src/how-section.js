@@ -28,7 +28,7 @@ export default function How (props) {
                Using a proven set of proprietary methodologies, tools and frameworks, we create and execute high-quality brand, go-to-market, funding, storytelling and growth hacking strategies that have a measurable positive impact on your business.
                </p>
             </Col>
-            <Col  xs={12} md={6}>
+            <Col  xs={12} md={6} id="mobile-hide">
             <br/>
                 <br/>
                 <br/>
