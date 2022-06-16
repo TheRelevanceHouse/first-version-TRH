@@ -7,7 +7,7 @@ export default function JobSection (props) {
     return (
     <div className='job-section'>
          <Container >
-        <Row style={{ marginTop:'35px', marginBottom:'60px', position:'relative', display:'flex'}}>
+        <Row style={{ marginTop:'35px', marginBottom:'60px', position:'relative', display:'flex', flexWrap:'wrap'}}>
             <Col  xs={6} md={6} style={{borderRight:'2px solid #00a993'}}>
                
                 <br/>

@@ -6,7 +6,7 @@ export default function Footer (props) {
     return (
     <div className='footer-section'>
          <Container >
-        <Row style={{ marginTop:'20px', marginBottom:'20px', position:'relative', textAlign:'center'}}>
+        <Row style={{ marginTop:'20px', marginBottom:'20px', position:'relative', textAlign:'center',  flexWrap:'wrap'}}>
             <Col  xs={12} md={12}>
                 <br />
               

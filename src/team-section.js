@@ -46,7 +46,7 @@ export default function TeamSection (props) {
 
             {/* Row-1 Team section */}
 
-        <Row style={{textAlign:'center', display:'flex', alignItems:'center'}}>
+        <Row style={{textAlign:'center', display:'flex', alignItems:'center', flexWrap:'wrap'}}>
        
         <Col  xs={6} md={3}>
        
@@ -108,7 +108,7 @@ export default function TeamSection (props) {
 
          {/* Row-2 Team section */}
         
-        <Row style={{textAlign:'center', display:'flex', alignItems:'center'}}>
+        <Row style={{textAlign:'center', display:'flex', alignItems:'center', flexWrap:'wrap'}}>
        
        <Col  xs={6} md={3}>
       
@@ -171,7 +171,7 @@ export default function TeamSection (props) {
        
        {/* Row-3 Team section */}
         
-       <Row style={{textAlign:'center', display:'flex', alignItems:'center'}}>
+       <Row style={{textAlign:'center', display:'flex', alignItems:'center', flexWrap:'wrap'}}>
        
        <Col  xs={6} md={3}>
       

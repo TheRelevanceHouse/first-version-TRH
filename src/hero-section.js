@@ -11,7 +11,7 @@ export default function Hero (props) {
     return (
     <div className='hero-section'>
     <Container >
-        <Row style={{ marginTop:'35px'}}>
+        <Row style={{ marginTop:'25px'}}>
             <Col  xs={6} md={6}>
             <br/>
             <br/>
@@ -43,13 +43,13 @@ export default function Hero (props) {
                 
             </Col> 
         </Row>
-        <Row style={{ textAlign:'center', marginBottom:'40px', marginTop:'10px' }}>
+        <Row style={{ textAlign:'center', marginBottom:'40px', marginTop:'0px' }}>
             <br />
             <br />
             <HashLink smooth to="/#welcome-section">
-            <p className='scroll' id="scroll-img">
+            {/* <p className='scroll' id="scroll-img">
             SCROLL DOWN
-            </p>
+            </p> */}
             <img id='scroll-img' src={scroll}  alt='scroll'/>
             </HashLink>
            
