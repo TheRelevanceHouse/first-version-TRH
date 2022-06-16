@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import {Container, Row, Col} from 'react-bootstrap'
-import heroimage from './images/Relevant.svg'
 import scroll from "./images/scrolldown.svg"
 import { NavHashLink } from 'react-router-hash-link'
 import { HashLink } from 'react-router-hash-link'
+import HeroBubbles from './HeroBubbles';
 
 
 export default function Hero (props) {
@@ -37,9 +37,11 @@ export default function Hero (props) {
              
             </Col>
             <Col xs={6} md={6} style={{ textAlign :'right' }}>
-                <img src={heroimage} alt='Relevant' style={{width: '500px', height: '500px'}}/>
-              
-            </Col>
+                {/* <img src={heroimage} alt='Relevant' style={{width: '500px', height: '500px'}}/> */}
+                {/* <object type="image/svg+xml" data={Animated}>svg-animation</object> */}
+                <HeroBubbles/>
+                
+            </Col> 
         </Row>
         <Row style={{ textAlign:'center', marginBottom:'40px', marginTop:'10px' }}>
             <br />
