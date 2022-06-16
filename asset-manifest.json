@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/first-version-trh/static/css/main.6d6d42d2.css",
-    "main.js": "/first-version-trh/static/js/main.006a37dd.js",
+    "main.css": "/first-version-trh/static/css/main.4cb23fb8.css",
+    "main.js": "/first-version-trh/static/js/main.47e4e875.js",
     "static/media/TEN-MINUTE.pdf": "/first-version-trh/static/media/TEN-MINUTE.a32c1169617aa19644f9.pdf",
     "static/media/FIVE-MINUTE.pdf": "/first-version-trh/static/media/FIVE-MINUTE.897b5475ca7d856a2c1b.pdf",
     "static/media/backgroundapproach.png": "/first-version-trh/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
@@ -21,7 +21,7 @@
     "static/media/GOLIVEIconWhite.svg": "/first-version-trh/static/media/GOLIVEIconWhite.505f9b560fb57103a57863ed0cfc2f1b.svg",
     "static/media/GETREADYIconWhite.svg": "/first-version-trh/static/media/GETREADYIconWhite.0f361277bb87ab0b94a39bfcf60c8420.svg",
     "static/media/GETREADYIcon.svg": "/first-version-trh/static/media/GETREADYIcon.a6dd737cf097bd7c73d4bb62e24573f1.svg",
-    "static/media/HeroBubbles.svg": "/first-version-trh/static/media/HeroBubbles.97aadc499436735841cb5128c0012c07.svg",
+    "static/media/HeroBubbles.svg": "/first-version-trh/static/media/HeroBubbles.8b574ae2b99c04e88cd8462698695244.svg",
     "static/media/carolina.webp": "/first-version-trh/static/media/carolina.7245d24cebdab73f17e8.webp",
     "static/media/Robynn.webp": "/first-version-trh/static/media/Robynn.415b9ccd9243d481eaf2.webp",
     "static/media/MovingCircles.svg": "/first-version-trh/static/media/MovingCircles.f7d4c55f4fecfb75ec29e8b5a5c4c66f.svg",
@@ -42,11 +42,11 @@
     "static/media/FacebookIconHover.svg": "/first-version-trh/static/media/FacebookIconHover.3f25636f886fe2bcced98ab0a23f1d3f.svg",
     "static/media/Facebook_white.svg": "/first-version-trh/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/first-version-trh/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
-    "main.6d6d42d2.css.map": "/first-version-trh/static/css/main.6d6d42d2.css.map",
-    "main.006a37dd.js.map": "/first-version-trh/static/js/main.006a37dd.js.map"
+    "main.4cb23fb8.css.map": "/first-version-trh/static/css/main.4cb23fb8.css.map",
+    "main.47e4e875.js.map": "/first-version-trh/static/js/main.47e4e875.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d6d42d2.css",
-    "static/js/main.006a37dd.js"
+    "static/css/main.4cb23fb8.css",
+    "static/js/main.47e4e875.js"
   ]
 }
