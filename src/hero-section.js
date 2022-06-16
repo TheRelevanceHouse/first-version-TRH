@@ -11,7 +11,7 @@ export default function Hero (props) {
     return (
     <div className='hero-section'>
     <Container >
-        <Row style={{ marginTop:'25px'}}>
+        <Row style={{ marginTop:'35px'}}>
             <Col  xs={6} md={6}>
             <br/>
             <br/>
@@ -36,14 +36,14 @@ export default function Hero (props) {
                </NavHashLink>
              
             </Col>
-            <Col xs={6} md={6} style={{ textAlign :'right' }}>
+            <Col xs={6} md={6} style={{ textAlign :'right', marginTop:'-50px' }}>
                 {/* <img src={heroimage} alt='Relevant' style={{width: '500px', height: '500px'}}/> */}
                 {/* <object type="image/svg+xml" data={Animated}>svg-animation</object> */}
                 <HeroBubbles/>
                 
             </Col> 
         </Row>
-        <Row style={{ textAlign:'center', marginBottom:'40px', marginTop:'0px' }}>
+        <Row style={{ textAlign:'center', marginBottom:'40px', marginTop:'20px' }}>
             <br />
             <br />
             <HashLink smooth to="/#welcome-section">

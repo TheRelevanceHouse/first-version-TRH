@@ -621,6 +621,7 @@ background-clip: text;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #footer-social img {
