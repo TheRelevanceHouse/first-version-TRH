@@ -11,7 +11,39 @@ export default function Hero (props) {
     return (
     <div className='hero-section'>
     <Container >
-        <Row style={{ marginTop:'35px'}}>
+        <Row id="desktop-hide">
+        <Col xs={6} md={6} style={{ textAlign :'right', marginTop:'-50px' }}>
+             
+             <HeroBubbles/>
+             
+         </Col> 
+         <Col  xs={6} md={6}>
+         <br/>
+         <br/>
+         <br/>
+            <h4 id="heading-1" style={{color:'#00a993', fontOpticalSizing:'4em'}}>
+            ONLY RELEVANCE 
+            </h4>
+            <h4 id='heading-2' style={{color:'c6c6c6 !important', marginTop:'15px'}}>
+                HAS IMPACT
+            </h4>
+            
+             <br />
+            <p id='hero-line' style={{color:'white', lineHeight:'34px', borderLeft:'3px solid #00A993'}}>
+            &nbsp;&nbsp;&nbsp;EVERY GOOD IDEA FITS ON A POST-IT. <br />
+            &nbsp;&nbsp;&nbsp;IF IT DOESN´T. IT´S NOT A GOOD IDEA, YET.
+            </p>
+         <br/>
+         <br/>
+         
+            <NavHashLink smooth to="/#welcome-section" className='btn-green'>
+            Are you ready to be relevant ?
+            </NavHashLink>
+          
+         </Col>
+        </Row>
+        <Row id="mobile-hide" style={{ marginTop:'35px'}}>
+         
             <Col  xs={6} md={6}>
             <br/>
             <br/>
@@ -36,9 +68,8 @@ export default function Hero (props) {
                </NavHashLink>
              
             </Col>
-            <Col id="mobile-hide" xs={6} md={6} style={{ textAlign :'right', marginTop:'-50px' }}>
-                {/* <img src={heroimage} alt='Relevant' style={{width: '500px', height: '500px'}}/> */}
-                {/* <object type="image/svg+xml" data={Animated}>svg-animation</object> */}
+            <Col xs={6} md={6} style={{ textAlign :'right', marginTop:'-50px' }}>
+              
                 <HeroBubbles/>
                 
             </Col> 

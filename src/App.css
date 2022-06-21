@@ -735,7 +735,7 @@ color: #00a993;
     color: #00A993;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .team-section .col-6 {
         flex: 0 0 50%;
         max-width: 50%;
@@ -744,7 +744,19 @@ color: #00a993;
         display: none;
         visibility: hidden;
     }
+    
   }
+
+@media (min-width: 601px) {
+    #desktop-hide {
+        display: none;
+    }
+  }
+
+
+
+
+
 
   .sc-bczRLJ .kXoFbu a {
     color: #f2f2f2;
