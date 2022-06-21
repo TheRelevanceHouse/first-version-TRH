@@ -1,25 +1,37 @@
+import styled from 'styled-components';
+import Burger from './Burger';
 import React, { useEffect, useState } from 'react';
-import './App.css';
-import logo from './images/logomain.png'
-import ln from './images/LinkedIN_white.svg'
-import medium from './images/Medium_white.svg'
-import twitter from './images/Twitter_white.svg'
-import fb from './images/Facebook_white.svg'
-import instagram from './images/Instagram_white.svg'
-import {Container} from 'react-bootstrap'
-import './fonts/norwester.ttf'
-import linkedinhover from './images/LinkedinIconHover.svg'
-import facebookhover from './images/FacebookIconHover.svg'
-import twitterhover from './images/TwitterIconHover.svg'
-import instagramhover from './images/InstagramIconHover.svg'
-import mediumhover from './images/MediumIconHover.svg'
-// import { HashLink as Link } from 'react-router-hash-link'
+import '../App.css';
+import logo from '../images/logomain.png'
+import ln from '../images/LinkedIN_white.svg'
+import medium from '../images/Medium_white.svg'
+import twitter from '../images/Twitter_white.svg'
+import fb from '../images/Facebook_white.svg'
+import instagram from '../images/Instagram_white.svg'
+import '../fonts/norwester.ttf'
+import linkedinhover from '../images/LinkedinIconHover.svg'
+import facebookhover from '../images/FacebookIconHover.svg'
+import twitterhover from '../images/TwitterIconHover.svg'
+import instagramhover from '../images/InstagramIconHover.svg'
+import mediumhover from '../images/MediumIconHover.svg'
 import { NavHashLink } from 'react-router-hash-link'
 
+const Nav = styled.nav`
+  width: 100%;
+  height: 55px;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
 
+  .logo {
+    padding: 15px 0;
+  }
+
+
+`
 const Navbar = () => {
-    
-    const [show, setShow] = useState(true);
+  const [show, setShow] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
         useEffect(() => {
             const controlNavbar = () => {
@@ -43,10 +55,9 @@ const Navbar = () => {
         };
       }
     }, [lastScrollY]);
-
+ 
     return (
-
-    <Container style={{height:'120px'}}>
+      <Nav style={{height:'120px'}}>
    
   
 
@@ -107,9 +118,10 @@ const Navbar = () => {
       
        </div>
   </nav>
-  
-  </Container>
+  <Burger />
+  </Nav>
+    
   )
 }
 
-export default Navbar;
+export default Navbar

@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import './fonts/norwester.ttf'
 import {Routes, Route} from "react-router-dom"
-import Navbar from './navbar'
+// import Navbar from './navbar'
+import Navbar from './Nav/Navbar';
 import Footer from './footer';
 import HomePage from './home';
 import HowPage from "./How"
@@ -13,7 +14,6 @@ function App() {
   return (
     <div>
         <Navbar/>
-       
         <Routes>
         <Route path="/" element={<HomePage/>} />
         <Route path="/how" element={<HowPage/>} />

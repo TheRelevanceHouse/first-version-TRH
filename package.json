@@ -25,6 +25,7 @@
     "route": "^0.2.5",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.1.1",
+    "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4",
     "webfontloader": "^1.6.28",
     "yarn": "^1.22.17"
