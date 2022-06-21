@@ -6,7 +6,7 @@ const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 6%;
+  align-items:center;
   right: 20px;
   z-index: 20;
   display: none;
@@ -15,6 +15,7 @@ const StyledBurger = styled.div`
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
+    align-items:flex-start;
   }
 
   div {

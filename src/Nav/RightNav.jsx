@@ -22,6 +22,7 @@ const Ul = styled.ul`
     width: 40%;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
+    align-items: center;
     transition: transform 0.3s ease-in-out;
 
     li {
