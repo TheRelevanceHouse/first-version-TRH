@@ -746,7 +746,6 @@ color: #00a993;
     }
   }
 
-
   .sc-bczRLJ .kXoFbu a {
     color: #f2f2f2;
     text-align: center;
@@ -761,3 +760,64 @@ color: #00a993;
   }
 
   
+  @media (max-width: 768px) {
+    h4 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1em !important;
+        font-weight: 400 !important;
+    }
+
+    .welcome-row {
+        margin-right: 0;
+        display: flex !important;
+    }
+
+    .welcome-row #column {
+        width: -webkit-fill-available !important;
+    }
+
+    #column p {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        margin-bottom: 0px;
+    }
+    #column span {
+        font-size: 70px;
+    }
+
+    #column br {
+        display: none;
+    }
+
+    #approach-col p {
+        width: 80%;
+    }
+
+    #arrowimage {
+        display: none ;
+    }
+
+    #goon {
+        position: relative;
+        margin: 18px;
+    }
+
+    #IsItAThing-section .col-6 {
+        width: auto !important;
+        position: relative !important;
+    }
+
+    #IsItAThing-section .col-6 img {
+        width: 100% !important;
+        height: auto !important;
+        margin-top: 50px !important;
+    }
+
+    #footer-social {
+        top: 40px !important;
+    }
+  }

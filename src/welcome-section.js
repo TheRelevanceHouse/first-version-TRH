@@ -21,7 +21,7 @@ export default function Welcome (props) {
                 <br />
                <p >
                THE RELEVANCE HOUSE is a full-service Marketing, Branding and Communications agency for firms in the blockchain and emerging technology sector. We focus on helping technology start-ups and projects build and communicate a relevant brand and story. 
-                <br/> 
+                <br/> <br/>
                 Why? Because only relevance has impact.
                </p>
             </Col>
@@ -36,7 +36,7 @@ export default function Welcome (props) {
         <Row className='welcome-row' style={{ textAlign:'center', marginBottom:'40px', marginTop:'10px', marginLeft:'0px' }}>
             <br />
             <br />
-            <Col id='column' xs={4} md={3} style={{ textAlign :'center'}}>
+            <Col id='column' xs={12} md={3} style={{ textAlign :'center'}}>
               
              
                
@@ -57,7 +57,7 @@ export default function Welcome (props) {
             </Col>
             <Col  xs={0} md={1} style={{ textAlign :'center', width:'17%' }}>
                 </Col>
-            <Col id='column' xs={4} md={3} style={{ textAlign :'center'}}>
+            <Col id='column' xs={12} md={3} style={{ textAlign :'center'}}>
             <a href={require("./files/FIVE-MINUTE.pdf")} download="Five Minute - THE RELEVANCE HOUSE">
             <span>
                    5
@@ -72,7 +72,7 @@ export default function Welcome (props) {
             </Col>
             <Col  xs={0} md={1} style={{ textAlign :'center', width:'17%' }}>
                 </Col>
-            <Col id='column' xs={4} md={3} style={{ textAlign :'center' }}>
+            <Col id='column' xs={12} md={3} style={{ textAlign :'center' }}>
             <a href={require("./files/TEN-MINUTE.pdf")} download="Ten Minute - THE RELEVANCE HOUSE">
             <span>
                    10
