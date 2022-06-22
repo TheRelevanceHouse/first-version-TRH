@@ -55,7 +55,7 @@ export default function JobSection (props) {
             </tr>
             <tr>
                 <td>
-                <a   href='/' target="_blank">INTERNSHIP PR &amp; COMMUNICATION (50-80%)</a>
+                <a   href='/' target="_blank">INTERNSHIP PR &amp; COMMUNICATION (50-80%) &nbsp; &nbsp; &nbsp;</a>
                 <img src={arrow}  alt='arrow'/>
                 </td>
             </tr>
