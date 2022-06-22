@@ -15,6 +15,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
+        
+    credentials:
+     username: ${{ github.actor }}
+     password: ${{ secrets.ghcr_token }}
 
       - name: Install and build
         run: yarn install && yarn run build
