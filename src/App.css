@@ -885,4 +885,8 @@ color: #00a993;
     .hr2 {
         margin-left: 0;
     }
+
+    #hideitline {
+        display: none;
+    }
   }

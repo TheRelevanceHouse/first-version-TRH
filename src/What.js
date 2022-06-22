@@ -11,7 +11,7 @@ function WhatPage () {
     return (
         <div className='hero-section-how'>
         <Container >
-            <Row style={{ marginTop:'35px', marginBottom:'50px', display:'flex'}}>
+            <Row style={{ marginTop:'35px', marginBottom:'30px', display:'flex'}}>
                 <Col  xs={6} md={6}>
                 <br/>
                 <br/>
@@ -32,8 +32,8 @@ function WhatPage () {
                    
                 </Col>
             </Row>
-            <br/>
-            <br/>
+            <br id="hideitline"/>
+            <br id="hideitline"/>
             <Row style={{disply:'flex'}}>
                 <Col xs={12} md={6}>
                 <h4 style={{color:'#00a993'}}>
