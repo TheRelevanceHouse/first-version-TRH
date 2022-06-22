@@ -157,8 +157,9 @@ width: auto;
 height: 105px;
 left: 5%;
 vertical-align: middle;
-top: 50%;
-transform: translateY(-50%);
+/* top: 50%;
+transform: translateY(-50%); */
+top: 10%;
 }
 
 @media (max-width: 768px) { 
@@ -166,6 +167,7 @@ transform: translateY(-50%);
         left: 0 !important;
         width: 70%;
         height: auto;
+        top: 10%;
     }
    
    
