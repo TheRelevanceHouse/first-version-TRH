@@ -206,15 +206,16 @@ function HowPage () {
         </Row>
         <Row >
           
-            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993' }}>Want to see it in a different graphic?</button>
+            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993', marginBottom:'20px' }}>Want to see it in a different graphic?</button>
+        
             
-            <button className="btn-green" style={{ marginLeft :'5%', border:'#00a993' }}>Still curious about all this stuff?</button>
+            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993' , marginBottom:'20px'}}>Still curious about all this stuff?</button>
              
 
          
         </Row>
         <Row>
-            <hr className="hr1" />
+            <hr className="hr1" id="hideline" />
         </Row>
 
         

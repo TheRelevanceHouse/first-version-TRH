@@ -48,6 +48,7 @@ function WhatPage () {
                At THE RELEVANCE HOUSE, we help you build that visibility. We define the touchpoints and channels investors and other target groups are paying attention to. We speak their language and identify what stories and messages they are looking for. To achieve this, we work with you to define target groups and analyse what channels are relevant to them. Then, we help you build your presence across those channels to deliver your message effectively and efficiently.
 
                We make you stand out, look good and sound great.
+               <br/>
                </p>
                 </Col>
                 <Col xs={12} md={6} style={{ textAlign :'right', display:'flex', alignItems:'center', justifyContent:'flex-end'  }}>
@@ -76,6 +77,7 @@ What is in it for me? When it comes to attracting investment and customers, that
 
 Six words: What's in it for me?
                </p>
+               <br/>
                 </Col>
                 <Col xs={12} md={6} style={{ textAlign :'right', display:'flex', alignItems:'center', justifyContent:'flex-end'  }}>
                     <img src={circle2} alt='Relevant' style={{width: '350px', height: '350px'}}/>
@@ -101,6 +103,7 @@ Six words: What's in it for me?
 
 We will build and manage a community that trusts you.
                </p>
+               <br/>
                 </Col>
                 <Col xs={12} md={6} style={{ textAlign :'right', display:'flex', alignItems:'center', justifyContent:'flex-end'  }}>
                     <img src={circle3} alt='Relevant' style={{width: '350px', height: '350px'}}/>
@@ -113,16 +116,16 @@ We will build and manage a community that trusts you.
        
         <Row style={{marginTop:'50px', marginBottom:'50px'}} >
           
-            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993' }}>Want to see it in a different graphic?</button>
+            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993', marginBottom:'20px' }}>Want to see it in a different graphic?</button>
             
-            <button className="btn-green" style={{ marginLeft :'5%', border:'#00a993' }}>Still curious about all this stuff?</button>
+            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993', marginBottom:'20px' }}>Still curious about all this stuff?</button>
              
 
          
         </Row>
-        {/* <Row>
+        <Row>
             <hr className="hr2" />
-        </Row> */}
+        </Row>
 
         
         </Container>

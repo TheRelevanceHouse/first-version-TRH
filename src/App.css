@@ -830,7 +830,7 @@ color: #00a993;
     }
 
     .welcome-row #column { 
-        padding: 0 !important;
+        padding: 5px !important;
     }
 
     #approach-col img {
@@ -845,6 +845,8 @@ color: #00a993;
     }
     .welcome-row .col-md-1 {
         width: 0 !important;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
     }
 
     #border-remove {
@@ -857,5 +859,30 @@ color: #00a993;
 
     #teamline {
         width: 40% !important;
+    }
+
+    .hero-section-how .row {
+        flex-direction: column;
+    }
+
+    #hideline {
+        display: none;
+    }
+
+    .hero-section-how .col-6 br {
+        display: none !important;
+    }
+
+    .hero-section-how .col-6,
+    .hero-section-how .col-12 {
+        justify-content: center !important;
+    }
+
+    .hero-section-how .col-6 br {
+        display: none !important;
+    }
+
+    .hr2 {
+        margin-left: 0;
     }
   }
