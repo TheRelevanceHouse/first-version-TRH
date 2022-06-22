@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/first-version-trh/static/css/main.1abce404.css",
-    "main.js": "/first-version-trh/static/js/main.b1cf1fb6.js",
+    "main.css": "/first-version-trh/static/css/main.57cad68d.css",
+    "main.js": "/first-version-trh/static/js/main.8934a781.js",
     "static/media/TEN-MINUTE.pdf": "/first-version-trh/static/media/TEN-MINUTE.a32c1169617aa19644f9.pdf",
     "static/media/FIVE-MINUTE.pdf": "/first-version-trh/static/media/FIVE-MINUTE.897b5475ca7d856a2c1b.pdf",
     "static/media/backgroundapproach.png": "/first-version-trh/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
@@ -42,11 +42,11 @@
     "static/media/FacebookIconHover.svg": "/first-version-trh/static/media/FacebookIconHover.3f25636f886fe2bcced98ab0a23f1d3f.svg",
     "static/media/Facebook_white.svg": "/first-version-trh/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/first-version-trh/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
-    "main.1abce404.css.map": "/first-version-trh/static/css/main.1abce404.css.map",
-    "main.b1cf1fb6.js.map": "/first-version-trh/static/js/main.b1cf1fb6.js.map"
+    "main.57cad68d.css.map": "/first-version-trh/static/css/main.57cad68d.css.map",
+    "main.8934a781.js.map": "/first-version-trh/static/js/main.8934a781.js.map"
   },
   "entrypoints": [
-    "static/css/main.1abce404.css",
-    "static/js/main.b1cf1fb6.js"
+    "static/css/main.57cad68d.css",
+    "static/js/main.8934a781.js"
   ]
 }
