@@ -28,7 +28,7 @@ export default function TeamSection (props) {
                MEET OUR TEEM
                </h4>
                
-                <hr style={{ marginLeft:'0', width:'15%' }} />
+                <hr id='teamline' style={{ marginLeft:'0', width:'15%' }} />
                 <br />
                <p>
                We are entrepreneurs, just like you. We have been building successful businesses, brands and startups for over 25 years. We are all believers in blockchain and emerging technologies. We have been involved in digital technologies since the 1990s, and in blockchain, fintech and AI since 2013. But what really differentiates us is that we have some of the most talented and experienced people around working with us.

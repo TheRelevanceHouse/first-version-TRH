@@ -20,6 +20,7 @@ export default function What (props) {
                <p>
                For humans to buy into something, it needs to be relevant to them. They need to see it, they need to want it and they need to trust it. Then, and only then, we will we be able to change the world. And we, like you, want to change it for the better.
                </p>
+               <br/>
             </Col>
             <Col  xs={6} md={6} style={{textAlign:'center'}}>
             
@@ -39,6 +40,7 @@ export default function What (props) {
             <p>
             We are laser focused on helping emerging technology firms to build their brands, reach their revenue and funding targets and continue to grow. That is all we do. Day in, day out.
             </p>
+            <br/>
             </Col>
         </Row>
         <Row>
@@ -55,6 +57,7 @@ export default function What (props) {
             <p>
             We want you and your project to succeed. We have skin in the game. Our fee structure means if you don't succeed, we don’t make money.
             </p>
+            <br/>
             </Col>
         </Row>
         <Row>
@@ -71,6 +74,7 @@ export default function What (props) {
             <p>
             Even the best chefs in the world work with recipes. They develop it after years of trying and learning, with a great deal of natural talent thrown in.
             </p>
+            <br/>
             </Col>
         </Row>
 

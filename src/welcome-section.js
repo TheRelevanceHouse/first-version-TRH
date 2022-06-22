@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Container, Row, Col} from 'react-bootstrap'
 import DownloadIcon from './images/download.png'
+// import { FileIcon } from 'react-file-icon'
 
 export default function Welcome (props) {
     return (
@@ -38,7 +39,7 @@ export default function Welcome (props) {
             <br />
             <Col id='column' xs={12} md={3} style={{ textAlign :'center'}}>
               
-             
+             {/* <FileIcon /> */}
                
                <a href={require("./files/ONE-MINUTE.pdf")} download="One Minute - THE RELEVANCE HOUSE">
                

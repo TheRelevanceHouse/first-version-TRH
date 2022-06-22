@@ -26,10 +26,11 @@ export default function Hero (props) {
                </h4>
                
                 <br />
-               <p id='hero-line' style={{color:'white', lineHeight:'34px', borderLeft:'3px solid #00A993'}}>
+               <p id='hero-line' style={{color:'white', lineHeight:'34px', borderLeft:'3px solid #00A993', fontSize:'1.25em !important'}}>
                &nbsp;&nbsp;&nbsp;EVERY GOOD IDEA FITS ON A POST-IT. <br />
                &nbsp;&nbsp;&nbsp;IF IT DOESN´T. IT´S NOT A GOOD IDEA, YET.
                </p>
+            <br/>
             <br/>
             <br/>
             
@@ -47,6 +48,7 @@ export default function Hero (props) {
         <Row style={{ textAlign:'center', marginBottom:'40px', marginTop:'20px' }}>
             <br />
             <br />
+            <br/>
             <HashLink smooth to="/#welcome-section">
             {/* <p className='scroll' id="scroll-img">
             SCROLL DOWN

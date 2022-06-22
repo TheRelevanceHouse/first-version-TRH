@@ -41,7 +41,7 @@ export default function IsItAThing (props) {
             </Col>
 
 
-            <Col  xs={6} md={6} style={{textAlign:'right', position:'absolute', bottom:'0',right:'0',borderLeft:'2px solid #00a993'}}>
+            <Col id="border-remove"  xs={6} md={6} style={{textAlign:'right', position:'absolute', bottom:'0',right:'0',borderLeft:'2px solid #00a993'}}>
            
             <img src={Relevancecircle} alt='Relevant' style={{width: '500px', height: '500px'}}/>
              

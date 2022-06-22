@@ -49,6 +49,7 @@ export default function How (props) {
                 <p>
                 Branding & Storytelling, Marketing & Communication Strategy, Target Groups, Business Goals & KPIs. What and how you will tell the world about your project.
                </p>
+               <br/>
             </Col>
             <Col id="approach-col"  xs={12} md={4}>
             <img src={approachimage2} alt='Relevant'/>
@@ -61,6 +62,7 @@ export default function How (props) {
               <p >
               Brand Design, CI & CD, Build Website(s), Social Media, Campaigns, Landing Pages, Content Marketing & Production, Story Visualization.
               </p>
+              <br />
            </Col>
            <Col id="approach-col"  xs={12} md={4} >
                
@@ -68,12 +70,13 @@ export default function How (props) {
                 <br />
                 <br/>
                <h5 style={{color:'#00a993'}}>
-               GO LIVE
+               THE DELIVERY
                </h5>
                 <br />
                <p>
                Ongoing Though Leadership & Content, Social Media & Community Management, Growth Hacking & Digital Marketing, Public Relations (PR) & Press Work, Events & Conferences, Newsletter & Stakeholder Dialogue.
               </p>
+              <br />
            </Col>
             
             

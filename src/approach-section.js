@@ -23,7 +23,7 @@ export default function Approach (props) {
                 <hr style={{ marginLeft:'0', width:'20%' }} />
                 <br />
                <p style={{color:'#c6c6c6'}}>
-               Every emerging technology project is different, <br /> but the recipe for success remains the same.
+               Every emerging technology project is different, but the recipe for success remains the same.
                </p>
             </Col>
         </Row>
@@ -40,6 +40,7 @@ export default function Approach (props) {
                 <p style={{color:'#c6c6c6'}}>
                You want to tell the world about your project. You might think you are ready, but our experience shows you are probably not.
                </p>
+               <br/>
             </Col>
             <Col id="approach-col"  xs={12} md={4}>
             <img src={approachimage2} alt='Relevant'/>
@@ -52,6 +53,7 @@ export default function Approach (props) {
               <p style={{color:'#c6c6c6'}}>
               You build a community. You are in constant dialogue with potential investors. You speak to the press. You create and share content. You build momentum.
               </p>
+              <br/>
            </Col>
            <Col id="approach-col"  xs={12} md={4} >
                
@@ -65,13 +67,14 @@ export default function Approach (props) {
                <p style={{color:'#c6c6c6'}}>
               You have your funding. You want your company to grow sustainably and continue to add value. But remember, securing funding is not the end of your journey… it is just the beginning.
               </p>
+              <br/>
            </Col>
             
             
         </Row>
        
         <Row style={{textAlign:'left'}}>
-            <Col  xs={6} md={6} style={{padding:'35px'}}>
+            <Col  xs={6} md={6} style={{padding:'35px'}} id="for-mob">
                <br />
                <span id="how-line">
                Do you want to know how?
