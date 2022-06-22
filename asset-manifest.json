@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/first-version-trh/static/css/main.e41c86cf.css",
-    "main.js": "/first-version-trh/static/js/main.94b3896e.js",
+    "main.js": "/first-version-trh/static/js/main.82edd324.js",
     "static/media/TEN-MINUTE.pdf": "/first-version-trh/static/media/TEN-MINUTE.a32c1169617aa19644f9.pdf",
     "static/media/FIVE-MINUTE.pdf": "/first-version-trh/static/media/FIVE-MINUTE.897b5475ca7d856a2c1b.pdf",
     "static/media/backgroundapproach.png": "/first-version-trh/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
@@ -43,10 +43,10 @@
     "static/media/Facebook_white.svg": "/first-version-trh/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/first-version-trh/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
     "main.e41c86cf.css.map": "/first-version-trh/static/css/main.e41c86cf.css.map",
-    "main.94b3896e.js.map": "/first-version-trh/static/js/main.94b3896e.js.map"
+    "main.82edd324.js.map": "/first-version-trh/static/js/main.82edd324.js.map"
   },
   "entrypoints": [
     "static/css/main.e41c86cf.css",
-    "static/js/main.94b3896e.js"
+    "static/js/main.82edd324.js"
   ]
 }
