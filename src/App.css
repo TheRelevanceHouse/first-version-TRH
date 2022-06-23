@@ -169,7 +169,9 @@ top: 10%;
         height: auto;
         top: 10%;
     }
-   
+   .nav {
+    height: 125px;
+   }
    
   } 
 
@@ -261,7 +263,7 @@ top: 10%;
     margin: 5px;
 }
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 1000px)
 {
     #navigation-social {
         display: none !important;
@@ -786,6 +788,7 @@ color: #00a993;
 
     .welcome-row #column {
         width: -webkit-fill-available !important;
+        padding: 5px !important;
     }
 
     #column p {
@@ -827,10 +830,6 @@ color: #00a993;
 
     #footer-social {
         top: 40px !important;
-    }
-
-    .welcome-row #column { 
-        padding: 5px !important;
     }
 
     #approach-col img {
@@ -889,4 +888,106 @@ color: #00a993;
     #hideitline {
         display: none;
     }
+
+    .job-section .col-md-6 {
+        border-right: none !important;
+    }
+    .job-section .col-6 {
+        border-right: none !important;
+    }
   }
+
+  @media (min-width: 769px) and (max-width: 999px) 
+  {
+    .welcome-row .col-md-1 {
+        width: 0 !important;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+
+    .welcome-row {
+        margin-right: 0;
+        display: flex !important;
+    }
+
+    .welcome-row #column {
+        width: -webkit-fill-available !important;
+        padding: 5px !important;
+    }
+
+    .nav {
+        height: 125px;
+        box-shadow: none;
+    }
+    #arrowimage {
+        display: none ;
+    }
+    #goon {
+        margin-left: 20px;
+    }
+    #mobile-hide {
+        text-align: center;
+    }
+    #mobile-hide svg {
+        float: none !important;
+    }
+    #IsItAThing-section .col-6 {
+        width: auto !important;
+        position: relative !important;
+        border: 0 !important;
+    }
+
+    #border-remove {
+        text-align: center !important;
+    }
+
+    .team-section .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .job-section .col-md-6 {
+        border-right: none !important;
+    }
+    .job-section .col-6 {
+        border-right: none !important;
+    }
+    
+  }
+
+  @media (width: 1024px) {
+    #border-remove img {
+        width: 100% !important;
+        height: auto !important;
+
+    }
+    #navigation-items {
+        right: 3.5%;
+        top: 47%;
+    }
+    #navigation-social {
+        top: 10%;
+        right: 49px;
+    }
+
+    .nav-bar-logo {
+        left: 3%;
+    }
+
+    .nav {
+        height: 125px;
+    }
+  }
+ 
+  @media (width: 768px) {
+    #burger {
+        top: 9% !important;
+    }
+    .job-section .col-md-6 {
+        border-right: none !important;
+    }
+    .job-section .col-6 {
+        border-right: none !important;
+    }
+  }
+  

@@ -11,7 +11,7 @@ const Ul = styled.ul`
     padding: 18px 10px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     z-index: 1;
     flex-flow: column nowrap;
     background-color: #00a993;
