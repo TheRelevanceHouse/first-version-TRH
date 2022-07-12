@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { NavHashLink } from 'react-router-hash-link';
-import MovingCircles from '../circles';
-import Background from '../images/CirclesOutlineGreen.svg'
 
 const Ul = styled.ul`
   list-style: none;
