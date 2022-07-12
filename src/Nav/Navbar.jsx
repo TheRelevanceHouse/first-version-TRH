@@ -36,7 +36,7 @@ const Navbar = () => {
         useEffect(() => {
             const controlNavbar = () => {
                 if (typeof window !== 'undefined') { 
-                  if ((window.scrollY > lastScrollY) && (window.scrollY > 200)) 
+                  if ((window.scrollY > lastScrollY) && (window.scrollY > 200) && (window.innerWidth > 1000)) 
                   { 
                     
                     setShow(false); 

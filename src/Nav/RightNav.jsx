@@ -20,7 +20,7 @@ const Ul = styled.ul`
     top: 13%;
     right: 0;
     width: 100%;
-    height:50%;
+    height:auto;
     padding: 1.5rem;
     align-items: center;
     transition: transform 0.3s ease-in-out;
@@ -32,9 +32,13 @@ const Ul = styled.ul`
   }
 `;
 
-const RightNav = ({ open }) => {
+
+
+const RightNav = ({ open, setOpen }) => {
+  
   return (
-    <Ul open={open} className="mobile-menu">
+    
+    <Ul open={open} className="mobile-menu" >
       <NavHashLink smooth to="/#welcome-section" activeClassName="selected" style={{ color: '#00a993' }}>
             What
         </NavHashLink>
