@@ -10,7 +10,7 @@ export default function Welcome (props) {
     <Container >
         <Row style={{ marginTop:'35px', display:'flex', alignItems: 'flex-end'}}>
             <Col  xs={12} md={12}>
-                <br/>
+               
                 <br/>
                 <br/>
                <h4 id='welcomeheading'>

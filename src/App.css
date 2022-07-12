@@ -749,6 +749,9 @@ color: #00a993;
     .hero-section .col-6 {
         margin-top: 0 !important;
     }
+    #hidespace {
+        display: none;
+    }
   }
 
   .sc-bczRLJ .kXoFbu a {
@@ -977,6 +980,10 @@ color: #00a993;
     .nav {
         height: 125px;
     }
+
+    #hidespace {
+        display: none;
+    }
   }
  
   @media (width: 768px) {
@@ -991,3 +998,9 @@ color: #00a993;
     }
   }
   
+  .mobile-menu {
+    /* background-image: url('/src/images/circle1.svg');  */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+  }
