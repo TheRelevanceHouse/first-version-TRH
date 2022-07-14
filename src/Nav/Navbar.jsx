@@ -32,9 +32,6 @@ const Nav = styled.nav`
 `
 const Navbar = () => {
   const [show, setShow] = useState(true);
-  const handleNavClick = () => {
-    setShow(false);
-  };
     const [lastScrollY, setLastScrollY] = useState(0);
         useEffect(() => {
             const controlNavbar = () => {
@@ -74,7 +71,7 @@ const Navbar = () => {
         };
       }
     }, [lastScrollY]);
- 
+    
     return (
       <Nav >
    
@@ -109,9 +106,9 @@ const Navbar = () => {
        </a>      
        </div>
        
-       <div id='navigation-items' onClick={() => setShow(!show)}>
+       <div id='navigation-items'>
 
-       <NavHashLink onClick={handleNavClick} id="navtext" smooth to="/#welcome-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
+       <NavHashLink id="navtext" smooth to="/#welcome-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
             What
         </NavHashLink>
 

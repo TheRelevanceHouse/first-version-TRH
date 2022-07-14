@@ -38,7 +38,7 @@ const RightNav = ({ open, setOpen }) => {
   
   return (
     
-    <Ul open={open} className="mobile-menu" >
+    <Ul open={open} className="mobile-menu" id="mobile-menu">
       <NavHashLink smooth to="/#welcome-section" activeClassName="selected" style={{ color: '#00a993' }}>
             What
         </NavHashLink>
