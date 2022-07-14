@@ -8,7 +8,7 @@ export default function Welcome (props) {
     return (
     <div className='welcome-section' id='welcome-section'>
     <Container >
-        <Row style={{ marginTop:'35px', display:'flex', alignItems: 'flex-end'}}>
+        <Row style={{ marginTop:'50px', display:'flex', alignItems: 'flex-end'}}>
             <Col  xs={12} md={12}>
                
                 <br/>
@@ -85,6 +85,7 @@ export default function Welcome (props) {
                <img className="show" src={DownloadIcon} style={{width:'25px', height:'25px'}} alt='Relevant'/>
                </a>
             </Col>
+            <br/>
         </Row>
     </Container>
     </div>

@@ -13,7 +13,8 @@ export default function How (props) {
     return (
     <div className='how-section' id='how-section' style={{background:'#c6c6c6'}}>
     <Container >
-        <Row style={{ marginTop:'35px',textAlign:'left', marginBottom:'20px'}}>
+        <Row style={{ marginTop:'50px',textAlign:'left', marginBottom:'20px'}}>
+        <br id='hidespace' />
             <Col  xs={12} md={6}>
                
                 <br/>

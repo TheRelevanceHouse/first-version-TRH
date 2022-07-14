@@ -32,16 +32,35 @@ const Nav = styled.nav`
 `
 const Navbar = () => {
   const [show, setShow] = useState(true);
+  const handleNavClick = () => {
+    setShow(false);
+  };
     const [lastScrollY, setLastScrollY] = useState(0);
         useEffect(() => {
             const controlNavbar = () => {
                 if (typeof window !== 'undefined') { 
                   if ((window.scrollY > lastScrollY) && (window.scrollY > 200) && (window.innerWidth > 1000)) 
                   { 
-                    
-                    setShow(false); 
+                    // document.getElementById("navbar").style.padding = "30px 10px";
+                    document.getElementById("navtext").style.fontSize = "12px";
+                    document.getElementById("navtext1").style.fontSize = "12px";
+                    document.getElementById("navtext2").style.fontSize = "12px";
+                    document.getElementById("navtext3").style.fontSize = "12px";
+                    document.getElementById("navtext4").style.fontSize = "12px";
+                    document.getElementById("navtext5").style.fontSize = "12px";
+                    document.getElementById("nav-bar-logo1").style.height = "80px";
+                    document.getElementById("nav").style.height = "90px";
+                    // setShow(false); 
                   } else { 
                     setShow(true);  
+                    document.getElementById("navtext").style.fontSize = "14px";
+                    document.getElementById("navtext1").style.fontSize = "14px";
+                    document.getElementById("navtext2").style.fontSize = "14px";
+                    document.getElementById("navtext3").style.fontSize = "14px";
+                    document.getElementById("navtext4").style.fontSize = "14px";
+                    document.getElementById("navtext5").style.fontSize = "14px";
+                    document.getElementById("nav-bar-logo1").style.height = "105px";
+                    document.getElementById("nav").style.height = "120px";
                   }
                   setLastScrollY(window.scrollY); 
                 }
@@ -57,13 +76,13 @@ const Navbar = () => {
     }, [lastScrollY]);
  
     return (
-      <Nav style={{height:'120px'}}>
+      <Nav >
    
   
 
-   <nav  className={ `${show && 'nav'}`} >
+   <nav id='nav'  className={ `${show && 'nav'}`} >
       <a href="./" >
-         <img className='nav-bar-logo' alt="Marketing, Branding and Communications Agency"  
+         <img id='nav-bar-logo1' className='nav-bar-logo' alt="Marketing, Branding and Communications Agency"  
           src={logo}  />
      </a>
      <div id='navigation-social'>
@@ -90,29 +109,29 @@ const Navbar = () => {
        </a>      
        </div>
        
-       <div id='navigation-items'>
+       <div id='navigation-items' onClick={() => setShow(!show)}>
 
-       <NavHashLink smooth to="/#welcome-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
+       <NavHashLink onClick={handleNavClick} id="navtext" smooth to="/#welcome-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
             What
         </NavHashLink>
 
-        <NavHashLink smooth to="/#how-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
+        <NavHashLink id="navtext1" smooth to="/#how-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
             How
         </NavHashLink>
 
-        <NavHashLink smooth to="/#IsItAThing-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
+        <NavHashLink id="navtext2" smooth to="/#IsItAThing-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
             Why
         </NavHashLink>
         
-        <NavHashLink smooth to="/#team-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
+        <NavHashLink id="navtext3" smooth to="/#team-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
             Who
         </NavHashLink>
 
-        <NavHashLink smooth to="/#contact-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
+        <NavHashLink id="navtext4" smooth to="/#contact-section" activeClassName="selected" activeStyle={{ color: '#00a993' }}>
             Where
         </NavHashLink>
      
-        <a href='https://stories.therelevancehouse.com/'> 
+        <a id="navtext5" href='https://stories.therelevancehouse.com/'> 
             Stories 
         </a>
       

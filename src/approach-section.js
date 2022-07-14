@@ -12,7 +12,7 @@ export default function Approach (props) {
     return (
     <div className='approach-section' style={{background: `url(${backgroundapproach})`, backgroundPosition:'top'}}>
     <Container >
-        <Row style={{ marginTop:'35px',textAlign:'left', marginBottom:'20px'}}>
+        <Row style={{ marginTop:'50px',textAlign:'left', marginBottom:'20px'}}>
             <Col  xs={12} md={12}>
                
                 <br/>

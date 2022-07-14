@@ -18,7 +18,8 @@ export default function ContactSection (props) {
     return (
     <div className='contact-section' id='contact-section'>
          <Container >
-        <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative', display:'flex'}}>
+        <Row style={{ marginTop:'50px', marginBottom:'20px', position:'relative', display:'flex'}}>
+        <br id='hidespace' />
             <Col  xs={6} md={6}>
                 <br/>
                <h4 id='contactheading'>

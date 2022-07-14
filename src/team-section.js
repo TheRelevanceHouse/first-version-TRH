@@ -20,7 +20,8 @@ export default function TeamSection (props) {
     return (
     <div className='team-section' id='team-section'>
          <Container >
-        <Row style={{ marginTop:'35px', marginBottom:'20px', position:'relative'}}>
+        <Row style={{ marginTop:'50px', marginBottom:'20px', position:'relative'}}>
+        <br id='hidespace' />
             <Col  xs={12} md={12}>
                
                 <br/>

@@ -8,7 +8,8 @@ export default function IsItAThing (props) {
     return (
     <div className='IsItAThing-section' id="IsItAThing-section">
          <Container >
-        <Row style={{ marginTop:'35px', marginBottom:'60px', position:'relative'}}>
+        <Row style={{ marginTop:'50px', marginBottom:'60px', position:'relative'}}>
+        <br id='hidespace' />
             <Col  xs={6} md={6} style={{width:'45%'}}>
                
                 <br/>

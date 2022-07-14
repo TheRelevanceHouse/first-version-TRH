@@ -12,11 +12,12 @@ export default function Hero (props) {
     <div className='hero-section'>
     <Container >
  
-        <Row  style={{ marginTop:'35px'}}>
+        <Row  style={{ marginTop:'50px'}}>
          <br/>
-         <br/>
+        <br />
             <Col  xs={6} md={6}>
             <br id='hidespace' />
+            <br/>
             <br/>
                <h4 id="heading-1" style={{color:'#00a993', fontOpticalSizing:'4em'}}>
                 ONLY RELEVANCE 
@@ -45,10 +46,9 @@ export default function Hero (props) {
                 
             </Col> 
         </Row>
+        <br/>
         <Row style={{ textAlign:'center', marginBottom:'40px', marginTop:'20px' }}>
-            <br />
-            <br />
-           
+        <br id='hidespace' />
             <HashLink smooth to="/#welcome-section">
             {/* <p className='scroll' id="scroll-img">
             SCROLL DOWN

@@ -11,7 +11,7 @@ function WhatPage () {
     return (
         <div className='hero-section-how'>
         <Container >
-            <Row style={{ marginTop:'35px', marginBottom:'30px', display:'flex'}}>
+            <Row style={{ marginTop:'50px', marginBottom:'30px', display:'flex'}}>
                 <Col  xs={6} md={6}>
                 <br/>
                 <br/>
