@@ -26,14 +26,14 @@ export default function Hero (props) {
                 HAS IMPACT
                </h4>
                 <br/>
-                <br id='hidespace' />
+                
                <p id='hero-line' style={{color:'white', lineHeight:'34px', borderLeft:'3px solid #00A993', fontSize:'1.25em !important'}}>
                &nbsp;&nbsp;&nbsp;EVERY GOOD IDEA FITS ON A POST-IT. <br />
                &nbsp;&nbsp;&nbsp;IF IT DOESN´T. IT´S NOT A GOOD IDEA, YET.
                </p>
             
-            <br id='hidespace'/>
-            <br/>
+          
+            
             <br/>
                <NavHashLink smooth to="/#welcome-section" className='btn-green'>
                Are you ready to be relevant ?
@@ -41,18 +41,17 @@ export default function Hero (props) {
              
             </Col>
             <Col xs={6} md={6} style={{ textAlign :'right', marginTop:'-50px' }}>
-              
+            <br />
+            <br id='hidespace' />
                 <HeroBubbles/>
                 
             </Col> 
         </Row>
         <br/>
-        <Row style={{ textAlign:'center', marginBottom:'40px', marginTop:'20px' }}>
-        <br id='hidespace' />
+        <Row style={{ textAlign:'center', marginBottom:'40px' }}>
+       
             <HashLink smooth to="/#welcome-section">
-            {/* <p className='scroll' id="scroll-img">
-            SCROLL DOWN
-            </p> */}
+           
             <img id='scroll-img' src={scroll}  alt='scroll'/>
             </HashLink>
            
