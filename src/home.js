@@ -8,6 +8,10 @@ import What from './what-section';
 import IsItAThing from './is-it-a-thing';
 import TeamSection from './team-section';
 import JobSection from './job-section';
+import Testimonials from './testimonials';
+import Map from './map';
+import Numbers from './numbers';
+
 
 function HomePage() {
     return (
@@ -18,6 +22,9 @@ function HomePage() {
         <How />
         <What />
         <IsItAThing />
+        <Testimonials />
+        <Numbers/>
+        <Map/>
         <TeamSection />
         <JobSection />
     </div>
