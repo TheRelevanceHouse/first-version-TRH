@@ -169,7 +169,7 @@ left: 5%;
 vertical-align: middle;
 /* top: 50%;
 transform: translateY(-50%); */
-top: 10%;
+top: 7%;
 }
 
 @media (max-width: 768px) { 
@@ -1018,3 +1018,8 @@ color: #00a993;
     background-size: cover;
     background-repeat: no-repeat ;
   }
+
+/* .mobile-menu.clicked {
+    transform: translateX(100%) !important;
+    
+} */

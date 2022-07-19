@@ -4,7 +4,6 @@ import App from './App';
 import './fonts/norwester.ttf';
 import {HashRouter as Router} from 'react-router-dom';
 
-
 ReactDOM.render(
    
    <Router>
