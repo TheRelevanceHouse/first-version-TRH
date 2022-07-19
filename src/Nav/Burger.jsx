@@ -18,7 +18,7 @@ const Ul = styled.ul`
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
 
-    top: 10%;
+    top: 12%;
     right: 0;
     width: 100%;
     height:auto;
@@ -44,7 +44,7 @@ const StyledBurger = styled.div`
   right: 20px;
   z-index: 20;
   display: none;
-  top: 5%;
+  top: 6%;
 
   @media (max-width: 1000px) {
     display: flex;
