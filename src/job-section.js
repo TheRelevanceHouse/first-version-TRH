@@ -29,39 +29,39 @@ export default function JobSection (props) {
 
         
         <table style={{layout:'fixed', width:'100%', margin:'0px 0px 0px 20px'}}>
+           
             <tr>
                 <td>
-                <a href='/' target="_blank">DEVELOPER &amp; DATA ANALYST</a> 
+                <a href={require("./files/Job-Description--Creative-Copywriter.pdf")} rel="noopener noreferrer" target="_blank">
+                    CREATIVE COPYWRITER (60%)</a>
                 <img src={arrow}  alt='arrow'/>
                 </td>
             </tr>
             <tr>
                 <td>
-                <a   href='/' target="_blank">CREATIVE COPYWRITER (60%)</a>
+                <a href={require("./files/Job-Description--Content-Writer.pdf")} rel="noopener noreferrer" target="_blank">
+                    CONTENT WRITER (60%)</a>
                 <img src={arrow}  alt='arrow'/>
                 </td>
             </tr>
             <tr>
                 <td>
-                <a   href='/' target="_blank">CONTENT WRITER (60%)</a>
+                <a href={require("./files/Job-Discription--Social-Media-Manager.pdf")} rel="noopener noreferrer" target="_blank">
+                    SOCIAL MEDIA MANAGER (50-80%)</a>
                 <img src={arrow}  alt='arrow'/>
                 </td>
             </tr>
             <tr>
                 <td>
-                <a   href='/' target="_blank">SOCIAL MEDIA MANAGER (50-80%)</a>
+                <a href={require("./files/Job-Discription--PR-Communication.pdf")} rel="noopener noreferrer" target="_blank">
+                    INTERNSHIP PR &amp; COMMUNICATION (50-80%) &nbsp; &nbsp; &nbsp;</a>
                 <img src={arrow}  alt='arrow'/>
                 </td>
             </tr>
             <tr>
                 <td>
-                <a   href='/' target="_blank">INTERNSHIP PR &amp; COMMUNICATION (50-80%) &nbsp; &nbsp; &nbsp;</a>
-                <img src={arrow}  alt='arrow'/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                <a   href='/' target="_blank">INTERNSHIP DIGITAL MARKETING (50-80%)</a>
+                <a href={require("./files/Job-Discription--Digital-Marketing.pdf")} rel="noopener noreferrer" target="_blank">
+                    INTERNSHIP DIGITAL MARKETING (50-80%)</a>
                 <img src={arrow}  alt='arrow'/>
                 </td>
             </tr>

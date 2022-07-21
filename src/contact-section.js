@@ -35,24 +35,24 @@ export default function ContactSection (props) {
             <Col id="footer-social"  xs={6} md={6}>
 
             <div id='footer-social'>
-                <a href='/'> 
-                {/* <img className='social-nav' src={ln} alt='linkedin' /> */}
+                <a href='https://www.linkedin.com/company/therelevancehouse/'> 
+               
                 <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
                 </a>
-                <a href='/'> 
-                {/* <img className='social-nav' src={medium} alt='medium'/> */}
+                <a href='https://medium.com/the-relevance-house'> 
+                
                 <img className='social-nav' src={medium} alt='medium' onMouseOver={e => e.currentTarget.src = mediumhover}  onMouseOut={e => e.currentTarget.src = medium} />
                 </a>
-                <a href='/'> 
-                {/* <img className='social-nav' src={twitter} alt='twitter' /> */}
+                <a href='https://twitter.com/RelevanceHouse'> 
+                
                 <img className='social-nav' src={twitter} alt='twitter' onMouseOver={e => e.currentTarget.src = twitterhover}  onMouseOut={e => e.currentTarget.src = twitter} />
                 </a>
-                <a href='/'> 
-                {/* <img className='social-nav' src={fb} alt='facebook' /> */}
+                <a href='https://www.facebook.com/TheRelevanceHouse/'> 
+               
                 <img className='social-nav' src={fb} alt='facebook' onMouseOver={e => e.currentTarget.src = facebookhover}  onMouseOut={e => e.currentTarget.src = fb} />
                 </a>
-                <a href='/'> 
-                {/* <img className='social-nav' src={instagram} alt='instagram' /> */}
+                <a href='https://www.instagram.com/therelevancehouse/'> 
+               
                 <img className='social-nav' src={instagram} alt='instagram' onMouseOver={e => e.currentTarget.src = instagramhover}  onMouseOut={e => e.currentTarget.src = instagram} />
                 </a>      
             </div>
@@ -95,17 +95,19 @@ export default function ContactSection (props) {
                 <h5 id='contact-section-text' style={{color:'rgb(0, 169, 147)'}}>
                 PRESS & OTHER INQUIRIES:
                </h5>
-                <p style={{color:'#fff', lineHeight:'34px'}}>
-                welcome@therelevancehouse.com
+               <a href="mailto:welcome@therelevancehouse.com?subject=Mail from Our Site - Press and Other Inquiries" style={{color:'#fff', lineHeight:'34px'}}>
+                <p style={{color:'#fff !important', lineHeight:'34px'}}>
+               welcome@therelevancehouse.com
                </p>
-               
+               </a>
                 <h5 id='contact-section-text' style={{color:'rgb(0, 169, 147)'}}>
                 NEW CUSTOMERS:
                </h5>
+               <a href="mailto:lovetobe@therelevancehouse.com?subject=Mail from Our Site - New Customer" style={{color:'#fff', lineHeight:'34px'}}>
                 <p style={{color:'#fff', lineHeight:'34px'}}>
                 lovetobe@therelevancehouse.com
                </p>
-           
+                </a>
             </Col>
         </Row>
     </Container>
