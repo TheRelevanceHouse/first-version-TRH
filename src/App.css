@@ -1022,3 +1022,34 @@ color: #00a993;
 .Testimonials {
     background: #003F49;
 }
+
+#team-card {
+    background: radial-gradient(61.32% 61.65% at 77.67% 46%, #152C37 0%, #121212 100%);
+    border: 1px solid #003F49;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding:8px;
+    width: 120%;
+    position: absolute;
+    z-index: 1;
+    left: -10%; 
+    top: 95%;
+    opacity: 0;
+    transition: opacity 1000ms;
+   visibility: hidden;
+}
+
+#team-card p {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 300;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.team-member:hover>#team-card {
+    display: block;
+    opacity: 1;
+    visibility: inherit;
+  }
