@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/first-version-trh/static/css/main.042ec07f.css",
-    "main.js": "/first-version-trh/static/js/main.09de76dc.js",
+    "main.js": "/first-version-trh/static/js/main.c40aa2c4.js",
     "static/media/TEN-MINUTE.pdf": "/first-version-trh/static/media/TEN-MINUTE.a32c1169617aa19644f9.pdf",
     "static/media/FIVE-MINUTE.pdf": "/first-version-trh/static/media/FIVE-MINUTE.897b5475ca7d856a2c1b.pdf",
     "static/media/map.png": "/first-version-trh/static/media/map.ef7c3eacdef214619f47.png",
+    "static/media/numbers.png": "/first-version-trh/static/media/numbers.095f19c628936f0fa232.png",
     "static/media/testimonial.png": "/first-version-trh/static/media/testimonial.f2b8044607f0c1261294.png",
     "static/media/backgroundapproach.png": "/first-version-trh/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
     "static/media/3circles.png": "/first-version-trh/static/media/3circles.6c126ada096e97650b36.png",
-    "static/media/numbers.png": "/first-version-trh/static/media/numbers.a58bc097d814c041b31a.png",
     "static/media/ONE-MINUTE.pdf": "/first-version-trh/static/media/ONE-MINUTE.9f43cbddd7bca5a0d2c9.pdf",
     "static/media/Job-Discription--Digital-Marketing.pdf": "/first-version-trh/static/media/Job-Discription--Digital-Marketing.6010c4a3db24d564b5ca.pdf",
     "static/media/Job-Discription--PR-Communication.pdf": "/first-version-trh/static/media/Job-Discription--PR-Communication.b1ad699f36cb03432d06.pdf",
@@ -48,10 +48,10 @@
     "static/media/Facebook_white.svg": "/first-version-trh/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/first-version-trh/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
     "main.042ec07f.css.map": "/first-version-trh/static/css/main.042ec07f.css.map",
-    "main.09de76dc.js.map": "/first-version-trh/static/js/main.09de76dc.js.map"
+    "main.c40aa2c4.js.map": "/first-version-trh/static/js/main.c40aa2c4.js.map"
   },
   "entrypoints": [
     "static/css/main.042ec07f.css",
-    "static/js/main.09de76dc.js"
+    "static/js/main.c40aa2c4.js"
   ]
 }
