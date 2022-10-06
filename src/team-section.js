@@ -487,11 +487,11 @@ export default function TeamSection (props) {
          </p>
          <div id="team-card">
             <p>
-            {/* Clementina is a full stack digital marketing consultant with a strong expertise and background in online campaigns and Google Ads. She is a Venezuelan living in Europe since 2009 addicted to her work and to finding new challenges.
+            Vasia is our digital maven with broad online marketing experience. Whether crafting a pithy tweet, finding just the right hashtag or navigating Google Ads’ secrets, Vasia has perfected the dark art of social media and challenged herself to try something new with blockchain.
                 <br/>
                 <br />
-                <b>Fun fact: </b> 
-                She loves to work from random places, so you will always see her with different backgrounds in online meetings. */}
+                <b> Power move: </b> 
+                Vasia fears flying, but she is ready to jump on a plane to Greece any time.
             </p> 
            
             

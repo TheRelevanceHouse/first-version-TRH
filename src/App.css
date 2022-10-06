@@ -1053,3 +1053,44 @@ color: #00a993;
     opacity: 1;
     visibility: inherit;
   }
+
+.clients {
+    background: radial-gradient(61.32% 61.65% at 50% 46%, #152C37 0%, #121212 100%);
+    padding-bottom: 50px;
+}
+
+
+#clientrow {
+    display: table;
+    margin-bottom: 40px;
+    border-spacing: 20px; 
+    height: 170px;
+   
+}
+
+#clientrow img {
+    width: 100%;
+    height: auto;
+}
+
+#clientrow div {
+    display: table-cell;
+    border-radius: 20px;
+    float: none;
+    vertical-align: middle;
+    border: 2px solid #00a99342;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-spacing: 25px; 
+   
+    
+
+
+}
+
+#clientrow div:hover {
+    border: 2px solid #00a993;
+    transition: 1000ms;
+}

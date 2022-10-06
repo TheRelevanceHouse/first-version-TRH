@@ -11,6 +11,7 @@ import JobSection from './job-section';
 import Testimonials from './testimonials';
 import Map from './map';
 import Numbers from './numbers';
+import Clients from './clients';
 
 
 function HomePage() {
@@ -22,6 +23,7 @@ function HomePage() {
         <How />
         <What />
         <IsItAThing />
+        <Clients />
         <Testimonials />
         <Numbers/>
         <Map/>
