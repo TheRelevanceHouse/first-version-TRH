@@ -483,7 +483,7 @@ export default function TeamSection (props) {
          </p>
          
          <p id='team-section-text' style={{marginTop:'0px',fontSize:'1em', lineHeight:'30px'}}>
-         MARKETING SCRABBLER
+         Social butterfly
          </p>
          <div id="team-card">
             <p>
