@@ -343,6 +343,7 @@ background-clip: text;
 
 .welcome-section {
     background-color: #c6c6c6;
+    padding-bottom: 30px;
 }
 
 .welcome-row #column {
@@ -439,11 +440,16 @@ background-clip: text;
     line-height: 2em;
 }
 
+
 .how-section p {
     color: #333333;
     font-weight: 400;
     font-size: 1.35em;
     line-height: 2em;
+}
+
+.how-section {
+padding-bottom: 30px;
 }
 
 .job-section p {
@@ -459,6 +465,10 @@ background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.IsItAThing-section {
+    padding-bottom: 30px;
 }
 
 .what-section {
@@ -540,6 +550,7 @@ background-clip: text;
 
 .team-section {
     background: radial-gradient(61.32% 61.65% at 77.67% 46%, #152C37 0%, #121212 100%);
+    PADDING-BOTTOM: 40PX;
 }
 
 #team-section-text {
@@ -766,6 +777,20 @@ color: #00a993;
     #hidespace {
         display: none;
     }
+    #team-card {
+        padding: 5px !important;
+        width: 100% !important;
+        left: 0% !important;
+    }
+
+    #clientrow 
+    {
+    display: none !important;
+  
+
+    }
+
+
   }
 
   .sc-bczRLJ .kXoFbu a {
@@ -1084,13 +1109,45 @@ color: #00a993;
     padding-left: 30px;
     padding-right: 30px;
     border-spacing: 25px; 
-   
-    
-
-
 }
 
 #clientrow div:hover {
     border: 2px solid #00a993;
     transition: 1000ms;
+}
+
+
+#clientrow-mobile {
+    display: table;
+    margin-bottom: 40px;
+    border-spacing: 5px; 
+    height: 90px;
+   
+}
+
+#clientrow-mobile img {
+    width: 100%;
+    height: auto;
+}
+
+#clientrow-mobile div {
+    display: table-cell;
+    border-radius: 20px;
+    float: none;
+    vertical-align: middle;
+    border: 2px solid #00a99342;
+   padding: 10px !important;
+   width: 25% !important;
+}
+
+#clientrow-mobile div:hover {
+    border: 2px solid #00a993;
+    transition: 1000ms;
+}
+
+@media (min-width: 769px) { 
+   #clientrow-mobile {
+visibility: hidden;
+display: none;
+   }
 }

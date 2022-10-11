@@ -65,7 +65,7 @@ export default function Welcome (props) {
                </span>
 
                <p>
-                   FIVE MINUTE
+                   FIVE MINUTES
                </p>
                <br />
                <img className="show" src={DownloadIcon} style={{width:'25px', height:'25px'}} alt='Relevant'/>
@@ -79,7 +79,7 @@ export default function Welcome (props) {
                    10
                </span>
                <p>
-                   TEN MINUTE
+                   TEN MINUTES
                </p>
                <br />
                <img className="show" src={DownloadIcon} style={{width:'25px', height:'25px'}} alt='Relevant'/>

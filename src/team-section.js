@@ -511,6 +511,7 @@ export default function TeamSection (props) {
            
        </Row>
     </Container>
+    <br id='hidespace' />
     </div>
     ); 
 }
