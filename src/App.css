@@ -400,9 +400,9 @@ background-clip: text;
 }
 
 #column p {
-    top: 40%;
+    top: 65%;
     position: absolute;
-    left: 37%;
+    left: 35%;
     font-family: 'Norwester', sans-serif !important;   
     color: #f2f2f2;
     transition: transform .8s;
@@ -786,8 +786,9 @@ color: #00a993;
     #clientrow 
     {
     display: none !important;
-  
-
+    }
+    .what-section {
+        background: radial-gradient(61.32% 61.65% at 50% 46%, #152C37 0%, #121212 100%) !important;
     }
 
 
@@ -1151,3 +1152,5 @@ visibility: hidden;
 display: none;
    }
 }
+
+
