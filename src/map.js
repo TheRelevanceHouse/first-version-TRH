@@ -64,7 +64,7 @@ export default function Map (props) {
                 <span class="title">Canada</span>
                 </div>
         </Link>
-        <Link to="/" href="#" onClick="return false;" class="map-dot map-dot-red" style={{top: '45%', left: '20%'}}>
+        <Link to="/" onClick="return false;" class="map-dot map-dot-red" style={{top: '45%', left: '20%'}}>
             <div class="text">
                 <span class="title">USA</span>
                 </div>

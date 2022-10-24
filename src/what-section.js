@@ -5,7 +5,7 @@ import backgroundwhatsection from './images/Group51.svg'
 
 export default function What (props) {
     return (
-    <div className='what-section' id='what-section' style={{ backgroundRepeat:'no-repeat', backgroundPosition:'center'}}>
+    <div className='what-section' id='what-section' style={{backgroundImage: `url(${backgroundwhatsection})`, backgroundSize: '50%', backgroundRepeat:'no-repeat', backgroundPosition:'center'}}>
         <Container >
         <Row style={{ marginTop:'50px', marginBottom:'20px'}}> 
             <Col  xs={6} md={6}>
