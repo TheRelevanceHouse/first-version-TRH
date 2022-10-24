@@ -37,7 +37,7 @@ export default function TeamSection (props) {
                
                 <br/>
                <h4 id="teamheading">
-               MEET OUR TEEM
+               MEET OUR TEAM
                </h4>
                
                 <hr id='teamline' style={{ marginLeft:'0', width:'15%' }} />
@@ -50,7 +50,7 @@ export default function TeamSection (props) {
         <Row style={{textAlign:'center', display:'flex', alignItems:'center'}}>
             <Col xs={12} md={12}>
             <p id="team-section-text">
-            CORE-TEAM
+            CORE TEAM
              </p>
                 </Col>
             
@@ -457,7 +457,7 @@ export default function TeamSection (props) {
          </p>
          
          <p id='team-section-text' style={{marginTop:'0px',fontSize:'1em', lineHeight:'30px'}}>
-         MARKETING NINJA
+         CONTENT WHIZ
          </p>
          <div id="team-card">
             <p>

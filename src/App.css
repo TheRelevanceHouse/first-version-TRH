@@ -229,6 +229,7 @@ top: 7%;
     line-height: 1.5;
     border-radius: 0.8rem;
     margin-left: 10px;
+    overflow: auto;
 }
 
 .btn-white {
@@ -242,6 +243,7 @@ top: 7%;
     line-height: 1.5;
     border-radius: 0.8rem;
     margin-left: 10px;
+    overflow: auto;
 }
 
 .btn-green-shade {
@@ -260,6 +262,7 @@ top: 7%;
     line-height: 1.5;
     border-radius: 0.8rem;
     margin-left: 10px;
+    overflow: auto;
 }
 
 #navigation-social {
@@ -719,6 +722,7 @@ padding-bottom: 30px;
     padding: 1.5rem 2rem;
     font-size: 1.25rem;
     text-decoration: none;
+    overflow: auto;
 }
 
 .btn-green:hover {
@@ -727,6 +731,7 @@ padding-bottom: 30px;
     transform: scale(1.05);
     color: #FFFFFF;
     border-radius: 10px;
+    overflow: auto;
 }
 
 #how-line {
