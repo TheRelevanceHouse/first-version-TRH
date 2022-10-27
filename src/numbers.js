@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Container} from 'react-bootstrap'
-import numbers from './images/numbers.png'
+import numbers from './images/numbers.webp'
 
 
 export default function Numbers (props) {

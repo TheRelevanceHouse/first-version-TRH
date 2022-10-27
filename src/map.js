@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
-import map from './images/map.png'
+import map from './images/map.webp'
 
 
 export default function Map (props) {

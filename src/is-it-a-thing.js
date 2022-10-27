@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Row, Col, Container} from 'react-bootstrap'
-import Relevancecircle from './images/3circles.png'
+import Relevancecircle from './images/3circles.webp'
 import { HashLink } from 'react-router-hash-link'
 
 export default function IsItAThing (props) {

@@ -4,7 +4,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 import approachimage1 from './images/GETREADYIcon.svg'
 import approachimage2 from './images/GOLIVEIcon.svg'
 import approachimage3 from './images/GOBIGIcon.svg'
-import backgroundapproach from './images/backgroundapproach.png' 
+import backgroundapproach from './images/backgroundapproach.webp' 
 import arrow from './images/greenline.png'
 import { HashLink } from 'react-router-hash-link'
 
