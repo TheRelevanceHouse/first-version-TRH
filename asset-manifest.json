@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.962d703a.css",
-    "main.js": "/static/js/main.05e897b2.js",
+    "main.js": "/static/js/main.88bd9976.js",
     "static/media/What we do - The Relevance House.pdf": "/static/media/What we do - The Relevance House.30143995b0a88d8220c6.pdf",
-    "static/media/map.png": "/static/media/map.67e7eae9cb8b97a8e455.png",
     "static/media/How we make it happen-The Relevance House.pdf": "/static/media/How we make it happen-The Relevance House.d9cf80389d7fd02521a9.pdf",
     "static/media/TEN-MINUTES.pdf": "/static/media/TEN-MINUTES.a32c1169617aa19644f9.pdf",
     "static/media/FIVE-MINUTES.pdf": "/static/media/FIVE-MINUTES.897b5475ca7d856a2c1b.pdf",
-    "static/media/numbers.png": "/static/media/numbers.095f19c628936f0fa232.png",
-    "static/media/backgroundapproach.png": "/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
-    "static/media/3circles.png": "/static/media/3circles.6c126ada096e97650b36.png",
+    "static/media/map.webp": "/static/media/map.74d58efeb7a2bc322154.webp",
+    "static/media/numbers.webp": "/static/media/numbers.869c65280a74666f01d6.webp",
     "static/media/ONE-MINUTE.pdf": "/static/media/ONE-MINUTE.9f43cbddd7bca5a0d2c9.pdf",
     "static/media/Job-Discription--Digital-Marketing.pdf": "/static/media/Job-Discription--Digital-Marketing.6010c4a3db24d564b5ca.pdf",
     "static/media/Job-Discription--PR-Communication.pdf": "/static/media/Job-Discription--PR-Communication.b1ad699f36cb03432d06.pdf",
     "static/media/Job-Discription--Social-Media-Manager.pdf": "/static/media/Job-Discription--Social-Media-Manager.6d2febc9277adf82fbc4.pdf",
     "static/media/Job-Description--Content-Writer.pdf": "/static/media/Job-Description--Content-Writer.fff34cc7b8abc81f67a6.pdf",
     "static/media/Job-Description--Creative-Copywriter.pdf": "/static/media/Job-Description--Creative-Copywriter.72a0d1663769cb5eb4a7.pdf",
+    "static/media/3circles.webp": "/static/media/3circles.c3afcb9da99f50cc103c.webp",
     "static/media/circle3.svg": "/static/media/circle3.74315be5e6c7a4ae5692913b60874b81.svg",
     "static/media/circle1.svg": "/static/media/circle1.e4e0a8587b21bb13a5e13b0608920304.svg",
     "static/media/circle2.svg": "/static/media/circle2.11a1a5359f5c8886b7c6bed47dd03953.svg",
@@ -23,6 +22,7 @@
     "static/media/Sarah.webp": "/static/media/Sarah.d53451dd72c0c26e13b4.webp",
     "static/media/clementina.webp": "/static/media/clementina.5fa8294fd6443688cbdd.webp",
     "static/media/Jonny.webp": "/static/media/Jonny.b26aa885c01e97ef1a10.webp",
+    "static/media/backgroundapproach.webp": "/static/media/backgroundapproach.0bd413806ca77bb8db26.webp",
     "static/media/Vasia.webp": "/static/media/Vasia.38b17e0f955da4ac0a8e.webp",
     "static/media/Instagram_white.svg": "/static/media/Instagram_white.5ea80efc39064e2eb6be8605548c0226.svg",
     "static/media/GOBIGIconWhite.svg": "/static/media/GOBIGIconWhite.c95f7dc03968ebf8cd1878b6eef0158d.svg",
@@ -58,10 +58,10 @@
     "static/media/Facebook_white.svg": "/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
     "main.962d703a.css.map": "/static/css/main.962d703a.css.map",
-    "main.05e897b2.js.map": "/static/js/main.05e897b2.js.map"
+    "main.88bd9976.js.map": "/static/js/main.88bd9976.js.map"
   },
   "entrypoints": [
     "static/css/main.962d703a.css",
-    "static/js/main.05e897b2.js"
+    "static/js/main.88bd9976.js"
   ]
 }
