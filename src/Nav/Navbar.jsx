@@ -6,11 +6,11 @@ import logo from '../images/logomain.png'
 import ln from '../images/LinkedIN_white.svg'
 import medium from '../images/Medium_white.svg'
 import twitter from '../images/Twitter_white.svg'
-import fb from '../images/Facebook_white.svg'
+// import fb from '../images/Facebook_white.svg'
 import instagram from '../images/Instagram_white.svg'
 import '../fonts/norwester.ttf'
 import linkedinhover from '../images/LinkedinIconHover.svg'
-import facebookhover from '../images/FacebookIconHover.svg'
+// import facebookhover from '../images/FacebookIconHover.svg'
 import twitterhover from '../images/TwitterIconHover.svg'
 import instagramhover from '../images/InstagramIconHover.svg'
 import mediumhover from '../images/MediumIconHover.svg'
@@ -96,10 +96,12 @@ const Navbar = () => {
       
        <img className='social-nav' src={twitter} alt='twitter' onMouseOver={e => e.currentTarget.src = twitterhover}  onMouseOut={e => e.currentTarget.src = twitter} />
        </a>
-       <a href='https://www.facebook.com/TheRelevanceHouse/'> 
+      
+       {/* <a href='https://www.facebook.com/TheRelevanceHouse/'> 
        
        <img className='social-nav' src={fb} alt='facebook' onMouseOver={e => e.currentTarget.src = facebookhover}  onMouseOut={e => e.currentTarget.src = fb} />
-       </a>
+       </a> */}
+       
        <a href='https://www.instagram.com/therelevancehouse/'> 
        
        <img className='social-nav' src={instagram} alt='instagram' onMouseOver={e => e.currentTarget.src = instagramhover}  onMouseOut={e => e.currentTarget.src = instagram} />
