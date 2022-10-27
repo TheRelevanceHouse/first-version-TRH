@@ -59,7 +59,7 @@ export default function Welcome (props) {
             <Col  xs={0} md={1} style={{ textAlign :'center', width:'17%' }}>
                 </Col>
             <Col id='column' xs={12} md={3} style={{ textAlign :'center'}}>
-            <a href={require("./files/FIVE-MINUTE.pdf")} download="Five Minute - THE RELEVANCE HOUSE">
+            <a href={require("./files/FIVE-MINUTES.pdf")} download="Five Minutes - THE RELEVANCE HOUSE">
             <span>
                    5
                </span>
@@ -74,7 +74,7 @@ export default function Welcome (props) {
             <Col  xs={0} md={1} style={{ textAlign :'center', width:'17%' }}>
                 </Col>
             <Col id='column' xs={12} md={3} style={{ textAlign :'center' }}>
-            <a href={require("./files/TEN-MINUTE.pdf")} download="Ten Minute - THE RELEVANCE HOUSE">
+            <a href={require("./files/TEN-MINUTES.pdf")} download="Ten Minutes - THE RELEVANCE HOUSE">
             <span>
                    10
                </span>

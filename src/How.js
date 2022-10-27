@@ -206,10 +206,19 @@ function HowPage () {
         </Row>
         <Row >
           
-            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993', marginBottom:'20px' }}>Want to see it in a different graphic?</button>
+            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993', marginBottom:'20px' }}>
+            <a style={{color:'#fff'}} href={require("./files/How we make it happen-The Relevance House.pdf")} download="How we make it happen - THE RELEVANCE HOUSE">
+                Want to see it in a different graphic?
+                </a>
+                </button>
         
             
-            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993' , marginBottom:'20px'}}>Still curious about all this stuff?</button>
+            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993' , marginBottom:'20px'}}>
+             
+            <a href="./#contact-section" style={{color:'#fff'}}>
+            Still curious about all this stuff?
+            </a>
+             </button>
              
 
          

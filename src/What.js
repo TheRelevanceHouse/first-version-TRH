@@ -116,9 +116,19 @@ We will build and manage a community that trusts you.
        
         <Row style={{marginTop:'50px', marginBottom:'50px'}} >
           
-            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993', marginBottom:'20px' }}>Want to see it in a different graphic?</button>
+            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993', marginBottom:'20px' }}>
+                
+            <a style={{color:'#fff'}} href={require("./files/What we do - The Relevance House.pdf")} download="What we do - THE RELEVANCE HOUSE">
+                Want to see it in a different graphic?
+                </a>
+                </button>
             
-            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993', marginBottom:'20px' }}>Still curious about all this stuff?</button>
+            <button className="btn-green" style={{ marginLeft :'15px', border:'#00a993', marginBottom:'20px' }}>
+                
+            <a href="./#contact-section" style={{color:'#fff'}}>
+                Still curious about all this stuff?
+                </a>
+                </button>
              
 
          

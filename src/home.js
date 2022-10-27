@@ -8,7 +8,7 @@ import What from './what-section';
 import IsItAThing from './is-it-a-thing';
 import TeamSection from './team-section';
 import JobSection from './job-section';
-import Testimonials from './testimonials';
+// import Testimonials from './testimonials';
 import Map from './map';
 import Numbers from './numbers';
 import Clients from './clients';
@@ -24,7 +24,7 @@ function HomePage() {
         <What />
         <IsItAThing />
         <Clients />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Numbers/>
         <Map/>
         <TeamSection />
