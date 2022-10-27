@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.510c7606.css",
-    "main.js": "/static/js/main.e5bf052d.js",
+    "main.css": "/static/css/main.962d703a.css",
+    "main.js": "/static/js/main.c22bad7b.js",
+    "static/media/What we do - The Relevance House.pdf": "/static/media/What we do - The Relevance House.30143995b0a88d8220c6.pdf",
     "static/media/map.png": "/static/media/map.67e7eae9cb8b97a8e455.png",
-    "static/media/TEN-MINUTE.pdf": "/static/media/TEN-MINUTE.a32c1169617aa19644f9.pdf",
-    "static/media/FIVE-MINUTE.pdf": "/static/media/FIVE-MINUTE.897b5475ca7d856a2c1b.pdf",
+    "static/media/How we make it happen-The Relevance House.pdf": "/static/media/How we make it happen-The Relevance House.d9cf80389d7fd02521a9.pdf",
+    "static/media/TEN-MINUTES.pdf": "/static/media/TEN-MINUTES.a32c1169617aa19644f9.pdf",
+    "static/media/FIVE-MINUTES.pdf": "/static/media/FIVE-MINUTES.897b5475ca7d856a2c1b.pdf",
     "static/media/numbers.png": "/static/media/numbers.095f19c628936f0fa232.png",
-    "static/media/testimonial.png": "/static/media/testimonial.f2b8044607f0c1261294.png",
     "static/media/backgroundapproach.png": "/static/media/backgroundapproach.d3031d8929aed8ce7ed1.png",
     "static/media/3circles.png": "/static/media/3circles.6c126ada096e97650b36.png",
     "static/media/ONE-MINUTE.pdf": "/static/media/ONE-MINUTE.9f43cbddd7bca5a0d2c9.pdf",
@@ -56,11 +57,11 @@
     "static/media/FacebookIconHover.svg": "/static/media/FacebookIconHover.3f25636f886fe2bcced98ab0a23f1d3f.svg",
     "static/media/Facebook_white.svg": "/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
-    "main.510c7606.css.map": "/static/css/main.510c7606.css.map",
-    "main.e5bf052d.js.map": "/static/js/main.e5bf052d.js.map"
+    "main.962d703a.css.map": "/static/css/main.962d703a.css.map",
+    "main.c22bad7b.js.map": "/static/js/main.c22bad7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.510c7606.css",
-    "static/js/main.e5bf052d.js"
+    "static/css/main.962d703a.css",
+    "static/js/main.c22bad7b.js"
   ]
 }
