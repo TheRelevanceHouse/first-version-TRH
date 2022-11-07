@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.962d703a.css",
-    "main.js": "/static/js/main.62bd84e1.js",
+    "main.js": "/static/js/main.88bd9976.js",
     "static/media/What we do - The Relevance House.pdf": "/static/media/What we do - The Relevance House.30143995b0a88d8220c6.pdf",
     "static/media/How we make it happen-The Relevance House.pdf": "/static/media/How we make it happen-The Relevance House.d9cf80389d7fd02521a9.pdf",
     "static/media/TEN-MINUTES.pdf": "/static/media/TEN-MINUTES.a32c1169617aa19644f9.pdf",
@@ -48,20 +48,20 @@
     "static/media/scrolldown.svg": "/static/media/scrolldown.f9e0d1ca97c66becba38d29fec6e3472.svg",
     "static/media/adelina.webp": "/static/media/adelina.a1ae942e2fe55b5c4bca.webp",
     "static/media/AddressIcon.svg": "/static/media/AddressIcon.4f8dbef3ec960158e35326dc6f3a55e0.svg",
+    "index.html": "/index.html",
     "static/media/InstagramIconHover.svg": "/static/media/InstagramIconHover.d4faafea972fc830ba97026419ec48fe.svg",
     "static/media/LinkedIN_white.svg": "/static/media/LinkedIN_white.cf1356a81006c7f32d1b2d0a39c25990.svg",
     "static/media/Medium_white.svg": "/static/media/Medium_white.7e57206cf172b92a8233d6acf764b294.svg",
-    "index.html": "/index.html",
     "static/media/LinkedinIconHover.svg": "/static/media/LinkedinIconHover.0d0075aca7000a873652f931f1177c22.svg",
     "static/media/MediumIconHover.svg": "/static/media/MediumIconHover.de3d8eca867f3b55057c601836cd51d8.svg",
     "static/media/FacebookIconHover.svg": "/static/media/FacebookIconHover.3f25636f886fe2bcced98ab0a23f1d3f.svg",
     "static/media/Facebook_white.svg": "/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
     "main.962d703a.css.map": "/static/css/main.962d703a.css.map",
-    "main.62bd84e1.js.map": "/static/js/main.62bd84e1.js.map"
+    "main.88bd9976.js.map": "/static/js/main.88bd9976.js.map"
   },
   "entrypoints": [
     "static/css/main.962d703a.css",
-    "static/js/main.62bd84e1.js"
+    "static/js/main.88bd9976.js"
   ]
 }
