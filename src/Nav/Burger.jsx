@@ -112,10 +112,10 @@ const Burger = () => {
        <NavHashLink smooth to="/#contact-section"  style={{ color: '#00a993' }}>
            Where
        </NavHashLink>
-    
+{/*     
        <a href='https://stories.therelevancehouse.com/' style={{ color: '#00a993' }}> 
            Stories 
-       </a>
+       </a> */}
    </Ul>
     </>
   )

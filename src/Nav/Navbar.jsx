@@ -130,9 +130,9 @@ const Navbar = () => {
             Where
         </NavHashLink>
      
-        <a id="navtext5" href='https://stories.therelevancehouse.com/'> 
+        {/* <a id="navtext5" href='https://stories.therelevancehouse.com/'> 
             Stories 
-        </a>
+        </a> */}
       
        </div>
   </nav>
