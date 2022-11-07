@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.962d703a.css",
-    "main.js": "/static/js/main.88bd9976.js",
+    "main.js": "/static/js/main.413a2b15.js",
     "static/media/What we do - The Relevance House.pdf": "/static/media/What we do - The Relevance House.30143995b0a88d8220c6.pdf",
     "static/media/How we make it happen-The Relevance House.pdf": "/static/media/How we make it happen-The Relevance House.d9cf80389d7fd02521a9.pdf",
     "static/media/TEN-MINUTES.pdf": "/static/media/TEN-MINUTES.a32c1169617aa19644f9.pdf",
@@ -58,10 +58,10 @@
     "static/media/Facebook_white.svg": "/static/media/Facebook_white.fd80da2f80e64e2bea2d7b587fffda99.svg",
     "static/media/arrow.svg": "/static/media/arrow.25d34143626b8a93c1a605c2cacd3b06.svg",
     "main.962d703a.css.map": "/static/css/main.962d703a.css.map",
-    "main.88bd9976.js.map": "/static/js/main.88bd9976.js.map"
+    "main.413a2b15.js.map": "/static/js/main.413a2b15.js.map"
   },
   "entrypoints": [
     "static/css/main.962d703a.css",
-    "static/js/main.88bd9976.js"
+    "static/js/main.413a2b15.js"
   ]
 }
