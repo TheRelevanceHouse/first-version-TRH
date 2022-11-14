@@ -18,7 +18,7 @@ export default function What (props) {
                 <hr style={{ marginLeft:'0' }} />
                 <br />
                <p>
-               For humans to buy into something, it needs to be relevant to them. They need to see it, they need to want it and they need to trust it. Then, and only then, we will we be able to change the world. And we, like you, want to change it for the better.
+               For humans to buy into something, it needs to be relevant to them. They need to see it, they need to want it and they need to trust it. Then, and only then, we will be able to change the world. And we, like you, want to change it for the better.
                </p>
                <br/>
             </Col>
