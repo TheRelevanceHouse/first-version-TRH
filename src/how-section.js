@@ -75,7 +75,7 @@ export default function How (props) {
                </h5>
                 <br />
                <p>
-               Ongoing Though Leadership & Content, Social Media & Community Management, Growth Hacking & Digital Marketing, Public Relations (PR) & Press Work, Events & Conferences, Newsletter & Stakeholder Dialogue.
+               Ongoing Thought Leadership & Content, Social Media & Community Management, Growth Hacking & Digital Marketing, Public Relations (PR) & Press Work, Events & Conferences, Newsletter & Stakeholder Dialogue.
               </p>
               <br />
            </Col>
