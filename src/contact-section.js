@@ -13,6 +13,7 @@ import linkedinhover from './images/LinkedinIconHover.svg'
 import twitterhover from './images/TwitterIconHover.svg'
 import instagramhover from './images/InstagramIconHover.svg'
 import mediumhover from './images/MediumIconHover.svg'
+import { HashLink } from 'react-router-hash-link'
 
 export default function ContactSection (props) {
     return (
@@ -71,6 +72,17 @@ export default function ContactSection (props) {
                 <p style={{color:'#fff', lineHeight:'34px'}}>
                 Seestrasse <br/>
                 CH 8802 - Kilchberg
+
+               </p>
+                
+               <br/>
+                <h5 id='contact-section-text' style={{color:'rgb(0, 169, 147)'}}>
+              Terms & considition:
+               </h5>
+                <p style={{color:'#fff', lineHeight:'34px'}}>
+                <HashLink to="/legal-notice/#" style={{color:'white',textDecoration:'underline'}}>
+               Legal notice document
+               </HashLink>
 
                </p>
             </Col>

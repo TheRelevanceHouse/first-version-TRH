@@ -8,6 +8,7 @@ import Footer from './footer';
 import HomePage from './home';
 import HowPage from "./How"
 import WhatPage from "./What"
+import LegalNotice from "./legal-notice"
 import ContactSection from './contact-section';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<HomePage/>} />
         <Route path="/how" element={<HowPage/>} />
         <Route path="/what" element={<WhatPage/>} />
+        <Route path="/legal-notice" element={<LegalNotice/>} />
         </Routes>
         <ContactSection/>
         <Footer/>
