@@ -83,26 +83,21 @@ const Navbar = () => {
           src={logo}  />
      </a>
      <div id='navigation-social'>
-       <a href='https://www.linkedin.com/company/therelevancehouse/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/company/therelevancehouse/'> 
      
        <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
       
        </a>
-       <a href='https://medium.com/the-relevance-house'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://medium.com/the-relevance-house'> 
       
        <img className='social-nav' src={medium} alt='medium' onMouseOver={e => e.currentTarget.src = mediumhover}  onMouseOut={e => e.currentTarget.src = medium} />
        </a>
-       <a href='https://twitter.com/RelevanceHouse'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/RelevanceHouse'> 
       
        <img className='social-nav' src={twitter} alt='twitter' onMouseOver={e => e.currentTarget.src = twitterhover}  onMouseOut={e => e.currentTarget.src = twitter} />
        </a>
-      
-       {/* <a href='https://www.facebook.com/TheRelevanceHouse/'> 
        
-       <img className='social-nav' src={fb} alt='facebook' onMouseOver={e => e.currentTarget.src = facebookhover}  onMouseOut={e => e.currentTarget.src = fb} />
-       </a> */}
-       
-       <a href='https://www.instagram.com/therelevancehouse/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/therelevancehouse/'> 
        
        <img className='social-nav' src={instagram} alt='instagram' onMouseOver={e => e.currentTarget.src = instagramhover}  onMouseOut={e => e.currentTarget.src = instagram} />
        </a>      

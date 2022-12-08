@@ -87,24 +87,24 @@ export default function TeamSection (props) {
             </p> 
            
             
-       <a href='https://www.linkedin.com/in/gerramirez/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/gerramirez/'> 
      
        <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
       
        </a>
-       <a href='https://medium.com/@ger.ramirez'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://medium.com/@ger.ramirez'> 
       
        <img className='social-nav' src={medium} alt='medium' onMouseOver={e => e.currentTarget.src = mediumhover}  onMouseOut={e => e.currentTarget.src = medium} />
        </a>
-       <a href='https://twitter.com/gerramirez'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/gerramirez'> 
       
        <img className='social-nav' src={twitter} alt='twitter' onMouseOver={e => e.currentTarget.src = twitterhover}  onMouseOut={e => e.currentTarget.src = twitter} />
        </a>
-       <a href='https://www.facebook.com/german.ramirez.12532'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/german.ramirez.12532'> 
        
        <img className='social-nav' src={fb} alt='facebook' onMouseOver={e => e.currentTarget.src = facebookhover}  onMouseOut={e => e.currentTarget.src = fb} />
        </a>
-       <a href='https://www.instagram.com/gerramirez13/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/gerramirez13/'> 
        
        <img className='social-nav' src={instagram} alt='instagram' onMouseOver={e => e.currentTarget.src = instagramhover}  onMouseOut={e => e.currentTarget.src = instagram} />
        </a>      
@@ -161,21 +161,21 @@ export default function TeamSection (props) {
             </p> 
            
             
-       <a href='https://www.linkedin.com/in/vincenttresno/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/vincenttresno/'> 
      
        <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
       
        </a>
       
-       <a href='https://twitter.com/vincenttresno'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/vincenttresno'> 
       
        <img className='social-nav' src={twitter} alt='twitter' onMouseOver={e => e.currentTarget.src = twitterhover}  onMouseOut={e => e.currentTarget.src = twitter} />
        </a>
-       <a href='https://www.facebook.com/vincent.tresno'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/vincent.tresno'> 
        
        <img className='social-nav' src={fb} alt='facebook' onMouseOver={e => e.currentTarget.src = facebookhover}  onMouseOut={e => e.currentTarget.src = fb} />
        </a>
-       <a href='https://www.instagram.com/vincent.tresno/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/vincent.tresno/'> 
        
        <img className='social-nav' src={instagram} alt='instagram' onMouseOver={e => e.currentTarget.src = instagramhover}  onMouseOut={e => e.currentTarget.src = instagram} />
        </a>      
@@ -205,13 +205,13 @@ export default function TeamSection (props) {
             </p> 
            
             
-       <a href='https://www.linkedin.com/in/eoin-jones-78ab00175/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/eoin-jones-78ab00175/'> 
      
        <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
       
        </a>
        
-       <a href='https://twitter.com/JonesEoin'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/JonesEoin'> 
       
        <img className='social-nav' src={twitter} alt='twitter' onMouseOver={e => e.currentTarget.src = twitterhover}  onMouseOut={e => e.currentTarget.src = twitter} />
        </a>
@@ -248,21 +248,21 @@ export default function TeamSection (props) {
             </p> 
            
             
-       <a href='https://www.linkedin.com/in/alirazadar/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/alirazadar/'> 
      
        <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
       
        </a>
       
-       <a href='https://twitter.com/AliRazaDaRr'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/AliRazaDaRr'> 
       
        <img className='social-nav' src={twitter} alt='twitter' onMouseOver={e => e.currentTarget.src = twitterhover}  onMouseOut={e => e.currentTarget.src = twitter} />
        </a>
-       <a href='https://www.facebook.com/ardarr7/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/ardarr7/'> 
        
        <img className='social-nav' src={fb} alt='facebook' onMouseOver={e => e.currentTarget.src = facebookhover}  onMouseOut={e => e.currentTarget.src = fb} />
        </a>
-       <a href='https://www.instagram.com/alirazadarr/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/alirazadarr/'> 
        
        <img className='social-nav' src={instagram} alt='instagram' onMouseOver={e => e.currentTarget.src = instagramhover}  onMouseOut={e => e.currentTarget.src = instagram} />
        </a>      
@@ -319,17 +319,17 @@ export default function TeamSection (props) {
             </p> 
            
             
-       <a href='https://www.linkedin.com/in/jonathon-packer-522ab01a2/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/jonathon-packer-522ab01a2/'> 
      
        <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
       
        </a>
-       <a href='https://twitter.com/nunyabyzwx'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/nunyabyzwx'> 
       
        <img className='social-nav' src={twitter} alt='twitter' onMouseOver={e => e.currentTarget.src = twitterhover}  onMouseOut={e => e.currentTarget.src = twitter} />
        </a>
       
-       <a href='https://www.instagram.com/jjgpacker/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/jjgpacker/'> 
        
        <img className='social-nav' src={instagram} alt='instagram' onMouseOver={e => e.currentTarget.src = instagramhover}  onMouseOut={e => e.currentTarget.src = instagram} />
        </a>      
@@ -360,13 +360,13 @@ export default function TeamSection (props) {
             </p> 
            
             
-       <a href='https://www.linkedin.com/in/robynn-weldon-0791614a/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/robynn-weldon-0791614a/'> 
      
        <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
       
        </a>
       
-       <a href='https://twitter.com/WritesRobynn'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/WritesRobynn'> 
       
        <img className='social-nav' src={twitter} alt='twitter' onMouseOver={e => e.currentTarget.src = twitterhover}  onMouseOut={e => e.currentTarget.src = twitter} />
        </a>
@@ -430,13 +430,13 @@ export default function TeamSection (props) {
             </p> 
            
             
-       <a href='https://www.linkedin.com/in/eraldocuko/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/eraldocuko/'> 
      
        <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
       
        </a>
       
-       <a href='https://www.instagram.com/eraldocuko/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/eraldocuko/'> 
        
        <img className='social-nav' src={instagram} alt='instagram' onMouseOver={e => e.currentTarget.src = instagramhover}  onMouseOut={e => e.currentTarget.src = instagram} />
        </a>      
@@ -495,7 +495,7 @@ export default function TeamSection (props) {
             </p> 
            
             
-       <a href='https://www.linkedin.com/in/vasia-theo/'> 
+       <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/vasia-theo/'> 
      
        <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
       

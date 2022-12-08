@@ -35,15 +35,15 @@ export default function ContactSection (props) {
             <Col id="footer-social"  xs={6} md={6}>
 
             <div id='footer-social'>
-                <a href='https://www.linkedin.com/company/therelevancehouse/'> 
+                <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/company/therelevancehouse/'> 
                
                 <img className='social-nav' src={ln} alt='linkedin' onMouseOver={e => e.currentTarget.src = linkedinhover}  onMouseOut={e => e.currentTarget.src = ln} />
                 </a>
-                <a href='https://medium.com/the-relevance-house'> 
+                <a target="_blank" rel="noopener noreferrer" href='https://medium.com/the-relevance-house'> 
                 
                 <img className='social-nav' src={medium} alt='medium' onMouseOver={e => e.currentTarget.src = mediumhover}  onMouseOut={e => e.currentTarget.src = medium} />
                 </a>
-                <a href='https://twitter.com/RelevanceHouse'> 
+                <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/RelevanceHouse'> 
                 
                 <img className='social-nav' src={twitter} alt='twitter' onMouseOver={e => e.currentTarget.src = twitterhover}  onMouseOut={e => e.currentTarget.src = twitter} />
                 </a>
@@ -51,7 +51,7 @@ export default function ContactSection (props) {
                
                 <img className='social-nav' src={fb} alt='facebook' onMouseOver={e => e.currentTarget.src = facebookhover}  onMouseOut={e => e.currentTarget.src = fb} />
                 </a> */}
-                <a href='https://www.instagram.com/therelevancehouse/'> 
+                <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/therelevancehouse/'> 
                
                 <img className='social-nav' src={instagram} alt='instagram' onMouseOver={e => e.currentTarget.src = instagramhover}  onMouseOut={e => e.currentTarget.src = instagram} />
                 </a>      
@@ -64,20 +64,13 @@ export default function ContactSection (props) {
                 <br/>
                 <img id="" src={locationimage} alt='Relevant'/>
                 <br/>
-                <h5 id='contact-section-text' style={{color:'rgb(0, 169, 147)'}}>
-               Head Office:
-               </h5>
-                <p style={{color:'#fff', lineHeight:'34px'}}>
-                THE RELEVANCE HOUSE. AG <br />
-                Dammstrasse 16 | CH 6300 Zug
-               </p>
-                <br />
+                
                 <h5 id='contact-section-text' style={{color:'rgb(0, 169, 147)'}}>
                Zurich Office:
                </h5>
                 <p style={{color:'#fff', lineHeight:'34px'}}>
-                Coworking Lounge <br/>
-                Tessinerplatz 7 | CH 8002 Zürich
+                Seestrasse <br/>
+                CH 8802 - Kilchberg
 
                </p>
             </Col>

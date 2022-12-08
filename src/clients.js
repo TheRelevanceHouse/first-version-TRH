@@ -114,36 +114,36 @@ export default function Clients (props) {
         <Row id="clientrow">
        
         <Col  xs={3} md={2} >
-       <a href='https://ajuna.io/'>
+       <a target="_blank" rel="noopener noreferrer" href='https://ajuna.io/'>
         <img src={ajuna} alt='AjunaNetwork'/>
         </a>
         </Col>
         <Col   xs={3} md={2} >
-        <a href='https://geeq.io/'>
+        <a target="_blank" rel="noopener noreferrer" href='https://geeq.io/'>
         <img src={geeq} alt='Geeq' />
    </a>
        </Col>
 
        <Col   xs={3} md={2} >
-       <a href='https://utopiamusic.com/'>
+       <a target="_blank" rel="noopener noreferrer" href='https://utopiamusic.com/'>
        <img src={utopia} alt='UtopiaMusic' />
        </a>
        </Col>
 
        <Col   xs={3} md={2} >
-       <a href='https://www.seba.swiss/'>
+       <a target="_blank" rel="noopener noreferrer" href='https://www.seba.swiss/'>
        <img src={seba} alt='SebaBank' />
        </a>
         </Col>
 
         <Col   xs={3} md={2} >
-        <a href='https://encointer.org/'>
+        <a target="_blank" rel="noopener noreferrer" href='https://encointer.org/'>
         <img src={encointer} alt='Encointer' />
         </a>
         </Col>
 
         <Col  sm={4} md={2} >
-        <a href='https://madheidi.com/'>
+        <a target="_blank" rel="noopener noreferrer" href='https://madheidi.com/'>
         <img src={madheidi} alt='MadHeidi' />
         </a>
             </Col>
@@ -152,30 +152,30 @@ export default function Clients (props) {
             <Row id="clientrow" >
        
        <Col  xs={3} md={2} >
-       <a href='https://allianceblock.io/'>
+       <a target="_blank" rel="noopener noreferrer" href='https://allianceblock.io/'>
        <img src={ab} alt='AllianceBlock' />
    </a>
        </Col>
        <Col  xs={3} md={2} >
-       <a href='https://integritee.network/'>
+       <a target="_blank" rel="noopener noreferrer" href='https://integritee.network/'>
        <img src={integritee} alt='IntegriTEE' />
   </a>
       </Col>
 
       <Col  xs={3} md={2} >
-      <a href='https://www.mindfire.global/'>
+      <a target="_blank" rel="noopener noreferrer" href='https://www.mindfire.global/'>
       <img src={mindfire} alt='MindFire' />
       </a>
       </Col>
 
       <Col  xs={3} md={2} >
-      <a href='https://www.algotrader.com/'>
+      <a target="_blank" rel="noopener noreferrer" href='https://www.algotrader.com/'>
       <img src={algo} alt='AlgoTrader' />
       </a>
        </Col>
 
        <Col  xs={3} md={2} >
-       <a href='https://custodigit.com/'>
+       <a target="_blank" rel="noopener noreferrer" href='https://custodigit.com/'>
        <img src={CD} alt='CustoDigit' />
        </a>
        </Col>
